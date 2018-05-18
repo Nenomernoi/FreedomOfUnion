@@ -1,0 +1,2671 @@
+{ 
+    "_id" : NumberInt(72), 
+    "cost_money" : NumberInt(3), 
+    "id_old" : NumberInt(72), 
+    "image" : "franklin.png", 
+    "name_rus" : "Уильям Франклин", 
+    "main_rus" : "+ 1 деньги", 
+    "name_eng" : "William Franklin", 
+    "main_eng" : "+ 1 money", 
+    "money_in" : NumberInt(1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(71), 
+    "cost_money" : NumberInt(3), 
+    "id_old" : NumberInt(71), 
+    "image" : "polk.png", 
+    "name_rus" : "Леонидас Полк", 
+    "main_rus" : "+ 1 деньги ; - 1 юниты", 
+    "name_eng" : "Leonidas Polk", 
+    "main_eng" : "+ 1 money; - 1 unit", 
+    "money_in" : NumberInt(1), 
+    "units_in" : NumberInt(-1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(70), 
+    "cost_money" : NumberInt(3), 
+    "id_old" : NumberInt(70), 
+    "image" : "cooper.png", 
+    "name_rus" : "Сэмюэл Купер", 
+    "main_rus" : "+ 1 деньги ; - 1 технологии", 
+    "name_eng" : "Samuel Cooper", 
+    "main_eng" : "+ 1 money; - 1 technology", 
+    "money_in" : NumberInt(1), 
+    "zavod_in" : NumberInt(-1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(91), 
+    "cost_money" : NumberInt(4), 
+    "id_old" : NumberInt(91), 
+    "image" : "jubal.png", 
+    "name_rus" : "Джубал Эрли", 
+    "main_rus" : "+ 1 форт", 
+    "name_eng" : "Jubal Early", 
+    "main_eng" : "+ 1 fort", 
+    "at_def_pl_tow" : NumberInt(1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(138), 
+    "cost_money" : NumberInt(7), 
+    "id_old" : NumberInt(138), 
+    "image" : "forrest.png", 
+    "name_rus" : "Натаниэль Форрест", 
+    "main_rus" : "+ 1 форт ; + 1 деньги", 
+    "name_eng" : "Nathaniel Forrest", 
+    "main_eng" : "+ 1 fort; + 1 money", 
+    "money_in" : NumberInt(1), 
+    "at_def_pl_tow" : NumberInt(1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(87), 
+    "cost_money" : NumberInt(4), 
+    "id_old" : NumberInt(87), 
+    "image" : "hancock.png", 
+    "name_rus" : "Скот Хэнкок", 
+    "main_rus" : "+ 1 форт ; - 1 деньги", 
+    "name_eng" : "Scott Hancock", 
+    "main_eng" : "+ 1 fort; - 1 money", 
+    "money_in" : NumberInt(-1), 
+    "at_def_pl_tow" : NumberInt(1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(136), 
+    "cost_money" : NumberInt(7), 
+    "id_old" : NumberInt(136), 
+    "image" : "sedgwick.png", 
+    "name_rus" : "Джон Седжвик", 
+    "main_rus" : "+ 1 форт ; - 1 деньги врага", 
+    "name_eng" : "John Sedgwick", 
+    "main_eng" : "+ 1 fort; - 1 money enemy", 
+    "money_en_in" : NumberInt(-1), 
+    "at_def_pl_tow" : NumberInt(1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(155), 
+    "cost_money" : NumberInt(10), 
+    "id_old" : NumberInt(155), 
+    "image" : "chamberlain.png", 
+    "name_rus" : "Джошуа Чемберлен", 
+    "main_rus" : "+ 1 форт  ; + 1 деньги ; -1 деньги врага", 
+    "name_eng" : "Joshua Chamberlain", 
+    "main_eng" : "+ 1 fort; + 1 money; - 1 money enemy", 
+    "money_in" : NumberInt(1), 
+    "money_en_in" : NumberInt(-1), 
+    "at_def_pl_tow" : NumberInt(1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(134), 
+    "cost_money" : NumberInt(7), 
+    "id_old" : NumberInt(134), 
+    "image" : "pope.png", 
+    "name_rus" : "Джон Поуп", 
+    "main_rus" : "+ 1 форт ; + 1 форт врага ; -1 деньги врага", 
+    "name_eng" : "John Pope", 
+    "main_eng" : "+ 1 fort; + 1 fort enemy; - 1 money enemy", 
+    "money_en_in" : NumberInt(-1), 
+    "at_def_pl_tow" : NumberInt(1), 
+    "at_def_en_tow" : NumberInt(1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(146), 
+    "row_tow" : NumberInt(1), 
+    "cost_money" : NumberInt(8), 
+    "id_old" : NumberInt(146), 
+    "image" : "renyolds.png", 
+    "name_rus" : "Джон Рейнольдс", 
+    "main_rus" : "+ 1 форт ; -1 вал врага", 
+    "name_eng" : "John Reynolds", 
+    "main_eng" : "+ 1 fort; - 1 wall enemy", 
+    "at_def_pl_tow" : NumberInt(1), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(135), 
+    "cost_money" : NumberInt(7), 
+    "id_old" : NumberInt(135), 
+    "image" : "gibbon.png", 
+    "name_rus" : "Джон Гиббон", 
+    "main_rus" : "+ 1 форт ; -1 технологии ; + 1  деньги", 
+    "name_eng" : "John Gibbon", 
+    "main_eng" : "+ 1 fort; - 1 technology; + 1 money", 
+    "money_in" : NumberInt(1), 
+    "zavod_in" : NumberInt(-1), 
+    "at_def_pl_tow" : NumberInt(1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(137), 
+    "cost_money" : NumberInt(7), 
+    "id_old" : NumberInt(137), 
+    "image" : "killpatrik.png", 
+    "name_rus" : "Джадсон Килпатрик", 
+    "main_rus" : "+ 1 форт ; - 1 юниты ; + 1  деньги", 
+    "name_eng" : "Judson Kilpatrick", 
+    "main_eng" : "+ 1 fort; - 1 unit; + 1 money", 
+    "money_in" : NumberInt(1), 
+    "units_in" : NumberInt(-1), 
+    "at_def_pl_tow" : NumberInt(1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(171), 
+    "row_tow" : NumberInt(1), 
+    "cost_money" : NumberInt(11), 
+    "id_old" : NumberInt(171), 
+    "image" : "bernsaid.png", 
+    "name_rus" : "Эмброуз Бернсайд", 
+    "main_rus" : "+ 1 форт ; - 1 вал врага ; +1 деньги", 
+    "name_eng" : "Ambrose Burnside", 
+    "main_eng" : "+ 1 fort; - 1 wall enemy; + 1 money", 
+    "money_in" : NumberInt(1), 
+    "at_def_pl_tow" : NumberInt(1), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(142), 
+    "cost_money" : NumberInt(8), 
+    "id_old" : NumberInt(142), 
+    "image" : "halleck.png", 
+    "name_rus" : "Генри Халлек", 
+    "main_rus" : "+ 1 форт ; + 1 технологии ; - 1  деньги", 
+    "name_eng" : "Henry Halleck", 
+    "main_eng" : "+ 1 fort; + 1 technology; - 1 money", 
+    "money_in" : NumberInt(-1), 
+    "zavod_in" : NumberInt(1), 
+    "at_def_pl_tow" : NumberInt(1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(133), 
+    "cost_money" : NumberInt(7), 
+    "id_old" : NumberInt(133), 
+    "image" : "braxton.png", 
+    "name_rus" : "Брэкстон Брэгг", 
+    "main_rus" : "+ 1 форт ; +1 юниты ; - 1 деньги", 
+    "name_eng" : "Braxton Bragg", 
+    "main_eng" : "+ 1 fort; +1 units; - 1 money", 
+    "money_in" : NumberInt(-1), 
+    "units_in" : NumberInt(1), 
+    "at_def_pl_tow" : NumberInt(1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(164), 
+    "row_tow" : NumberInt(1), 
+    "cost_money" : NumberInt(11), 
+    "id_old" : NumberInt(164), 
+    "image" : "alexander.png", 
+    "name_rus" : "Эдвард Александер", 
+    "main_rus" : "+ 1 форт ; - 1 вал врага ; +1 юниты", 
+    "name_eng" : "Edward Alexander", 
+    "main_eng" : "+ 1 fort; - 1 wall enemy; 1 units", 
+    "units_in" : NumberInt(1), 
+    "at_def_pl_tow" : NumberInt(1), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(145), 
+    "cost_money" : NumberInt(8), 
+    "id_old" : NumberInt(145), 
+    "image" : "hood.png", 
+    "name_rus" : "Джон Худ", 
+    "main_rus" : "+ 2 форт", 
+    "name_eng" : "John Hood", 
+    "main_eng" : "+ 2 fort", 
+    "at_def_pl_tow" : NumberInt(2), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(168), 
+    "row_tow" : NumberInt(1), 
+    "cost_money" : NumberInt(11), 
+    "id_old" : NumberInt(168), 
+    "image" : "mosby.png", 
+    "name_rus" : "Джон Мосби", 
+    "main_rus" : "+ 1 форт ; - 1 вал врага ; +1 технологии", 
+    "name_eng" : "John Mosby", 
+    "main_eng" : "+ 1 fort; - 1 wall enemy; + 1 technology", 
+    "zavod_in" : NumberInt(1), 
+    "at_def_pl_tow" : NumberInt(1), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(165), 
+    "cost_money" : NumberInt(11), 
+    "id_old" : NumberInt(165), 
+    "image" : "ewell.png", 
+    "name_rus" : "Ричард Юэлл", 
+    "main_rus" : "+ 2 форт ; + 1 деньги", 
+    "name_eng" : "Richard S. Ewell", 
+    "main_eng" : "+ 2 fort; + 1 money", 
+    "money_in" : NumberInt(1), 
+    "at_def_pl_tow" : NumberInt(2), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(143), 
+    "cost_money" : NumberInt(8), 
+    "id_old" : NumberInt(143), 
+    "image" : "johnston.png", 
+    "name_rus" : "Джозеф Джонстон", 
+    "main_rus" : "+ 2 форт ; - 1 деньги", 
+    "name_eng" : "Joseph Johnston", 
+    "main_eng" : "+ 2 fort; - 1 money", 
+    "money_in" : NumberInt(-1), 
+    "at_def_pl_tow" : NumberInt(2), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(169), 
+    "cost_money" : NumberInt(11), 
+    "id_old" : NumberInt(169), 
+    "image" : "bearegar.png", 
+    "name_rus" : "Пьер Борегар", 
+    "main_rus" : "+ 2 форт ; - 1 деньги врага", 
+    "name_eng" : "Pierre Beauregard", 
+    "main_eng" : "+ 2 fort; - 1 money enemy", 
+    "money_en_in" : NumberInt(-1), 
+    "at_def_pl_tow" : NumberInt(2), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(144), 
+    "cost_money" : NumberInt(8), 
+    "id_old" : NumberInt(144), 
+    "image" : "hill.png", 
+    "name_rus" : "Эмброуз Хилл", 
+    "main_rus" : "+ 2 форт ; + 1 форт врага", 
+    "name_eng" : "Ambrose Hill", 
+    "main_eng" : "+ 2 fort; + 1 enemy fort", 
+    "at_def_pl_tow" : NumberInt(2), 
+    "at_def_en_tow" : NumberInt(1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(175), 
+    "row_tow" : NumberInt(1), 
+    "cost_money" : NumberInt(12), 
+    "id_old" : NumberInt(175), 
+    "image" : "longstreet.png", 
+    "name_rus" : "Джейсон Лонгстрит", 
+    "main_rus" : "+ 2 форт ; - 1 вал врага", 
+    "name_eng" : "Jason Longstreet", 
+    "main_eng" : "+ 2 fort; - 1 wall enemy", 
+    "at_def_pl_tow" : NumberInt(2), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(149), 
+    "row_tow" : NumberInt(1), 
+    "cost_money" : NumberInt(8), 
+    "id_old" : NumberInt(149), 
+    "image" : "albertjohn.png", 
+    "name_rus" : "Альберт Джонстон", 
+    "main_rus" : "+ 2 форт ; - 1 технологии", 
+    "name_eng" : "Albert Johnston", 
+    "main_eng" : "+ 2 fort; - technology 1", 
+    "zavod_in" : NumberInt(-1), 
+    "at_def_pl_tow" : NumberInt(2), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(174), 
+    "row_tow" : NumberInt(1), 
+    "cost_money" : NumberInt(12), 
+    "id_old" : NumberInt(174), 
+    "image" : "sherman.png", 
+    "name_rus" : "Уильям Шерман", 
+    "main_rus" : "+ 2 форт ; - 1 технологии ; - 1 вал врага", 
+    "name_eng" : "William Sherman", 
+    "main_eng" : "+ 2 fort; - 1 technology; - 1 wall enemy", 
+    "zavod_in" : NumberInt(-1), 
+    "at_def_pl_tow" : NumberInt(2), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(166), 
+    "cost_money" : NumberInt(11), 
+    "id_old" : NumberInt(166), 
+    "image" : "oliver.png", 
+    "name_rus" : "Ховард Оливер", 
+    "main_rus" : "+ 2 форт ; + 1 деньги всем", 
+    "name_eng" : "Howard Oliver", 
+    "main_eng" : "+ 2 fort; + 1 money all", 
+    "money_in" : NumberInt(1), 
+    "money_en_in" : NumberInt(1), 
+    "at_def_pl_tow" : NumberInt(2), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(170), 
+    "row_tow" : NumberInt(1), 
+    "cost_money" : NumberInt(11), 
+    "id_old" : NumberInt(170), 
+    "image" : "mcclellan.png", 
+    "name_rus" : "Джордж Макклелан", 
+    "main_rus" : "+ 1 форт ;  -1 вал врага ; -1 деньги врага", 
+    "name_eng" : "George B. McClellan", 
+    "main_eng" : "+ 1 fort; - 1 wall enemy; - 1 money enemy", 
+    "money_en_in" : NumberInt(-1), 
+    "at_def_pl_tow" : NumberInt(1), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(167), 
+    "cost_money" : NumberInt(11), 
+    "id_old" : NumberInt(167), 
+    "image" : "hooker.png", 
+    "name_rus" : "Джозеф Хукер", 
+    "main_rus" : "+ 2 форт ; + 1 деньги ; -1 юниты", 
+    "name_eng" : "Joseph Hooker", 
+    "main_eng" : "+ 2 fort; + 1 money; - 1 units", 
+    "money_in" : NumberInt(1), 
+    "units_in" : NumberInt(-1), 
+    "at_def_pl_tow" : NumberInt(2), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(173), 
+    "cost_money" : NumberInt(12), 
+    "id_old" : NumberInt(173), 
+    "image" : "meade.png", 
+    "name_rus" : "Гордон Мид", 
+    "main_rus" : "+ 3 форт ; - 1 вал", 
+    "name_eng" : "Gordon Meade", 
+    "main_eng" : "+ 3 fort; - 1 wall", 
+    "at_def_pl_tow" : NumberInt(3), 
+    "at_def_pl_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(185), 
+    "cost_money" : NumberInt(16), 
+    "id_old" : NumberInt(185), 
+    "image" : "linkoln.png", 
+    "name_rus" : "Авраам Линкольн", 
+    "main_rus" : "+ 2 форт ; + 2 деньги ; +1 вал", 
+    "name_eng" : "Abraham Lincoln", 
+    "main_eng" : "+ 2 fort; + 2 money; 1 wall", 
+    "money_in" : NumberInt(2), 
+    "at_def_pl_tow" : NumberInt(2), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(191), 
+    "row_tow" : NumberInt(1), 
+    "cost_money" : NumberInt(20), 
+    "id_old" : NumberInt(191), 
+    "image" : "grant.png", 
+    "name_rus" : "Улисс Грант", 
+    "main_rus" : "+ 3 форт ;  -1 форт врага; -1 вал врага", 
+    "name_eng" : "Ulysses S. Grant", 
+    "main_eng" : "+ 3 fort; - 1 enemy fort; - 1 wall enemy", 
+    "at_def_pl_tow" : NumberInt(3), 
+    "at_def_en_tow" : NumberInt(-1), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(190), 
+    "cost_money" : NumberInt(20), 
+    "id_old" : NumberInt(190), 
+    "image" : "li.png", 
+    "name_rus" : "Роберт Ли", 
+    "main_rus" : "+ 3 форт ;  -1 форт врага ; +1 вал", 
+    "name_eng" : "Robert Lee", 
+    "main_eng" : "+ 3 fort; - 1 enemy fort; 1 wall", 
+    "at_def_pl_tow" : NumberInt(3), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "at_def_en_tow" : NumberInt(-1), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(186), 
+    "cost_money" : NumberInt(16), 
+    "id_old" : NumberInt(186), 
+    "image" : "stonewall.png", 
+    "name_rus" : "Томас Джексон", 
+    "main_rus" : "+ 2 форт ; + 2 вал ; +1 деньги врага", 
+    "name_eng" : "Thomas Jackson", 
+    "main_eng" : "+ 2 fort; + 2 wall; 1 enemy money", 
+    "money_en_in" : NumberInt(1), 
+    "at_def_pl_tow" : NumberInt(2), 
+    "at_def_pl_rov" : NumberInt(2), 
+    "back_image" : NumberInt(1)
+}
+{ 
+    "_id" : NumberInt(14), 
+    "cost_zavod" : NumberInt(3), 
+    "id_old" : NumberInt(14), 
+    "image" : "knifeboui.png", 
+    "name_rus" : "Нож Боуи", 
+    "main_rus" : "+ 1 технологии", 
+    "name_eng" : "Bowie knife", 
+    "main_eng" : "+ 1 technology", 
+    "zavod_in" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(11), 
+    "cost_zavod" : NumberInt(3), 
+    "id_old" : NumberInt(11), 
+    "image" : "sablya.png", 
+    "name_rus" : "Драгунская сабля", 
+    "main_rus" : "- 1 юниты ; + 1 технологии", 
+    "name_eng" : "Dragoon saber", 
+    "main_eng" : "- 1 unit; + 1 technology", 
+    "zavod_in" : NumberInt(1), 
+    "units_in" : NumberInt(-1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(13), 
+    "cost_zavod" : NumberInt(3), 
+    "id_old" : NumberInt(13), 
+    "image" : "grenede.png", 
+    "name_rus" : "Ручные гранаты", 
+    "main_rus" : "+ 1 технологии ; всем", 
+    "name_eng" : "Hand grenades", 
+    "main_eng" : "+ 1 technology; all", 
+    "zavod_in" : NumberInt(1), 
+    "zavod_en_in" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(12), 
+    "cost_zavod" : NumberInt(3), 
+    "id_old" : NumberInt(12), 
+    "image" : "zagraj.png", 
+    "name_rus" : "Заграждения", 
+    "main_rus" : "+ 1 технологии ; -1 деньги", 
+    "name_eng" : "Barrages", 
+    "main_eng" : "+ 1 technology; - 1 money", 
+    "money_in" : NumberInt(-1), 
+    "zavod_in" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(18), 
+    "cost_zavod" : NumberInt(3), 
+    "id_old" : NumberInt(18), 
+    "image" : "mine.png", 
+    "name_rus" : "Наземная мина", 
+    "main_rus" : "+1 вал", 
+    "name_eng" : "Land Mine", 
+    "main_eng" : "+ 1 wall", 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(38), 
+    "cost_zavod" : NumberInt(6), 
+    "id_old" : NumberInt(38), 
+    "image" : "row.png", 
+    "name_rus" : "Стена", 
+    "main_rus" : "+ 1 вал ; - 1 юниты врага", 
+    "name_eng" : "Wall", 
+    "main_eng" : "+ 1 wall; - 1 enemy units", 
+    "units_en_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(15), 
+    "cost_zavod" : NumberInt(3), 
+    "id_old" : NumberInt(15), 
+    "image" : "miushglad.png", 
+    "name_rus" : "Капсульный мушкет", 
+    "main_rus" : "+ 1 вал ; - 1 технологии", 
+    "name_eng" : "Capsule musket", 
+    "main_eng" : "+ 1 wall; - 1 technology", 
+    "zavod_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(16), 
+    "cost_zavod" : NumberInt(3), 
+    "id_old" : NumberInt(16), 
+    "image" : "miushnarez.png", 
+    "name_rus" : "Нарезной мушкет", 
+    "main_rus" : "+ 1 вал ; +1 технологии ; врага", 
+    "name_eng" : "Rifled musket", 
+    "main_eng" : "+ 1 wall; + 1 technology; enemy", 
+    "zavod_en_in" : NumberInt(1), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(39), 
+    "cost_zavod" : NumberInt(6), 
+    "id_old" : NumberInt(39), 
+    "image" : "volkanik.png", 
+    "name_rus" : "Волканик", 
+    "main_rus" : "+ 1 вал ; + 1 технологии ;", 
+    "name_eng" : "Volcanic", 
+    "main_eng" : "+ 1 wall; + 1 technology;", 
+    "zavod_in" : NumberInt(1), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(35), 
+    "cost_zavod" : NumberInt(6), 
+    "id_old" : NumberInt(35), 
+    "image" : "paterson.png", 
+    "name_rus" : "Кольт Патерсона", 
+    "main_rus" : "+ 1 вал ; + 1 технологии ; всем", 
+    "name_eng" : "Colt Paterson", 
+    "main_eng" : "+ 1 wall; + 1 technology; all", 
+    "zavod_in" : NumberInt(1), 
+    "zavod_en_in" : NumberInt(1), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(6), 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(2), 
+    "id_old" : NumberInt(6), 
+    "image" : "walker.png", 
+    "name_rus" : "Кольт Уолкера", 
+    "main_rus" : "-1 вал всем", 
+    "name_eng" : "Colt Walker", 
+    "main_eng" : "- 1 wall all", 
+    "at_def_pl_rov" : NumberInt(-1), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(33), 
+    "cost_zavod" : NumberInt(6), 
+    "id_old" : NumberInt(33), 
+    "image" : "dragon.png", 
+    "name_rus" : "Кольт Драгун", 
+    "main_rus" : "+ 1 вал ; +1 технологии ; -1 юниты", 
+    "name_eng" : "Colt Dragoon", 
+    "main_eng" : "+ 1 wall; + 1 technology; - 1 units", 
+    "zavod_in" : NumberInt(1), 
+    "units_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(47), 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(6), 
+    "id_old" : NumberInt(47), 
+    "image" : "navy51.png", 
+    "name_rus" : "Кольт Нави", 
+    "main_rus" : "+ 1 вал ; - 1 вал врага", 
+    "name_eng" : "Colt Navi", 
+    "main_eng" : "+ 1 wall; - 1 wall enemy", 
+    "at_def_pl_rov" : NumberInt(1), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(17), 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(3), 
+    "id_old" : NumberInt(17), 
+    "image" : "army.png", 
+    "name_rus" : "Армейский кольт", 
+    "main_rus" : "+ 1 вал всем", 
+    "name_eng" : "Colt Army", 
+    "main_eng" : "+ 1 wall all", 
+    "at_def_pl_rov" : NumberInt(1), 
+    "at_def_en_rov" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(36), 
+    "cost_zavod" : NumberInt(6), 
+    "id_old" : NumberInt(36), 
+    "image" : "lema.png", 
+    "name_rus" : "Револьвер Ле Ма", 
+    "main_rus" : "+ 1 вал ; +1 технологии ; -1 деньги", 
+    "name_eng" : "LeMat Revolver", 
+    "main_eng" : "+ 1 wall; + 1 technology; - 1 money", 
+    "money_in" : NumberInt(-1), 
+    "zavod_in" : NumberInt(1), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(43), 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(6), 
+    "id_old" : NumberInt(43), 
+    "image" : "lefaucheux.png", 
+    "name_rus" : "Лефоше 1858", 
+    "main_rus" : "+ 1 вал ; - 1 технологии ; -1 вал врага", 
+    "name_eng" : "Lefoshe 1858", 
+    "main_eng" : "+ 1 wall; - 1 technology; - 1 wall enemy", 
+    "zavod_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(19), 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(3), 
+    "id_old" : NumberInt(19), 
+    "image" : "remington.png", 
+    "name_rus" : "Ремингтон 1858", 
+    "main_rus" : "- 1 вал врага", 
+    "name_eng" : "Remington 1858", 
+    "main_eng" : "- 1 wall enemy", 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(44), 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(6), 
+    "id_old" : NumberInt(44), 
+    "image" : "derindger.png", 
+    "name_rus" : "«Дерринджер»", 
+    "main_rus" : "- 1 вал врага ; + 1 технологии", 
+    "name_eng" : "\"Derringer\"", 
+    "main_eng" : "- 1 wall enemy; + 1 technology", 
+    "zavod_in" : NumberInt(1), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(34), 
+    "cost_zavod" : NumberInt(6), 
+    "id_old" : NumberInt(34), 
+    "image" : "marston.png", 
+    "name_rus" : "Пистолет Марсона", 
+    "main_rus" : "+ 1 вал ; -1 технологии ; +1 юниты", 
+    "name_eng" : "Gun Marson", 
+    "main_eng" : "+ 1 wall; - 1 technology; 1 units", 
+    "zavod_in" : NumberInt(-1), 
+    "units_in" : NumberInt(1), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(55), 
+    "cost_zavod" : NumberInt(7), 
+    "id_old" : NumberInt(55), 
+    "image" : "m1841.png", 
+    "name_rus" : "Винтовка М1841", 
+    "main_rus" : "+ 1 вал ; -1 технологии ; +1 деньги", 
+    "name_eng" : "M1841 rifle", 
+    "main_eng" : "+ 1 wall; - 1 technology; 1 money", 
+    "money_in" : NumberInt(1), 
+    "zavod_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(40), 
+    "cost_zavod" : NumberInt(6), 
+    "id_old" : NumberInt(40), 
+    "image" : "karabHoll.png", 
+    "name_rus" : "Карабин Холла", 
+    "main_rus" : "+ 1 вал ; -1 технологии ; врага", 
+    "name_eng" : "Carabiner Hall", 
+    "main_eng" : "+ 1 wall; - 1 technology; enemy", 
+    "zavod_en_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(37), 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(6), 
+    "id_old" : NumberInt(37), 
+    "image" : "burnsidecarbine.png", 
+    "name_rus" : "Карабин Бернсайда", 
+    "main_rus" : "+ 1 вал всем ; - 1 технологии ; врага", 
+    "name_eng" : "Burnside сarbine", 
+    "main_eng" : "+ 1 wall all; - 1 technology; enemy", 
+    "zavod_en_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "at_def_en_rov" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(45), 
+    "cost_zavod" : NumberInt(6), 
+    "id_old" : NumberInt(45), 
+    "image" : "karabsharps.png", 
+    "name_rus" : "Карабин Шарпса", 
+    "main_rus" : "+ 2 вал", 
+    "name_eng" : "Sharps rifle", 
+    "main_eng" : "+ 2 wall", 
+    "at_def_pl_rov" : NumberInt(2), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(118), 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(15), 
+    "id_old" : NumberInt(118), 
+    "image" : "armstrong.png", 
+    "name_rus" : "\"Армстронг\"", 
+    "main_rus" : "+  3 вал ; -1 вал врага ; -1 юниты врага", 
+    "name_eng" : "\"Armstrong\"", 
+    "main_eng" : "+ 3 wall; - 1 wall enemy; - 1 enemy units", 
+    "units_en_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(3), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(4), 
+    "cost_units" : NumberInt(1), 
+    "id_old" : NumberInt(4), 
+    "image" : "7 polk milic NY.png", 
+    "name_rus" : "7-й Нью-Йорка", 
+    "main_rus" : "+ 1 юниты", 
+    "name_eng" : "7th NY", 
+    "main_eng" : "+ 1 units", 
+    "type" : NumberInt(2), 
+    "units_in" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(75), 
+    "cost_zavod" : NumberInt(9), 
+    "id_old" : NumberInt(75), 
+    "image" : "springfield.png", 
+    "name_rus" : "Спрингфилд 1842", 
+    "main_rus" : "+ 2 вал ; + 1 технологии", 
+    "name_eng" : "Springfield 1842", 
+    "main_eng" : "+ 2 wall; + 1 technology", 
+    "zavod_in" : NumberInt(1), 
+    "at_def_pl_rov" : NumberInt(2), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(41), 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(6), 
+    "id_old" : NumberInt(41), 
+    "image" : "spenser.png", 
+    "name_rus" : "Винтовка Спенсера", 
+    "main_rus" : "+ 2 вал ; + 1 вал врага", 
+    "name_eng" : "Spencer rifle", 
+    "main_eng" : "+ 2 wall; + 1 wall enemy", 
+    "at_def_pl_rov" : NumberInt(2), 
+    "at_def_en_rov" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(76), 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(9), 
+    "id_old" : NumberInt(76), 
+    "image" : "genri.png", 
+    "name_rus" : "Винтовка Генри", 
+    "main_rus" : "+ 2 вал ; -1 вал врага", 
+    "name_eng" : "Henry rifle", 
+    "main_eng" : "+ 2 wall; - 1 wall enemy", 
+    "at_def_pl_rov" : NumberInt(2), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(97), 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(12), 
+    "id_old" : NumberInt(97), 
+    "image" : "enfild.png", 
+    "name_rus" : "Винтовка Энфилд", 
+    "main_rus" : "+ 2 вал ; -1 вал врага ;  + 1 технологии", 
+    "name_eng" : "Enfield rifle", 
+    "main_eng" : "+ 2 wall; - 1 wall enemy; + 1 technology", 
+    "zavod_in" : NumberInt(1), 
+    "at_def_pl_rov" : NumberInt(2), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(96), 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(12), 
+    "id_old" : NumberInt(96), 
+    "image" : "rocketheil.png", 
+    "name_rus" : "Ракета Хейл", 
+    "main_rus" : "+ 2 вал; - 1 вал врага и; технологии", 
+    "name_eng" : "Hale rocket", 
+    "main_eng" : "+ 2 wall; - 1 wall and; techno. enemy", 
+    "zavod_en_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(2), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(74), 
+    "cost_zavod" : NumberInt(9), 
+    "id_old" : NumberInt(74), 
+    "image" : "gatling.png", 
+    "name_rus" : "Пулемет Гатлинга", 
+    "main_rus" : "+ 2 вал ; -1 технологии ; врага", 
+    "name_eng" : "Gatling gun", 
+    "main_eng" : "+ 2 wall; - 1 technology; enemy", 
+    "zavod_en_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(2), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(73), 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(9), 
+    "id_old" : NumberInt(73), 
+    "image" : "adjer.png", 
+    "name_rus" : "Пулемет Аджера", 
+    "main_rus" : "+ 2 вал ; + 1 вал врага ; -1 технол. врага", 
+    "name_eng" : "Machine gun Ager", 
+    "main_eng" : "+ 2 wall;+ 1 wall  and; techno. enemy", 
+    "zavod_en_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(2), 
+    "at_def_en_rov" : NumberInt(1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(117), 
+    "cost_zavod" : NumberInt(15), 
+    "id_old" : NumberInt(117), 
+    "image" : "parot.png", 
+    "name_rus" : "Орудие Паррота", 
+    "main_rus" : "+ 3 вал ;- 1 юниты и;деньги врага", 
+    "name_eng" : "\"Parrott\"", 
+    "main_eng" : "+ 3 wall; -1 units and; money enemy", 
+    "money_en_in" : NumberInt(-1), 
+    "units_en_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(3), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(95), 
+    "cost_zavod" : NumberInt(12), 
+    "id_old" : NumberInt(95), 
+    "image" : "napoleon.png", 
+    "name_rus" : "Пушка Наполеон", 
+    "main_rus" : "+ 3 вал ; - 1 технологии ; врага", 
+    "name_eng" : "\"Napoleon\"", 
+    "main_eng" : "+ 3 wall; - 1 technology; enemy", 
+    "zavod_en_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(3), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(113), 
+    "cost_zavod" : NumberInt(14), 
+    "id_old" : NumberInt(113), 
+    "image" : "dikatator.png", 
+    "name_rus" : "Орудие \"Диктатор\"", 
+    "main_rus" : "+ 3 вал ; - 1 форт врага", 
+    "name_eng" : "\"The Dictator\"", 
+    "main_eng" : "+ 3 wall; - 1 enemy fort", 
+    "at_def_pl_rov" : NumberInt(3), 
+    "at_def_en_tow" : NumberInt(-1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(98), 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(12), 
+    "id_old" : NumberInt(98), 
+    "image" : "kolumbiada.png", 
+    "name_rus" : "Колумбиада", 
+    "main_rus" : "+ 3 вал ; - 1 вал врага", 
+    "name_eng" : "Columbiad", 
+    "main_eng" : "+ 3 wall; - 1 wall enemy", 
+    "at_def_pl_rov" : NumberInt(3), 
+    "at_def_en_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(2)
+}
+{ 
+    "_id" : NumberInt(2), 
+    "cost_units" : NumberInt(1), 
+    "id_old" : NumberInt(2), 
+    "image" : "marine.png", 
+    "name_rus" : "Морпехи", 
+    "main_rus" : "- 1 деньги ; + 1 юниты", 
+    "name_eng" : "Marines", 
+    "main_eng" : "- 1 money; + 1 units", 
+    "type" : NumberInt(0), 
+    "money_in" : NumberInt(-1), 
+    "units_in" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(1), 
+    "cost_units" : NumberInt(1), 
+    "id_old" : NumberInt(1), 
+    "image" : "2 kav Missuri.png", 
+    "name_rus" : "2-й Миссури", 
+    "main_rus" : "- 1 технологии ; + 1 юниты", 
+    "name_eng" : "2nd MO", 
+    "main_eng" : "- 1 technology; + 1 units", 
+    "type" : NumberInt(1), 
+    "zavod_in" : NumberInt(-1), 
+    "units_in" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(3), 
+    "cost_units" : NumberInt(1), 
+    "id_old" : NumberInt(3), 
+    "image" : "barabanCSA.png", 
+    "name_rus" : "Барабанщик КША", 
+    "main_rus" : "+ 1 юниты всем", 
+    "name_eng" : "Drummer CSA", 
+    "main_eng" : "+ 1 to all units", 
+    "type" : NumberInt(0), 
+    "units_in" : NumberInt(1), 
+    "units_en_in" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(20), 
+    "cost_units" : NumberInt(2), 
+    "id_old" : NumberInt(20), 
+    "image" : "USAbaraban.png", 
+    "name_rus" : "Барабанщик США", 
+    "main_rus" : "-1 юниты всем", 
+    "name_eng" : "Drummer USA", 
+    "main_eng" : "- 1 units all", 
+    "type" : NumberInt(0), 
+    "units_in" : NumberInt(-1), 
+    "units_en_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(10), 
+    "atack" : NumberInt(-1), 
+    "cost_units" : NumberInt(1), 
+    "id_old" : NumberInt(10), 
+    "image" : "1 peh S.Karol.png", 
+    "name_rus" : "1-й Ю.Каролины", 
+    "main_rus" : "+ 1 атака", 
+    "name_eng" : "1st SC", 
+    "main_eng" : "+ 1 attack", 
+    "type" : NumberInt(3), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(7), 
+    "atack" : NumberInt(-1), 
+    "cost_units" : NumberInt(1), 
+    "id_old" : NumberInt(7), 
+    "image" : "USAznamya.png", 
+    "name_rus" : "Знаменосец США", 
+    "main_rus" : "+ 1 атака ; - 1 технологии", 
+    "name_eng" : "US-bearer", 
+    "main_eng" : "+ 1 attack; -1 technology", 
+    "type" : NumberInt(0), 
+    "zavod_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(8), 
+    "atack" : NumberInt(-1), 
+    "cost_units" : NumberInt(1), 
+    "id_old" : NumberInt(8), 
+    "image" : "CSAznamya.png", 
+    "name_rus" : "Знаменосец КША", 
+    "main_rus" : "- 1 юниты ; + 1 атака", 
+    "name_eng" : "CSA-bearer", 
+    "main_eng" : "- 1 unit; + 1 attack", 
+    "type" : NumberInt(0), 
+    "units_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(9), 
+    "atack" : NumberInt(-1), 
+    "cost_units" : NumberInt(1), 
+    "id_old" : NumberInt(9), 
+    "image" : "12 kav virgin.png", 
+    "name_rus" : "12-й Виргинии", 
+    "main_rus" : "+ 1 атака ; - 1 деньги", 
+    "name_eng" : "12th VA", 
+    "main_eng" : "+ 1 attack; - 1 money", 
+    "type" : NumberInt(1), 
+    "money_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(80), 
+    "atack" : NumberInt(-1), 
+    "cost_units" : NumberInt(5), 
+    "id_old" : NumberInt(80), 
+    "image" : "33 peh NJ.png", 
+    "name_rus" : "33-й Нью-Джерси", 
+    "main_rus" : "+ 1 атака ; -1 технологии ; врага", 
+    "name_eng" : "33th NJ", 
+    "main_eng" : "+ 1 attack; - 1 technology; enemy", 
+    "type" : NumberInt(3), 
+    "zavod_en_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(50), 
+    "atack" : NumberInt(-1), 
+    "cost_units" : NumberInt(3), 
+    "id_old" : NumberInt(50), 
+    "image" : "146 peh NY.png", 
+    "name_rus" : "146-й Нью-Йорка", 
+    "main_rus" : "+ 1 атака ; -1 юниты врага", 
+    "name_eng" : "146th NY", 
+    "main_eng" : "+ 1 attack; - 1 enemy units", 
+    "type" : NumberInt(3), 
+    "units_en_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(81), 
+    "atack" : NumberInt(-1), 
+    "cost_units" : NumberInt(5), 
+    "id_old" : NumberInt(81), 
+    "image" : "53 peh Virgin.png", 
+    "name_rus" : "53-й Виргинии", 
+    "main_rus" : "+ 1 атака ;  - 1 деньги врага", 
+    "name_eng" : "53rd VA", 
+    "main_eng" : "+ 1 attack; - 1 money enemy", 
+    "type" : NumberInt(1), 
+    "money_en_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(29), 
+    "atack" : NumberInt(-1), 
+    "cost_units" : NumberInt(2), 
+    "id_old" : NumberInt(29), 
+    "image" : "1 peh meriland.png", 
+    "name_rus" : "1-й Мериленда", 
+    "main_rus" : "+ 1 атака ; + 1 юниты", 
+    "name_eng" : "1st MD", 
+    "main_eng" : "+ 1 attack; + 1 units", 
+    "type" : NumberInt(3), 
+    "units_in" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(82), 
+    "atack" : NumberInt(-1), 
+    "cost_units" : NumberInt(5), 
+    "id_old" : NumberInt(82), 
+    "image" : "114 pv Pensil.png", 
+    "name_rus" : "114-й Пенсильвании", 
+    "main_rus" : "+ 1 атака ; + 1 технологии ; -1 юниты", 
+    "name_eng" : "114th PA", 
+    "main_eng" : "+ 1 attack; + 1 technology; - 1 units", 
+    "type" : NumberInt(3), 
+    "zavod_in" : NumberInt(1), 
+    "units_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(84), 
+    "atack" : NumberInt(-1), 
+    "cost_units" : NumberInt(5), 
+    "id_old" : NumberInt(84), 
+    "image" : "53 peh Djorg.png", 
+    "name_rus" : "53-й Джорджии", 
+    "main_rus" : "+ 1 атака ; + 1 вал ; -1 юниты", 
+    "name_eng" : "53rd GA", 
+    "main_eng" : "+ 1 attack; + 1 wall; - 1 units", 
+    "type" : NumberInt(3), 
+    "units_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(24), 
+    "atack" : NumberInt(-1), 
+    "row_tow" : NumberInt(1), 
+    "cost_units" : NumberInt(2), 
+    "id_old" : NumberInt(24), 
+    "image" : "20 peh Djorg.png", 
+    "name_rus" : "20-й Джорджии", 
+    "main_rus" : "+ 1 атака ; - 1 вал ; + 1 юниты", 
+    "name_eng" : "20th GA", 
+    "main_eng" : "+ 1 attack; - 1 wall; + 1 units", 
+    "type" : NumberInt(3), 
+    "units_in" : NumberInt(1), 
+    "at_def_pl_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(83), 
+    "atack" : NumberInt(-1), 
+    "cost_units" : NumberInt(5), 
+    "id_old" : NumberInt(83), 
+    "image" : "76 p pensilvania.png", 
+    "name_rus" : "76-й Пенсильвании", 
+    "main_rus" : "+ 1 атака ; -1 юниты ; + 1 деньги", 
+    "name_eng" : "76th PA", 
+    "main_eng" : "+ 1 attack; - 1 units; + 1 money", 
+    "type" : NumberInt(3), 
+    "money_in" : NumberInt(1), 
+    "units_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(127), 
+    "atack" : NumberInt(-1), 
+    "cost_units" : NumberInt(9), 
+    "id_old" : NumberInt(127), 
+    "image" : "4 alabama.png", 
+    "name_rus" : "4-й Алабамы", 
+    "main_rus" : "+ 1 атака ; + 1 деньги ; + 1 технологии", 
+    "name_eng" : "4th AL", 
+    "main_eng" : "+ 1 attack; + 1 money; + 1 technology", 
+    "type" : NumberInt(3), 
+    "money_in" : NumberInt(1), 
+    "zavod_in" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(114), 
+    "atack" : NumberInt(-1), 
+    "cost_units" : NumberInt(7), 
+    "id_old" : NumberInt(114), 
+    "image" : "69 mil NY.png", 
+    "name_rus" : "69-й Нью-Йорка", 
+    "main_rus" : "+ 1 атака ; -1 юниты врага ; + 1 юниты", 
+    "name_eng" : "69th NY", 
+    "main_eng" : "+ 1 attack; - 1 enemy units; + 1 units", 
+    "type" : NumberInt(2), 
+    "units_in" : NumberInt(1), 
+    "units_en_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(51), 
+    "atack" : NumberInt(-1), 
+    "cost_units" : NumberInt(3), 
+    "id_old" : NumberInt(51), 
+    "image" : "2 kav USA.png", 
+    "name_rus" : "2-й США", 
+    "main_rus" : "+ 1 атака ; -1 юниты врага ; - 1 деньги", 
+    "name_eng" : "2nd US", 
+    "main_eng" : "+ 1 attack; - 1 enemy units; - 1 money", 
+    "type" : NumberInt(1), 
+    "money_in" : NumberInt(-1), 
+    "units_en_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(52), 
+    "atack" : NumberInt(-1), 
+    "row_tow" : NumberInt(1), 
+    "cost_units" : NumberInt(3), 
+    "id_old" : NumberInt(52), 
+    "image" : "1 kav N.karol.png", 
+    "name_rus" : "1-й С.Каролины", 
+    "main_rus" : "+ 1 атака ; - 1 вал ; + 2 юниты", 
+    "name_eng" : "1st NC", 
+    "main_eng" : "+ 1 attack; - 1 wall; + 2 units", 
+    "type" : NumberInt(1), 
+    "units_in" : NumberInt(2), 
+    "at_def_pl_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(68), 
+    "row_tow" : NumberInt(1), 
+    "cost_units" : NumberInt(4), 
+    "id_old" : NumberInt(68), 
+    "image" : "9 arkanazas.png", 
+    "name_rus" : "9-й Арканзаса", 
+    "main_rus" : "-1 форт врага ; + 1 вал врагу", 
+    "name_eng" : "9th AR", 
+    "main_eng" : "- 1 enemy fort; + 1 wall enemy", 
+    "type" : NumberInt(3), 
+    "at_def_en_tow" : NumberInt(-1), 
+    "at_def_en_rov" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(25), 
+    "atack" : NumberInt(-2), 
+    "row_tow" : NumberInt(1), 
+    "cost_units" : NumberInt(2), 
+    "id_old" : NumberInt(25), 
+    "image" : "8 kav Texas.png", 
+    "name_rus" : "8-й Техаса", 
+    "main_rus" : "+ 2 атака ; - 1 вал", 
+    "name_eng" : "8th TX", 
+    "main_eng" : "+ 2 attack; - 1 wall", 
+    "type" : NumberInt(1), 
+    "at_def_pl_rov" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(26), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(2), 
+    "id_old" : NumberInt(26), 
+    "image" : "19 peh Tennesi.png", 
+    "name_rus" : "19-й Теннеси", 
+    "main_rus" : "+ 2 атака ; - 1 юниты", 
+    "name_eng" : "19th TN", 
+    "main_eng" : "+ 2 attack; - 1 unit", 
+    "type" : NumberInt(3), 
+    "units_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(27), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(2), 
+    "id_old" : NumberInt(27), 
+    "image" : "5 vol NY.png", 
+    "name_rus" : "5-й Нью-Йорка", 
+    "main_rus" : "+ 2 атака ; -1 деньги", 
+    "name_eng" : "5th NY", 
+    "main_eng" : "+ 2 attack; - 1 money", 
+    "type" : NumberInt(3), 
+    "money_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(28), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(2), 
+    "id_old" : NumberInt(28), 
+    "image" : "2 luiziana.png", 
+    "name_rus" : "2-й Луизианы", 
+    "main_rus" : "+ 2 атака ; -1 технологии", 
+    "name_eng" : "2nd LA", 
+    "main_eng" : "+ 2 attack; - 1 technology", 
+    "type" : NumberInt(3), 
+    "zavod_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(105), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(6), 
+    "id_old" : NumberInt(105), 
+    "image" : "1 texas.png", 
+    "name_rus" : "1-й Техаса", 
+    "main_rus" : "+ 2 атака ; - 1 деньги врага", 
+    "name_eng" : "1st TX", 
+    "main_eng" : "+ 2 attack; - 1 money enemy", 
+    "type" : NumberInt(3), 
+    "money_en_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(30), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(2), 
+    "id_old" : NumberInt(30), 
+    "image" : "9 pv NY.png", 
+    "name_rus" : "9-й Нью-Йорка", 
+    "main_rus" : "+ 2 атака", 
+    "name_eng" : "9th NY", 
+    "main_eng" : "+ 2 attack", 
+    "type" : NumberInt(3), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(53), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(3), 
+    "id_old" : NumberInt(53), 
+    "image" : "35 kav VIrgin.png", 
+    "name_rus" : "35-й Виргинии", 
+    "main_rus" : "+ 2 атака ; + 1 юниты", 
+    "name_eng" : "35th VA", 
+    "main_eng" : "+ 2 attack; + 1 units", 
+    "type" : NumberInt(1), 
+    "units_in" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(107), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(6), 
+    "id_old" : NumberInt(107), 
+    "image" : "20 men.png", 
+    "name_rus" : "20-й Мэна", 
+    "main_rus" : "+ 2 атака ; + 1 вал", 
+    "name_eng" : "20th ME", 
+    "main_eng" : "+ 2 attack; + 1 wall", 
+    "type" : NumberInt(3), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(102), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(6), 
+    "id_old" : NumberInt(102), 
+    "image" : "1 peh minesota.png", 
+    "name_rus" : "1-й Миннесоты", 
+    "main_rus" : "+ 2 атака ; + 1 деньги", 
+    "name_eng" : "1st MN", 
+    "main_eng" : "+ 2 attack; + 1 money", 
+    "type" : NumberInt(3), 
+    "money_in" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(85), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(5), 
+    "id_old" : NumberInt(85), 
+    "image" : "7 kav virgin.png", 
+    "name_rus" : "7-й Виргинии", 
+    "main_rus" : "+ 2 атака ; - 1 юниты врага", 
+    "name_eng" : "7th VA", 
+    "main_eng" : "+ 2 attack; - 1 enemy units", 
+    "type" : NumberInt(1), 
+    "units_en_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(106), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(6), 
+    "id_old" : NumberInt(106), 
+    "image" : "29 peh alabama.png", 
+    "name_rus" : "29-й Алабамы", 
+    "main_rus" : "+ 2 атака ; -1 технологии ; врага", 
+    "name_eng" : "29th AL", 
+    "main_eng" : "+ 2 attack; - 1 technology; enemy", 
+    "type" : NumberInt(3), 
+    "zavod_en_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(103), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(6), 
+    "id_old" : NumberInt(103), 
+    "image" : "bat tar Virgin.png", 
+    "name_rus" : "Т.А. Виргинии", 
+    "main_rus" : "+ 2 атака ; + 1 вал ; -2 деньги", 
+    "name_eng" : "VA H.A", 
+    "main_eng" : "+ 2 attack; + 1 wall; -2 money", 
+    "type" : NumberInt(4), 
+    "money_in" : NumberInt(-2), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(104), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(6), 
+    "id_old" : NumberInt(104), 
+    "image" : "1 tar Men.png", 
+    "name_rus" : "Т.А. Мэн", 
+    "main_rus" : "+ 2 атака ; + 1 вал ; -2 технологии", 
+    "name_eng" : "ME H.A", 
+    "main_eng" : "+ 2 attack; + 1 wall; -2 technology", 
+    "type" : NumberInt(4), 
+    "zavod_in" : NumberInt(-2), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(115), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(7), 
+    "id_old" : NumberInt(115), 
+    "image" : "30 N.karol.png", 
+    "name_rus" : "30-й С.Каролины", 
+    "main_rus" : "+ 2 атака ; + 1 форт всем", 
+    "name_eng" : "30th NC", 
+    "main_eng" : "+ 2 attack; + 1 fort all", 
+    "type" : NumberInt(3), 
+    "at_def_pl_tow" : NumberInt(1), 
+    "at_def_en_tow" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(116), 
+    "atack" : NumberInt(-3), 
+    "cost_units" : NumberInt(7), 
+    "id_old" : NumberInt(116), 
+    "image" : "1 str S.karol.png", 
+    "name_rus" : "1-й Ю.Каролины", 
+    "main_rus" : "+ 3 атака ; +1 вал ; - 1 технологии", 
+    "name_eng" : "1st SC", 
+    "main_eng" : "+ 3 attack; + 1 wall; -1 technology", 
+    "type" : NumberInt(3), 
+    "zavod_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(54), 
+    "atack" : NumberInt(-3), 
+    "cost_units" : NumberInt(5), 
+    "id_old" : NumberInt(54), 
+    "image" : "2 vol viskonsina.png", 
+    "name_rus" : "2-й Висконсина", 
+    "main_rus" : "+ 3 атака ; + 1 юниты врага", 
+    "name_eng" : "2nd WI", 
+    "main_eng" : "+ 3 attack; + 1 units enemy", 
+    "type" : NumberInt(3), 
+    "units_en_in" : NumberInt(1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(131), 
+    "atack" : NumberInt(-3), 
+    "cost_units" : NumberInt(10), 
+    "id_old" : NumberInt(131), 
+    "image" : "irish.png", 
+    "name_rus" : "Ирландская бр.", 
+    "main_rus" : "+ 3 атака ; -1 деньги юниты ; всем", 
+    "name_eng" : "Fighting 69th", 
+    "main_eng" : "+ 3 attack; - 1 money units; all", 
+    "type" : NumberInt(5), 
+    "money_in" : NumberInt(-1), 
+    "units_in" : NumberInt(-1), 
+    "money_en_in" : NumberInt(-1), 
+    "units_en_in" : NumberInt(-1), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(132), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(10), 
+    "id_old" : NumberInt(132), 
+    "image" : "1 virgin.png", 
+    "name_rus" : "1-й Виргинии", 
+    "main_rus" : "+ 2 атака ; + 2 вал ; -1 юниты", 
+    "name_eng" : "1st VA", 
+    "main_eng" : "+ 2 attack; + 2 wall; - 1 units", 
+    "type" : NumberInt(5), 
+    "units_in" : NumberInt(-1), 
+    "at_def_pl_rov" : NumberInt(2), 
+    "back_image" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(57), 
+    "cost_zavod" : NumberInt(1), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(57), 
+    "image" : "south karol.png", 
+    "name_rus" : "Южная Каролина", 
+    "main_rus" : "+ 1 штат", 
+    "name_eng" : "South Carolina", 
+    "main_eng" : "+ 1 state", 
+    "units" : "1", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(59), 
+    "row_tow" : NumberInt(2), 
+    "cost_zavod" : NumberInt(1), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(59), 
+    "image" : "missisipi.png", 
+    "name_rus" : "Миссисипи", 
+    "main_rus" : "Если штатов ; < врага,  ; то = MAX", 
+    "name_eng" : "Mississippi", 
+    "main_eng" : "If states; < an enemy; then = MAX", 
+    "units" : "-1", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(31), 
+    "row_tow" : NumberInt(2), 
+    "cost_zavod" : NumberInt(2), 
+    "cost_money" : NumberInt(1), 
+    "id_old" : NumberInt(31), 
+    "image" : "alabama.png", 
+    "name_rus" : "Алабама", 
+    "main_rus" : "Если штатов ; < врагa, то, ; +2 иначе + 1 штат", 
+    "name_eng" : "Alabama", 
+    "main_eng" : "If states; < enemy, then; +2 else +1 state", 
+    "units" : "-3", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(120), 
+    "cost_zavod" : NumberInt(4), 
+    "cost_money" : NumberInt(4), 
+    "id_old" : NumberInt(120), 
+    "image" : "Georgiya.png", 
+    "name_rus" : "Джорджия", 
+    "main_rus" : "+ 10 юнитов", 
+    "name_eng" : "Georgia", 
+    "main_eng" : "+ 10 units", 
+    "units_in" : NumberInt(10), 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(61), 
+    "row_tow" : NumberInt(2), 
+    "cost_zavod" : NumberInt(2), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(61), 
+    "image" : "luiziana.png", 
+    "name_rus" : "Луизиана", 
+    "main_rus" : "Штаты ;  равны максимальному", 
+    "name_eng" : "Louisiana", 
+    "main_eng" : "States; equal to the; maximum", 
+    "units" : "-2", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(92), 
+    "cost_zavod" : NumberInt(3), 
+    "cost_money" : NumberInt(3), 
+    "id_old" : NumberInt(92), 
+    "image" : "texas.png", 
+    "name_rus" : "Техас", 
+    "main_rus" : "+ 2 штата", 
+    "name_eng" : "Texas", 
+    "main_eng" : "+ 2 state", 
+    "units" : "2", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(112), 
+    "again" : "1", 
+    "cost_zavod" : NumberInt(5), 
+    "cost_money" : NumberInt(3), 
+    "id_old" : NumberInt(112), 
+    "image" : "virginia.png", 
+    "name_rus" : "Виргиния", 
+    "main_rus" : "- 1 штат; + 15 юнитов ; ход снова", 
+    "name_eng" : "Virginia", 
+    "main_eng" : "- 1 state; + 15 units; move again", 
+    "units" : "-1", 
+    "units_in" : NumberInt(15), 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(122), 
+    "cost_zavod" : NumberInt(4), 
+    "cost_money" : NumberInt(4), 
+    "id_old" : NumberInt(122), 
+    "image" : "arkansas.png", 
+    "name_rus" : "Арканзас", 
+    "main_rus" : "- 2 штата врагу", 
+    "name_eng" : "Arkanzas", 
+    "main_eng" : "- 2 state of the enemy", 
+    "units_en" : "-2", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(64), 
+    "cost_zavod" : NumberInt(2), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(64), 
+    "image" : "tennessi.png", 
+    "name_rus" : "Тенесси", 
+    "main_rus" : "-1 штат врагу", 
+    "name_eng" : "Tennessee", 
+    "main_eng" : "- 1 enemy state", 
+    "units_en" : "-1", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(56), 
+    "cost_zavod" : NumberInt(1), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(56), 
+    "image" : "n.karolina.png", 
+    "name_rus" : "Северная Каролина", 
+    "main_rus" : "+ 1 штат всем", 
+    "name_eng" : "North Carolina", 
+    "main_eng" : "+ 1 to all state", 
+    "units" : "1", 
+    "units_en" : "1", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(157), 
+    "row_tow" : NumberInt(2), 
+    "cost_units" : NumberInt(1), 
+    "cost_zavod" : NumberInt(1), 
+    "cost_money" : NumberInt(1), 
+    "id_old" : NumberInt(157), 
+    "image" : "sniper.png", 
+    "name_rus" : "Снайпер", 
+    "main_rus" : "- 1 офицер ; врага", 
+    "name_eng" : "Sniper", 
+    "main_eng" : "- 1 officer; enemy", 
+    "moey_en" : "-1", 
+    "back_image" : NumberInt(4)
+}
+{ 
+    "_id" : NumberInt(176), 
+    "row_tow" : NumberInt(2), 
+    "cost_units" : NumberInt(2), 
+    "cost_zavod" : NumberInt(2), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(176), 
+    "image" : "myDjorj.png", 
+    "name_rus" : "Моя Джорджия", 
+    "main_rus" : "Макс. офицер ; врага вам", 
+    "name_eng" : "My Georgia", 
+    "main_eng" : "Max. officer; enemy you", 
+    "moey_en" : "1", 
+    "back_image" : NumberInt(4)
+}
+{ 
+    "_id" : NumberInt(147), 
+    "row_tow" : NumberInt(2), 
+    "cost_units" : NumberInt(2), 
+    "cost_zavod" : NumberInt(2), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(147), 
+    "image" : "shpion.png", 
+    "name_rus" : "Шпион", 
+    "main_rus" : "Макс. техника ; врага вам", 
+    "name_eng" : "Spy", 
+    "main_eng" : "Max. technology; enemy you", 
+    "zavod_en" : "1", 
+    "back_image" : NumberInt(4)
+}
+{ 
+    "_id" : NumberInt(125), 
+    "row_tow" : NumberInt(2), 
+    "cost_units" : NumberInt(1), 
+    "cost_zavod" : NumberInt(1), 
+    "cost_money" : NumberInt(1), 
+    "id_old" : NumberInt(125), 
+    "image" : "divers.png", 
+    "name_rus" : "Диверсия", 
+    "main_rus" : "- 1 техника ; врага", 
+    "name_eng" : "Sabotage", 
+    "main_eng" : "- 1 technology; enemy", 
+    "zavod_en" : "-1", 
+    "back_image" : NumberInt(4)
+}
+{ 
+    "_id" : NumberInt(158), 
+    "row_tow" : NumberInt(2), 
+    "cost_units" : NumberInt(2), 
+    "cost_zavod" : NumberInt(2), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(158), 
+    "image" : "goodolya.png", 
+    "name_rus" : "Лучшая доля", 
+    "main_rus" : "Макс.полк ; врага вам", 
+    "name_eng" : "Best share", 
+    "main_eng" : "Max.regiment; enemy you", 
+    "units_en" : "1", 
+    "back_image" : NumberInt(4)
+}
+{ 
+    "_id" : NumberInt(148), 
+    "row_tow" : NumberInt(2), 
+    "cost_units" : NumberInt(1), 
+    "cost_zavod" : NumberInt(1), 
+    "cost_money" : NumberInt(1), 
+    "id_old" : NumberInt(148), 
+    "image" : "dezertir.png", 
+    "name_rus" : "Дезертирство", 
+    "main_rus" : "- 1 полк врага", 
+    "name_eng" : "Desertion", 
+    "main_eng" : "- 1 regiment; enemy", 
+    "units_en" : "-1", 
+    "back_image" : NumberInt(4)
+}
+{ 
+    "_id" : NumberInt(187), 
+    "row_tow" : NumberInt(2), 
+    "cost_units" : NumberInt(2), 
+    "cost_zavod" : NumberInt(2), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(187), 
+    "image" : "deathrei.png", 
+    "name_rus" : "Гибель Рейнольдса", 
+    "main_rus" : "- 2 офицера  ; врага", 
+    "name_eng" : "Fall of Reynolds", 
+    "main_eng" : "- 2 officer; enemy", 
+    "moey_en" : "-2", 
+    "back_image" : NumberInt(4)
+}
+{ 
+    "_id" : NumberInt(183), 
+    "row_tow" : NumberInt(2), 
+    "cost_units" : NumberInt(2), 
+    "cost_zavod" : NumberInt(2), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(183), 
+    "image" : "holera.png", 
+    "name_rus" : "Холера", 
+    "main_rus" : "- 2 полка врага", 
+    "name_eng" : "Cholera", 
+    "main_eng" : "- 2 regiments; enemy", 
+    "units_en" : "-2", 
+    "back_image" : NumberInt(4)
+}
+{ 
+    "_id" : NumberInt(177), 
+    "row_tow" : NumberInt(2), 
+    "cost_units" : NumberInt(2), 
+    "cost_zavod" : NumberInt(2), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(177), 
+    "image" : "pojar.png", 
+    "name_rus" : "Пожар в городе", 
+    "main_rus" : "- 2 техники ; врага", 
+    "name_eng" : "City on Fire", 
+    "main_eng" : "- 2 technology; enemy", 
+    "zavod_en" : "-2", 
+    "back_image" : NumberInt(4)
+}
+{ 
+    "_id" : NumberInt(99), 
+    "cost_zavod" : NumberInt(6), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(99), 
+    "image" : "invest.png", 
+    "name_rus" : "Инвестиции", 
+    "main_rus" : "+ 2 банка", 
+    "name_eng" : "Investment", 
+    "main_eng" : "+ 2 banks", 
+    "money" : "2", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(77), 
+    "cost_zavod" : NumberInt(1), 
+    "cost_money" : NumberInt(3), 
+    "id_old" : NumberInt(77), 
+    "image" : "scolt.png", 
+    "name_rus" : "Сэмюэл Кольт", 
+    "main_rus" : "+ 1 промышленность", 
+    "name_eng" : "Samuel Colt", 
+    "main_eng" : "+ 1 industry", 
+    "zavod" : "1", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(42), 
+    "cost_zavod" : NumberInt(3), 
+    "cost_money" : NumberInt(1), 
+    "id_old" : NumberInt(42), 
+    "image" : "zuavmoda.png", 
+    "name_rus" : "Зуавская мода", 
+    "main_rus" : "- 1 банк врагу", 
+    "name_eng" : "Zouaves fashion", 
+    "main_eng" : "- 1 bank enemy", 
+    "moey_en" : "-1", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(111), 
+    "cost_zavod" : NumberInt(2), 
+    "cost_money" : NumberInt(4), 
+    "id_old" : NumberInt(111), 
+    "image" : "otmrab.png", 
+    "name_rus" : "Отмена рабства", 
+    "main_rus" : "- 1 банк ; + 12  юнитов", 
+    "name_eng" : "Abolition", 
+    "main_eng" : "- 1 bank; + 12 units", 
+    "money" : "-1", 
+    "units_in" : NumberInt(12), 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(49), 
+    "cost_zavod" : NumberInt(3), 
+    "cost_money" : NumberInt(1), 
+    "id_old" : NumberInt(49), 
+    "image" : "rabotorgi.png", 
+    "name_rus" : "Работорговля", 
+    "main_rus" : "+ 1 банк ; - 4 юнита", 
+    "name_eng" : "Slave", 
+    "main_eng" : "+ 1 bank; - 4 units", 
+    "money" : "1", 
+    "units_in" : NumberInt(-4), 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(179), 
+    "cost_units" : NumberInt(5), 
+    "id_old" : NumberInt(179), 
+    "image" : "hlopok.png", 
+    "name_rus" : "Хлопок", 
+    "main_rus" : "+ 9 деньги ; -4 технологии", 
+    "name_eng" : "Cotton Blend", 
+    "main_eng" : "+9 money; -4 technologies", 
+    "money_in" : NumberInt(9), 
+    "zavod_in" : NumberInt(-4), 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(139), 
+    "cost_zavod" : NumberInt(3), 
+    "cost_money" : NumberInt(6), 
+    "id_old" : NumberInt(139), 
+    "image" : "mashstr.png", 
+    "name_rus" : "Машиностроение", 
+    "main_rus" : "+ 2 промышленность", 
+    "name_eng" : "Engineering", 
+    "main_eng" : "+ 2 industry", 
+    "zavod" : "2", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(124), 
+    "cost_zavod" : NumberInt(3), 
+    "cost_money" : NumberInt(4), 
+    "id_old" : NumberInt(124), 
+    "image" : "andersonville.png", 
+    "name_rus" : "Андерсонвиль", 
+    "main_rus" : "- 9 юниты ; врага", 
+    "name_eng" : "Andersonvil", 
+    "main_eng" : "- 9 units; enemy", 
+    "units_en_in" : NumberInt(-9), 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(86), 
+    "cost_zavod" : NumberInt(2), 
+    "cost_money" : NumberInt(3), 
+    "id_old" : NumberInt(86), 
+    "image" : "arsRich.png", 
+    "name_rus" : "Арсенал Ричмонда", 
+    "main_rus" : "- 1 промышленность; врага", 
+    "name_eng" : "Arssenal Richmond", 
+    "main_eng" : "- 1 industry; enemy", 
+    "zavod_en" : "-1", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(60), 
+    "cost_zavod" : NumberInt(0), 
+    "cost_money" : NumberInt(1), 
+    "id_old" : NumberInt(60), 
+    "image" : "dimporoh.png", 
+    "name_rus" : "Дымный порох", 
+    "main_rus" : "+ 3 технологии ; всем", 
+    "name_eng" : "Black powder", 
+    "main_eng" : "+ 3 technology; all", 
+    "zavod_in" : NumberInt(3), 
+    "zavod_en_in" : NumberInt(3), 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(32), 
+    "again" : "1", 
+    "cost_zavod" : NumberInt(0), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(32), 
+    "image" : "kartech.png", 
+    "name_rus" : "Картечница", 
+    "main_rus" : "+ 1 технология ; ход снова", 
+    "name_eng" : "Mitrailleuse", 
+    "main_eng" : "+ 1 technology; move again", 
+    "zavod_in" : NumberInt(1), 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(108), 
+    "again" : "2", 
+    "esc" : "9", 
+    "cost_zavod" : NumberInt(1), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(108), 
+    "image" : "warsovet.png", 
+    "name_rus" : "Военные советники", 
+    "main_rus" : "Сбросить ;  карту, ход снова", 
+    "name_eng" : "Military advisers", 
+    "main_eng" : "Reset; map up again", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(88), 
+    "cost_zavod" : NumberInt(3), 
+    "cost_money" : NumberInt(1), 
+    "id_old" : NumberInt(88), 
+    "image" : "imigra.png", 
+    "name_rus" : "Иммиграция", 
+    "main_rus" : "+ 8 юниты", 
+    "name_eng" : "Immigration", 
+    "main_eng" : "+ 8 units", 
+    "units_in" : NumberInt(8), 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(58), 
+    "cost_zavod" : NumberInt(4), 
+    "cost_money" : NumberInt(0), 
+    "id_old" : NumberInt(58), 
+    "image" : "sacvoj.png", 
+    "name_rus" : "Саквояжник", 
+    "main_rus" : "+ 9 деньги", 
+    "name_eng" : "Carpetbagger", 
+    "main_eng" : "+9 money", 
+    "money_in" : NumberInt(9), 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(109), 
+    "cost_units" : NumberInt(3), 
+    "cost_zavod" : NumberInt(2), 
+    "id_old" : NumberInt(109), 
+    "image" : "giperinfl.png", 
+    "name_rus" : "Гиперинфляция", 
+    "main_rus" : "- 5 деньги ; + 6 технологии", 
+    "name_eng" : "Hyperinflation", 
+    "main_eng" : "- 5 money; 6 + technology", 
+    "money_in" : NumberInt(-5), 
+    "zavod_in" : NumberInt(6), 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(110), 
+    "cost_zavod" : NumberInt(6), 
+    "id_old" : NumberInt(110), 
+    "image" : "blokada.png", 
+    "name_rus" : "План «Анаконда»", 
+    "main_rus" : "+ 6 деньги ; - 4 деньги врагу", 
+    "name_eng" : "Scott's Great Snake", 
+    "main_eng" : "+ 6 money; - 4 enemy money", 
+    "money_in" : NumberInt(6), 
+    "money_en_in" : NumberInt(-4), 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(46), 
+    "again" : "1", 
+    "cost_zavod" : NumberInt(3), 
+    "cost_money" : NumberInt(1), 
+    "id_old" : NumberInt(46), 
+    "image" : "tabak.png", 
+    "name_rus" : "Табак", 
+    "main_rus" : "+ 1 банк ;  всем, ход снова", 
+    "name_eng" : "Tobacco", 
+    "main_eng" : "+ 1 bank; all up again", 
+    "money" : "1", 
+    "moey_en" : "1", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(62), 
+    "again" : "2", 
+    "esc" : "9", 
+    "cost_zavod" : NumberInt(2), 
+    "cost_money" : NumberInt(1), 
+    "id_old" : NumberInt(62), 
+    "image" : "aerostat.png", 
+    "name_rus" : "Аэростат", 
+    "main_rus" : "Сбросить ;  карту, ход снова", 
+    "name_eng" : "Balloon", 
+    "main_eng" : "Reset; map up again", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(93), 
+    "esc" : "3", 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(1), 
+    "cost_money" : NumberInt(1), 
+    "id_old" : NumberInt(93), 
+    "image" : "contract.png", 
+    "name_rus" : "Конец контракта", 
+    "main_rus" : "Сбросить  ; карты полков ;  у врага", 
+    "name_eng" : "End of contract", 
+    "main_eng" : "Reset; cards regiments; the enemy", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(89), 
+    "esc" : "2", 
+    "cost_zavod" : NumberInt(2), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(89), 
+    "image" : "southput.png", 
+    "name_rus" : "Южный путь", 
+    "main_rus" : "Сбросить  ; карты промышленности", 
+    "name_eng" : "South route", 
+    "main_eng" : "Reset; card industry", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(65), 
+    "esc" : "3", 
+    "cost_zavod" : NumberInt(1), 
+    "cost_money" : NumberInt(1), 
+    "id_old" : NumberInt(65), 
+    "image" : "hospital.png", 
+    "name_rus" : "Госпиталь", 
+    "main_rus" : "Сбросить  ; карты полков", 
+    "name_eng" : "Hospital", 
+    "main_eng" : "Reset; cards regiments", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(90), 
+    "esc" : "1", 
+    "cost_zavod" : NumberInt(3), 
+    "cost_money" : NumberInt(3), 
+    "id_old" : NumberInt(90), 
+    "image" : "vartovar.png", 
+    "name_rus" : "Военные закупки", 
+    "main_rus" : "Сбросить ;  карты банков", 
+    "name_eng" : "Arms porhases", 
+    "main_eng" : "Reset; bank cards", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(94), 
+    "esc" : "2", 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(2), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(94), 
+    "image" : "draftriots.png", 
+    "name_rus" : "Призывной бунт", 
+    "main_rus" : "Сбросить карты; промышленности ; у врага", 
+    "name_eng" : "Draft riot", 
+    "main_eng" : "Reset; card industry; the enemy", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(121), 
+    "esc" : "1", 
+    "row_tow" : NumberInt(1), 
+    "cost_zavod" : NumberInt(3), 
+    "cost_money" : NumberInt(3), 
+    "id_old" : NumberInt(121), 
+    "image" : "locomat.png", 
+    "name_rus" : "Рейд Эндрюса", 
+    "main_rus" : "Сбросить  ; карты банков ;  у врага", 
+    "name_eng" : "Reid Andrews", 
+    "main_eng" : "Reset; bank cards; the enemy", 
+    "back_image" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(21), 
+    "atack" : NumberInt(-1), 
+    "again" : "1", 
+    "cost_units" : NumberInt(1), 
+    "cost_zavod" : NumberInt(2), 
+    "id_old" : NumberInt(21), 
+    "image" : "samter.png", 
+    "name_rus" : "Форт Самтер", 
+    "main_rus" : "1 урон,; ход снова", 
+    "name_eng" : "Fort Sumter", 
+    "main_eng" : "1 damage,; stroke again", 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(22), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(2), 
+    "id_old" : NumberInt(22), 
+    "image" : "chitmauntin.png", 
+    "name_rus" : "Чит-Маунтин", 
+    "main_rus" : "2 урона", 
+    "name_eng" : "Cheat Mountain", 
+    "main_eng" : "2 damage", 
+    "back_image" : NumberInt(7)
+}
+{ 
+    "_id" : NumberInt(48), 
+    "atack" : NumberInt(-3), 
+    "cost_units" : NumberInt(3), 
+    "id_old" : NumberInt(48), 
+    "image" : "richmont.png", 
+    "name_rus" : "Рич-Маунтин", 
+    "main_rus" : "3 урона", 
+    "name_eng" : "Rich Mountain", 
+    "main_eng" : "3 damage", 
+    "back_image" : NumberInt(7)
+}
+{ 
+    "_id" : NumberInt(67), 
+    "atack" : NumberInt(-4), 
+    "cost_units" : NumberInt(4), 
+    "id_old" : NumberInt(67), 
+    "image" : "fortroyal.png", 
+    "name_rus" : "Фронт-Роял", 
+    "main_rus" : "4 урона", 
+    "name_eng" : "Front Royal", 
+    "main_eng" : "4 damage", 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(63), 
+    "atack" : NumberInt(-2), 
+    "cost_units" : NumberInt(4), 
+    "id_old" : NumberInt(63), 
+    "image" : "reidstuart.png", 
+    "name_rus" : "Рейд Стюарта", 
+    "main_rus" : "2 урон ; - 5 юниты врага", 
+    "name_eng" : "Stuart Reid", 
+    "main_eng" : "2 damage; - 5 units enemy", 
+    "units_en_in" : NumberInt(-5), 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(66), 
+    "again" : "1", 
+    "cost_units" : NumberInt(3), 
+    "cost_zavod" : NumberInt(2), 
+    "id_old" : NumberInt(66), 
+    "image" : "haibridje.png", 
+    "name_rus" : "Хай-Бридж", 
+    "main_rus" : "1 урон ; форту врага ; ход снова", 
+    "name_eng" : "High Bridge", 
+    "main_eng" : "1 damage; fort enemy; move again", 
+    "at_def_en_tow" : NumberInt(-1), 
+    "back_image" : NumberInt(8)
+}
+{ 
+    "_id" : NumberInt(5), 
+    "atack" : NumberInt(-1), 
+    "cost_units" : NumberInt(1), 
+    "id_old" : NumberInt(5), 
+    "image" : "aldie.png", 
+    "name_rus" : "Элди", 
+    "main_rus" : "1 урон", 
+    "name_eng" : "Eldi", 
+    "main_eng" : "1 damage", 
+    "back_image" : NumberInt(8)
+}
+{ 
+    "_id" : NumberInt(101), 
+    "atack" : NumberInt(-6), 
+    "cost_units" : NumberInt(6), 
+    "id_old" : NumberInt(101), 
+    "image" : "brandy.png", 
+    "name_rus" : "Станция Бренди", 
+    "main_rus" : "6 урон", 
+    "name_eng" : "Brandy station", 
+    "main_eng" : "6 damage", 
+    "back_image" : NumberInt(8)
+}
+{ 
+    "_id" : NumberInt(69), 
+    "atack" : NumberInt(-4), 
+    "cost_units" : NumberInt(4), 
+    "id_old" : NumberInt(69), 
+    "image" : "hampton.png", 
+    "name_rus" : "Хэмптонский рейд", 
+    "main_rus" : "4 урона ; -3 юниты", 
+    "name_eng" : "Hampton Roads", 
+    "main_eng" : "4 damage; -3 units", 
+    "units_in" : NumberInt(-3), 
+    "back_image" : NumberInt(8)
+}
+{ 
+    "_id" : NumberInt(79), 
+    "atack" : NumberInt(-5), 
+    "cost_units" : NumberInt(5), 
+    "id_old" : NumberInt(79), 
+    "image" : "kerstaun.png", 
+    "name_rus" : "Кернстаун", 
+    "main_rus" : "5 урона", 
+    "name_eng" : "Kernstaun", 
+    "main_eng" : "5 damage", 
+    "back_image" : NumberInt(7)
+}
+{ 
+    "_id" : NumberInt(100), 
+    "atack" : NumberInt(-4), 
+    "cost_units" : NumberInt(4), 
+    "cost_zavod" : NumberInt(4), 
+    "id_old" : NumberInt(100), 
+    "image" : "mcdowell.png", 
+    "name_rus" : "МакДауэлл", 
+    "main_rus" : "4 урона ; + 2 вал", 
+    "name_eng" : "McDowell", 
+    "main_eng" : "4 damage; + 2 wall", 
+    "at_def_pl_rov" : NumberInt(2), 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(140), 
+    "atack" : NumberInt(-8), 
+    "cost_units" : NumberInt(11), 
+    "id_old" : NumberInt(140), 
+    "image" : "donelson.png", 
+    "name_rus" : "Форт Донельсон", 
+    "main_rus" : "8 урон ; -7 юниты врага", 
+    "name_eng" : "Fort Donelson", 
+    "main_eng" : "8 damage; - 7 enemy units", 
+    "units_en_in" : NumberInt(-7), 
+    "back_image" : NumberInt(7)
+}
+{ 
+    "_id" : NumberInt(23), 
+    "atack" : NumberInt(-7), 
+    "cost_units" : NumberInt(2), 
+    "id_old" : NumberInt(23), 
+    "image" : "southmountain.png", 
+    "name_rus" : "Южная гора", 
+    "main_rus" : "7 урона ; -2 форт", 
+    "name_eng" : "South mountain", 
+    "main_eng" : "7 damage; -2 fort", 
+    "at_def_pl_tow" : NumberInt(-2), 
+    "back_image" : NumberInt(8)
+}
+{ 
+    "_id" : NumberInt(126), 
+    "atack" : NumberInt(-7), 
+    "cost_units" : NumberInt(9), 
+    "id_old" : NumberInt(126), 
+    "image" : "chantilly.png", 
+    "name_rus" : "Шантилья", 
+    "main_rus" : "7 урона ; -4 юниты всем", 
+    "name_eng" : "Chantilly", 
+    "main_eng" : "7 damage; -4 units all", 
+    "units_in" : NumberInt(-4), 
+    "units_en_in" : NumberInt(-4), 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(159), 
+    "atack" : NumberInt(-10), 
+    "cost_units" : NumberInt(15), 
+    "id_old" : NumberInt(159), 
+    "image" : "harpersferry.png", 
+    "name_rus" : "Харперс-Ферри", 
+    "main_rus" : "10 урона ; -10 юниты врага", 
+    "name_eng" : "Harpers Ferry", 
+    "main_eng" : "10 damage; - 10 enemy units", 
+    "units_en_in" : NumberInt(-10), 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(78), 
+    "row_tow" : NumberInt(1), 
+    "cost_units" : NumberInt(5), 
+    "id_old" : NumberInt(78), 
+    "image" : "elanding.png", 
+    "name_rus" : "Элтамс-Лендинг", 
+    "main_rus" : "5 урона; валу всем", 
+    "name_eng" : "Eltams Landing", 
+    "main_eng" : "5 damage; wall all", 
+    "at_def_pl_rov" : NumberInt(-5), 
+    "at_def_en_rov" : NumberInt(-5), 
+    "back_image" : NumberInt(8)
+}
+{ 
+    "_id" : NumberInt(128), 
+    "atack" : NumberInt(-6), 
+    "cost_units" : NumberInt(6), 
+    "cost_money" : NumberInt(2), 
+    "id_old" : NumberInt(128), 
+    "image" : "crosskeys.png", 
+    "name_rus" : "Кросс-Кейс", 
+    "main_rus" : "6 урона ; + 1 форт", 
+    "name_eng" : "Cross-Case", 
+    "main_eng" : "6 damage; + 1 fort", 
+    "at_def_pl_tow" : NumberInt(1), 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(123), 
+    "atack" : NumberInt(-8), 
+    "cost_units" : NumberInt(8), 
+    "id_old" : NumberInt(123), 
+    "image" : "winchesterone.png", 
+    "name_rus" : "Винчестер", 
+    "main_rus" : "8 урона", 
+    "name_eng" : "Winchester", 
+    "main_eng" : "8 damage", 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(130), 
+    "atack" : NumberInt(-6), 
+    "cost_units" : NumberInt(10), 
+    "id_old" : NumberInt(130), 
+    "image" : "saylerscreek.png", 
+    "name_rus" : "Сайлерс-Крик", 
+    "main_rus" : "6 урона ; -8 юниты врага", 
+    "name_eng" : "Saylers Creek", 
+    "main_eng" : "6 damage; - 8 enemy units", 
+    "units_en_in" : NumberInt(-8), 
+    "back_image" : NumberInt(7)
+}
+{ 
+    "_id" : NumberInt(119), 
+    "atack" : NumberInt(-6), 
+    "cost_units" : NumberInt(6), 
+    "cost_zavod" : NumberInt(3), 
+    "id_old" : NumberInt(119), 
+    "image" : "fiveforks.png", 
+    "name_rus" : "Файв-Фокс", 
+    "main_rus" : "6 урон ; + 1 вал", 
+    "name_eng" : "Five-Fox", 
+    "main_eng" : "6 damage; + 1 wall", 
+    "at_def_pl_rov" : NumberInt(1), 
+    "back_image" : NumberInt(7)
+}
+{ 
+    "_id" : NumberInt(156), 
+    "cost_units" : NumberInt(6), 
+    "cost_money" : NumberInt(6), 
+    "id_old" : NumberInt(156), 
+    "image" : "petersburgtwo.png", 
+    "name_rus" : "2-й Петерсберг", 
+    "main_rus" : "6 урона ;  всем фортам", 
+    "name_eng" : "2nd Petersberg", 
+    "main_eng" : "6 damage; all forts", 
+    "at_def_pl_tow" : NumberInt(-6), 
+    "at_def_en_tow" : NumberInt(-6), 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(129), 
+    "atack" : NumberInt(-9), 
+    "cost_units" : NumberInt(9), 
+    "id_old" : NumberInt(129), 
+    "image" : "winchestertwo.png", 
+    "name_rus" : "2-й Винчестер", 
+    "main_rus" : "9 урон", 
+    "name_eng" : "2nd Winchester", 
+    "main_eng" : "9 damage", 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(151), 
+    "atack" : NumberInt(-12), 
+    "cost_units" : NumberInt(12), 
+    "id_old" : NumberInt(151), 
+    "image" : "hindman.png", 
+    "name_rus" : "Форт Хиндман", 
+    "main_rus" : "12 урона", 
+    "name_eng" : "Fort Hindman", 
+    "main_eng" : "12 damage", 
+    "back_image" : NumberInt(7)
+}
+{ 
+    "_id" : NumberInt(150), 
+    "atack" : NumberInt(-12), 
+    "cost_units" : NumberInt(12), 
+    "id_old" : NumberInt(150), 
+    "image" : "kilcavalry.png", 
+    "name_rus" : "Атака Килпатрика", 
+    "main_rus" : "12 урона ; -8 юнитов", 
+    "name_eng" : "Attack Kilpatrick", 
+    "main_eng" : "12 damage; - 8 units", 
+    "units_in" : NumberInt(-8), 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(141), 
+    "atack" : NumberInt(-11), 
+    "cost_units" : NumberInt(11), 
+    "id_old" : NumberInt(141), 
+    "image" : "pickettscharge.png", 
+    "name_rus" : "Атака Пикета", 
+    "main_rus" : "11 урона ; -10 юнитов", 
+    "name_eng" : "Pickett's Charge", 
+    "main_eng" : "11 damage; - 10 units", 
+    "units_in" : NumberInt(-10), 
+    "back_image" : NumberInt(7)
+}
+{ 
+    "_id" : NumberInt(160), 
+    "atack" : NumberInt(-12), 
+    "cost_units" : NumberInt(15), 
+    "id_old" : NumberInt(160), 
+    "image" : "manassas.png", 
+    "name_rus" : "1-й Манассас", 
+    "main_rus" : "12 урона ; -7 юнитов всем", 
+    "name_eng" : "1st Manassas", 
+    "main_eng" : "12 damage; - 7 units all", 
+    "units_in" : NumberInt(-7), 
+    "units_en_in" : NumberInt(-7), 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(152), 
+    "atack" : NumberInt(-13), 
+    "cost_units" : NumberInt(13), 
+    "id_old" : NumberInt(152), 
+    "image" : "sevenpines.png", 
+    "name_rus" : "Севен-Пайнс", 
+    "main_rus" : "13 урона", 
+    "name_eng" : "Seven Pines", 
+    "main_eng" : "13 damage", 
+    "back_image" : NumberInt(8)
+}
+{ 
+    "_id" : NumberInt(154), 
+    "atack" : NumberInt(-14), 
+    "cost_units" : NumberInt(14), 
+    "id_old" : NumberInt(154), 
+    "image" : "williamsburg.png", 
+    "name_rus" : "Уильямсберг", 
+    "main_rus" : "14 урона", 
+    "name_eng" : "Williamsburg", 
+    "main_eng" : "14 damage", 
+    "back_image" : NumberInt(8)
+}
+{ 
+    "_id" : NumberInt(161), 
+    "atack" : NumberInt(-10), 
+    "cost_units" : NumberInt(10), 
+    "cost_zavod" : NumberInt(10), 
+    "id_old" : NumberInt(161), 
+    "image" : "shiloh.png", 
+    "name_rus" : "Шайло", 
+    "main_rus" : "10 урона ; + 4 вал", 
+    "name_eng" : "Shiloh", 
+    "main_eng" : "10 damage; + 4 wall", 
+    "at_def_pl_rov" : NumberInt(4), 
+    "back_image" : NumberInt(7)
+}
+{ 
+    "_id" : NumberInt(162), 
+    "atack" : NumberInt(-15), 
+    "cost_units" : NumberInt(15), 
+    "id_old" : NumberInt(162), 
+    "image" : "antietam.png", 
+    "name_rus" : "Энтитема", 
+    "main_rus" : "15 урон", 
+    "name_eng" : "Antietam", 
+    "main_eng" : "15 damage", 
+    "back_image" : NumberInt(7)
+}
+{ 
+    "_id" : NumberInt(163), 
+    "atack" : NumberInt(-16), 
+    "cost_units" : NumberInt(16), 
+    "id_old" : NumberInt(163), 
+    "image" : "nortanno.png", 
+    "name_rus" : "Норт-Анно", 
+    "main_rus" : "16 урона", 
+    "name_eng" : "North Anno", 
+    "main_eng" : "16 damage", 
+    "back_image" : NumberInt(8)
+}
+{ 
+    "_id" : NumberInt(180), 
+    "row_tow" : NumberInt(1), 
+    "cost_units" : NumberInt(16), 
+    "cost_zavod" : NumberInt(4), 
+    "id_old" : NumberInt(180), 
+    "image" : "petersburgtree.png", 
+    "name_rus" : "3-й Петерсберг", 
+    "main_rus" : "16 урон  ; валу врага", 
+    "name_eng" : "3rd Petersberg", 
+    "main_eng" : "16 damage; wall enemy", 
+    "at_def_en_rov" : NumberInt(-16), 
+    "back_image" : NumberInt(7)
+}
+{ 
+    "_id" : NumberInt(153), 
+    "atack" : NumberInt(-10), 
+    "cost_units" : NumberInt(10), 
+    "cost_zavod" : NumberInt(7), 
+    "id_old" : NumberInt(153), 
+    "image" : "crater.png", 
+    "name_rus" : "Воронка", 
+    "main_rus" : "10 урон ; + 7 вал", 
+    "name_eng" : "Crater was", 
+    "main_eng" : "10 damage; + 7 wall", 
+    "at_def_pl_rov" : NumberInt(7), 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(172), 
+    "atack" : NumberInt(-17), 
+    "cost_units" : NumberInt(17), 
+    "id_old" : NumberInt(172), 
+    "image" : "atlanta.png", 
+    "name_rus" : "Атланта", 
+    "main_rus" : "17 урон", 
+    "name_eng" : "Atlanta", 
+    "main_eng" : "17 damage", 
+    "back_image" : NumberInt(7)
+}
+{ 
+    "_id" : NumberInt(178), 
+    "atack" : NumberInt(-18), 
+    "cost_units" : NumberInt(18), 
+    "id_old" : NumberInt(178), 
+    "image" : "manassastwo.png", 
+    "name_rus" : "2-й Манассас", 
+    "main_rus" : "18 урона", 
+    "name_eng" : "2nd Manassas", 
+    "main_eng" : "18 damage", 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(184), 
+    "atack" : NumberInt(-22), 
+    "cost_units" : NumberInt(22), 
+    "id_old" : NumberInt(184), 
+    "image" : "yorktown.png", 
+    "name_rus" : "Йорктаун", 
+    "main_rus" : "22 урона", 
+    "name_eng" : "Yorktown", 
+    "main_eng" : "22 damage", 
+    "back_image" : NumberInt(8)
+}
+{ 
+    "_id" : NumberInt(182), 
+    "atack" : NumberInt(-20), 
+    "cost_units" : NumberInt(20), 
+    "id_old" : NumberInt(182), 
+    "image" : "kenesaw.png", 
+    "name_rus" : "Гора Кеннессо", 
+    "main_rus" : "20 урона", 
+    "name_eng" : "Mountain Kennesso", 
+    "main_eng" : "20 damage", 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(181), 
+    "atack" : NumberInt(-20), 
+    "cost_units" : NumberInt(20), 
+    "id_old" : NumberInt(181), 
+    "image" : "spottsylvania.png", 
+    "name_rus" : "Спотсильвейн", 
+    "main_rus" : "20 урона ; всем", 
+    "name_eng" : "Spotsylvania", 
+    "main_eng" : "20 damage; all", 
+    "at_def_pl_rov" : NumberInt(-20), 
+    "back_image" : NumberInt(8)
+}
+{ 
+    "_id" : NumberInt(188), 
+    "atack" : NumberInt(-28), 
+    "cost_units" : NumberInt(28), 
+    "id_old" : NumberInt(188), 
+    "image" : "resaca.png", 
+    "name_rus" : "Ресак", 
+    "main_rus" : "28 урона", 
+    "name_eng" : "Resaca", 
+    "main_eng" : "28 damage", 
+    "back_image" : NumberInt(8)
+}
+{ 
+    "_id" : NumberInt(189), 
+    "row_tow" : NumberInt(1), 
+    "cost_units" : NumberInt(9), 
+    "cost_zavod" : NumberInt(9), 
+    "cost_money" : NumberInt(9), 
+    "id_old" : NumberInt(189), 
+    "image" : "wilderness.png", 
+    "name_rus" : "Глушь", 
+    "main_rus" : "17 урон; валу 13 урон; форту врага", 
+    "name_eng" : "Wilderness", 
+    "main_eng" : "17 dmg; to wall, 13 dmg; to fort enemy", 
+    "at_def_en_tow" : NumberInt(-13), 
+    "at_def_en_rov" : NumberInt(-17), 
+    "back_image" : NumberInt(8)
+}
+{ 
+    "_id" : NumberInt(192), 
+    "cost_units" : NumberInt(18), 
+    "cost_money" : NumberInt(4), 
+    "id_old" : NumberInt(192), 
+    "image" : "coldharbor.png", 
+    "name_rus" : "Колд-Харбор", 
+    "main_rus" : "18 урон ; форту врага", 
+    "name_eng" : "Cold Harbor", 
+    "main_eng" : "18 damage; fort enemy", 
+    "at_def_en_tow" : NumberInt(-18), 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(195), 
+    "atack" : NumberInt(-50), 
+    "cost_units" : NumberInt(50), 
+    "id_old" : NumberInt(195), 
+    "image" : "gettysburg.png", 
+    "name_rus" : "Геттисберг", 
+    "main_rus" : "50 урона", 
+    "name_eng" : "Gettysburg", 
+    "main_eng" : "50 damage", 
+    "back_image" : NumberInt(7)
+}
+{ 
+    "_id" : NumberInt(193), 
+    "atack" : NumberInt(-40), 
+    "cost_units" : NumberInt(40), 
+    "id_old" : NumberInt(193), 
+    "image" : "sevenday.png", 
+    "name_rus" : "7-мь дней", 
+    "main_rus" : "40 урон", 
+    "name_eng" : "7-NIL days", 
+    "main_eng" : "40 damage", 
+    "back_image" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(194), 
+    "row_tow" : NumberInt(1), 
+    "cost_units" : NumberInt(13), 
+    "cost_zavod" : NumberInt(13), 
+    "cost_money" : NumberInt(13), 
+    "id_old" : NumberInt(194), 
+    "image" : "fredericksburg.png", 
+    "name_rus" : "Фредериксберг", 
+    "main_rus" : "20 урона ; валу и форту ; врага", 
+    "name_eng" : "Frederiksberg", 
+    "main_eng" : "20 damage; wall and fort; enemy", 
+    "at_def_en_tow" : NumberInt(-20), 
+    "at_def_en_rov" : NumberInt(-20), 
+    "back_image" : NumberInt(7)
+}

@@ -1,0 +1,12 @@
+{ 
+    "_id" : ObjectId("56fad58403ce90c1fa4034fc"), 
+    "image" : "chess_back.png", 
+    "name" : "Chess", 
+    "url" : "by.nenomernoi.chess"
+}
+{ 
+    "_id" : ObjectId("56fad58403ce90c1fa4034fa"), 
+    "image" : "calc_back.png", 
+    "name" : "CalcStore", 
+    "url" : "by.nenomernoi.calcshop"
+}

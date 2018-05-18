@@ -1,0 +1,96 @@
+{ 
+    "_id" : NumberInt(1), 
+    "image" : "achiviments/stonewall.png", 
+    "name_eng" : "Stone Wall", 
+    "name_rus" : "Каменная стена", 
+    "main_eng" : "During the game, your wall was always greater than 0", 
+    "main_rus" : "В течении игры ваша стена была всегда больше 0"
+}
+{ 
+    "_id" : NumberInt(2), 
+    "image" : "achiviments/builder.png", 
+    "name_eng" : "Petersburg Defender", 
+    "name_rus" : "Защитник Петерсберга", 
+    "main_eng" : "During the game, you managed to build wall :;1 level - more then 30;2 level - more then 40;3 level - more then 50;4 level - more then 70", 
+    "main_rus" : "В течении игры вам удалось построить стену:;1 уровень - больше 30;2 уровень - больше 40;3 уровень - больше 50;4 уровень - больше 70"
+}
+{ 
+    "_id" : NumberInt(3), 
+    "image" : "achiviments/defection.png", 
+    "name_eng" : "Defection", 
+    "name_rus" : "Дезертир", 
+    "main_eng" : "You escaped from the game", 
+    "main_rus" : "Вы сбежали из игры"
+}
+{ 
+    "_id" : NumberInt(4), 
+    "image" : "achiviments/turtle.png", 
+    "name_eng" : "Turtle", 
+    "name_rus" : "Черепаха", 
+    "main_eng" : "You lost by time", 
+    "main_rus" : "Вы проиграли по времени"
+}
+{ 
+    "_id" : NumberInt(5), 
+    "image" : "achiviments/rebelyeal.png", 
+    "name_eng" : "Rebel Yeal", 
+    "name_rus" : "Крик Мятежников", 
+    "main_eng" : "Enemies escape from once your menacing form", 
+    "main_rus" : "Враги сбегают от одного вашего грозного вида"
+}
+{ 
+    "_id" : NumberInt(6), 
+    "image" : "achiviments/patient.png", 
+    "name_eng" : "White Rabbit", 
+    "name_rus" : "Белый кролик", 
+    "main_eng" : "You always wait until the enemy makes a turn", 
+    "main_rus" : "Вы всегда ожидаете пока враг сделает ход"
+}
+{ 
+    "_id" : NumberInt(7), 
+    "image" : "achiviments/medusa.png", 
+    "name_eng" : "Medusa", 
+    "name_rus" : "Медуза Горгона", 
+    "main_eng" : "You won by time", 
+    "main_rus" : "Вы победили по времени"
+}
+{ 
+    "_id" : NumberInt(8), 
+    "image" : "achiviments/bully.png", 
+    "name_eng" : "Bully", 
+    "name_rus" : "Голиаф", 
+    "main_eng" : "You won the weaker enemy", 
+    "main_rus" : "Вы победили более слабого противника"
+}
+{ 
+    "_id" : NumberInt(9), 
+    "image" : "achiviments/david.png", 
+    "name_eng" : "David", 
+    "name_rus" : "Давид", 
+    "main_eng" : "You won a stronger enemy", 
+    "main_rus" : "Вы победили более сильного противника"
+}
+{ 
+    "_id" : NumberInt(10), 
+    "image" : "achiviments/haupt.png", 
+    "name_eng" : "Herman Haup", 
+    "name_rus" : "Герман Хаупт", 
+    "main_eng" : "During the game, you managed to collect resourses:;1 level - more then 30;2 level - more then 40;3 level - more then 50;4 level - more then 60", 
+    "main_rus" : "В течении игры вам удалось собрать ресурсов:;1 уровень - больше 30;2 уровень - больше 40;3 уровень - больше 50;4 уровень - больше 60"
+}
+{ 
+    "_id" : NumberInt(11), 
+    "image" : "achiviments/mcclellan.png", 
+    "name_eng" : "George McClellan", 
+    "name_rus" : "Джордж Макклеллан", 
+    "main_eng" : "You won in (turms):;1 level - more then 20;2 level - more then 25;3 level - more then 30;4 level - more then 35", 
+    "main_rus" : "Вы победили за (ходов):;1 уровень - больше 20;2 уровень - больше 25;3 уровень - больше 30;4 уровень - больше 35"
+}
+{ 
+    "_id" : NumberInt(12), 
+    "image" : "achiviments/grant.png", 
+    "name_eng" : "Ulysses Grant", 
+    "name_rus" : "Улисс  Грант", 
+    "main_eng" : "You won in (turms):;1 level - less then 16;2 level - less then 14;3 level - less then 12;4 level - less then 10", 
+    "main_rus" : "Вы победили за (ходов):;1 уровень - менее 16;2 уровень - менее 14;3 уровень - менее 12;4 уровень - менее 10"
+}

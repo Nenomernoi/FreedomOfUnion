@@ -1,0 +1,111 @@
+{ 
+    "_id" : "uniform_bonus", 
+    "viewMode" : "table", 
+    "tableDocumentView" : {
+        "_id" : "id", 
+        "name" : "name", 
+        "id_south" : "id_south", 
+        "id_north" : "id_north", 
+        "cost" : "cost", 
+        "tehno" : "tehno", 
+        "units" : "units", 
+        "money" : "money", 
+        "fort" : "fort", 
+        "rov" : "rov", 
+        "rov_enemy" : "rov_enemy"
+    }
+}
+{ 
+    "_id" : "card_deck_game", 
+    "tableDocumentView" : {
+        "_id" : "_id", 
+        "id_game" : "id_game", 
+        "card_1" : "card_1", 
+        "card_2" : "card_2", 
+        "card_3" : "card_3", 
+        "card_4" : "card_4", 
+        "card_5" : "card_5", 
+        "card_6" : "card_6", 
+        "card_7" : "card_7", 
+        "card_8" : "card_8", 
+        "card_9" : "card_9", 
+        "card_10" : "card_10"
+    }, 
+    "viewMode" : "table"
+}
+{ 
+    "_id" : "games", 
+    "tableDocumentView" : {
+        "_id" : "id", 
+        "name" : "name", 
+        "password" : "password", 
+        "id_gamer_one" : "id_gamer_one", 
+        "id_gamer_two" : "id_gamer_two", 
+        "acts_last" : "acts_last", 
+        "card_act_last" : "card_act_last", 
+        "card_back_last" : "card_back_last", 
+        "game_over" : "game_over", 
+        "escape" : "escape", 
+        "escape_back" : "escape_back", 
+        "again" : "again", 
+        "ping" : "ping", 
+        "avatar_url" : "avatar_url", 
+        "unic_card" : "unic_card"
+    }, 
+    "viewMode" : "list"
+}
+{ 
+    "_id" : "user", 
+    "tableDocumentView" : {
+        "_id" : "id", 
+        "name" : "name", 
+        "user_uid" : "user_uid", 
+        "uniform_buy" : "uniform_buy", 
+        "uniform" : "uniform", 
+        "password" : "password", 
+        "salt" : "salt", 
+        "id_social" : "id_social", 
+        "game_only" : "game_only", 
+        "email" : "email", 
+        "game_win" : "game_win", 
+        "game_lose" : "game_lose", 
+        "game_lose_win" : "game_lose_win", 
+        "total" : "total", 
+        "coins" : "coins", 
+        "game_id" : "game_id", 
+        "avatar_url" : "avatar_url", 
+        "fraction" : "fraction"
+    }, 
+    "viewMode" : "list"
+}
+{ 
+    "_id" : "user_status", 
+    "tableDocumentView" : {
+        "_id" : "id", 
+        "user_id" : "user_id", 
+        "bank" : "bank", 
+        "money" : "money", 
+        "industry" : "industry", 
+        "techo" : "techo", 
+        "state" : "state", 
+        "units" : "units", 
+        "bonus_money_1" : "bonus_money_1", 
+        "bonus_money_2" : "bonus_money_2", 
+        "bonus_money_3" : "bonus_money_3", 
+        "bonus_techo_1" : "bonus_techo_1", 
+        "bonus_techo_2" : "bonus_techo_2", 
+        "bonus_techo_3" : "bonus_techo_3", 
+        "bonus_units_1" : "bonus_units_1", 
+        "bonus_units_2" : "bonus_units_2", 
+        "bonus_units_3" : "bonus_units_3", 
+        "tower" : "tower", 
+        "row" : "row", 
+        "money_bon" : "money_bon", 
+        "techo_bon" : "techo_bon", 
+        "units_bon" : "units_bon", 
+        "tower_bon" : "tower_bon", 
+        "row_bon" : "row_bon", 
+        "atack_bon" : "atack_bon"
+    }, 
+    "viewMode" : "table"
+}

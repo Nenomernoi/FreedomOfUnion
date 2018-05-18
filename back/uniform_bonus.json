@@ -1,0 +1,325 @@
+{ 
+    "_id" : ObjectId("560fd754e4b09f9838bc0079"), 
+    "name" : "1 rang hat", 
+    "id_south" : NumberInt(1), 
+    "id_north" : NumberInt(6), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(1), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(10)
+}
+{ 
+    "_id" : ObjectId("56101d1ae4b09f9838bc05fb"), 
+    "name" : "2 rang hat", 
+    "id_south" : NumberInt(2), 
+    "id_north" : NumberInt(7), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(2), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(100)
+}
+{ 
+    "_id" : ObjectId("56101ebce4b09f9838bc061a"), 
+    "name" : "3 rang hat", 
+    "id_south" : NumberInt(3), 
+    "id_north" : NumberInt(8), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(3), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(300)
+}
+{ 
+    "_id" : ObjectId("56101ee2e4b09f9838bc061e"), 
+    "name" : "4 rang hat", 
+    "id_south" : NumberInt(4), 
+    "id_north" : NumberInt(9), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(4), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(500)
+}
+{ 
+    "_id" : ObjectId("56101f50e4b09f9838bc0626"), 
+    "name" : "5 rang hat", 
+    "id_south" : NumberInt(5), 
+    "id_north" : NumberInt(10), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(5), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(1000)
+}
+{ 
+    "_id" : ObjectId("56101fbde4b09f9838bc062e"), 
+    "name" : "volcanic", 
+    "id_south" : NumberInt(11), 
+    "id_north" : NumberInt(11), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(1), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(15)
+}
+{ 
+    "_id" : ObjectId("561020bce4b09f9838bc063f"), 
+    "name" : "paterson", 
+    "id_south" : NumberInt(12), 
+    "id_north" : NumberInt(12), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(2), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(60)
+}
+{ 
+    "_id" : ObjectId("561020efe4b09f9838bc064d"), 
+    "name" : "walker", 
+    "id_south" : NumberInt(13), 
+    "id_north" : NumberInt(13), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(3), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(130)
+}
+{ 
+    "_id" : ObjectId("56102146e4b09f9838bc0654"), 
+    "name" : "dragoon", 
+    "id_south" : NumberInt(14), 
+    "id_north" : NumberInt(14), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(1), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(210)
+}
+{ 
+    "_id" : ObjectId("5610229be4b09f9838bc067b"), 
+    "name" : "navi", 
+    "id_south" : NumberInt(15), 
+    "id_north" : NumberInt(15), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(-1), 
+    "cost" : NumberInt(330)
+}
+{ 
+    "_id" : ObjectId("5610236ae4b09f9838bc0692"), 
+    "name" : "army", 
+    "id_south" : NumberInt(16), 
+    "id_north" : NumberInt(16), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(2), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(400)
+}
+{ 
+    "_id" : ObjectId("561023b8e4b09f9838bc069a"), 
+    "name" : "lema", 
+    "id_south" : NumberInt(17), 
+    "id_north" : NumberInt(17), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(4), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(520)
+}
+{ 
+    "_id" : ObjectId("561023dde4b09f9838bc069c"), 
+    "name" : "lefoshe", 
+    "id_south" : NumberInt(18), 
+    "id_north" : NumberInt(18), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(-2), 
+    "cost" : NumberInt(660)
+}
+{ 
+    "_id" : ObjectId("561023fce4b09f9838bc06ab"), 
+    "name" : "remington", 
+    "id_south" : NumberInt(19), 
+    "id_north" : NumberInt(19), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(3), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(750)
+}
+{ 
+    "_id" : ObjectId("5610241ee4b09f9838bc06af"), 
+    "name" : "derringer", 
+    "id_south" : NumberInt(20), 
+    "id_north" : NumberInt(20), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(5), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(840)
+}
+{ 
+    "_id" : ObjectId("56102455e4b09f9838bc06b3"), 
+    "name" : "marson", 
+    "id_south" : NumberInt(21), 
+    "id_north" : NumberInt(21), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(-3), 
+    "cost" : NumberInt(1000)
+}
+{ 
+    "_id" : ObjectId("56102524e4b09f9838bc06cd"), 
+    "name" : "uniform rang 1", 
+    "id_south" : NumberInt(22), 
+    "id_north" : NumberInt(31), 
+    "tehno" : NumberInt(1), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(20)
+}
+{ 
+    "_id" : ObjectId("561025e2e4b09f9838bc06f1"), 
+    "name" : "uniform rang 2", 
+    "id_south" : NumberInt(23), 
+    "id_north" : NumberInt(32), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(1), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(50)
+}
+{ 
+    "_id" : ObjectId("56102631e4b09f9838bc06f9"), 
+    "name" : "uniform rang 3", 
+    "id_south" : NumberInt(24), 
+    "id_north" : NumberInt(33), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(1), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(70)
+}
+{ 
+    "_id" : ObjectId("5610264ee4b09f9838bc06fb"), 
+    "name" : "uniform rang 4", 
+    "id_south" : NumberInt(25), 
+    "id_north" : NumberInt(34), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(2), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(200)
+}
+{ 
+    "_id" : ObjectId("5610267de4b09f9838bc06fc"), 
+    "name" : "uniform rang 5", 
+    "id_south" : NumberInt(26), 
+    "id_north" : NumberInt(35), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(2), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(300)
+}
+{ 
+    "_id" : ObjectId("561026c1e4b09f9838bc0701"), 
+    "name" : "uniform rang 6", 
+    "id_south" : NumberInt(27), 
+    "id_north" : NumberInt(36), 
+    "tehno" : NumberInt(3), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(500)
+}
+{ 
+    "_id" : ObjectId("56102782e4b09f9838bc0718"), 
+    "name" : "uniform rang 7", 
+    "id_south" : NumberInt(28), 
+    "id_north" : NumberInt(37), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(3), 
+    "money" : NumberInt(0), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(600)
+}
+{ 
+    "_id" : ObjectId("561027a0e4b09f9838bc071a"), 
+    "name" : "uniform rang 8", 
+    "id_south" : NumberInt(29), 
+    "id_north" : NumberInt(38), 
+    "tehno" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(3), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(800)
+}
+{ 
+    "_id" : ObjectId("561027cce4b09f9838bc071d"), 
+    "name" : "uniform rang 9", 
+    "id_south" : NumberInt(30), 
+    "id_north" : NumberInt(39), 
+    "tehno" : NumberInt(5), 
+    "units" : NumberInt(5), 
+    "money" : NumberInt(5), 
+    "fort" : NumberInt(0), 
+    "rov" : NumberInt(0), 
+    "rov_enemy" : NumberInt(0), 
+    "cost" : NumberInt(1000)
+}

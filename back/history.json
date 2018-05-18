@@ -1,0 +1,476 @@
+{ 
+    "_id" : ObjectId("59f385c2d309037b7789ee0f"), 
+    "date" : NumberLong(-3434313600000), 
+    "name_rus" : "Авраам Линкольн вступил в должность президента США", 
+    "name_en" : "Abraham Lincoln took office as President of the United States", 
+    "image" : "officers/linkoln.png"
+}
+{ 
+    "_id" : ObjectId("59f385c2d309037b7789ee10"), 
+    "date" : NumberLong(-3430944000000), 
+    "name_rus" : "Бомбардировка форта Самтер, Южная Каролина. Начало боевых действий.", 
+    "name_en" : "The bombing of Fort Sumter, South Carolina. The beginning of hostilities.", 
+    "image" : "battles/samter.png"
+}
+{ 
+    "_id" : ObjectId("59f385c2d309037b7789ee11"), 
+    "date" : NumberLong(-3430857600000), 
+    "name_rus" : "Капитуляция форта Самтер, Южная Каролина.", 
+    "name_en" : "The surrender of Fort Sumter, South Carolina.", 
+    "image" : "battles/samter.png"
+}
+{ 
+    "_id" : ObjectId("59f385c2d309037b7789ee12"), 
+    "date" : NumberLong(-3430684800000), 
+    "name_rus" : "Президент Линкольн объявляет о наборе 75 тысяч добровольцев.", 
+    "name_en" : "President Lincoln announces the recruitment of 75,000 volunteers", 
+    "image" : "othercard/contract.png"
+}
+{ 
+    "_id" : ObjectId("59f385c2d309037b7789ee13"), 
+    "date" : NumberLong(-3430512000000), 
+    "name_rus" : "Виргиния выходит из Союза.", 
+    "name_en" : "Virginia leaves the Union.", 
+    "image" : "other/virginia.png"
+}
+{ 
+    "_id" : ObjectId("59f385c2d309037b7789ee14"), 
+    "date" : NumberLong(-3430339200000), 
+    "name_rus" : "Конфедераты оккупируют Харперс Ферри, Виргиния.", 
+    "name_en" : "The Confederates occupy Harper's Ferry, Virginia.", 
+    "image" : "battles/harpersferry.png"
+}
+{ 
+    "_id" : ObjectId("59f38ac939286d4e008b4567"), 
+    "image" : "othercard/virginia.png", 
+    "name_rus" : "Столкновение при Биг Бэттл, Виргиния.", 
+    "name_en" : "Collision at Big Battle, Virginia", 
+    "date" : NumberLong(-3425846400000)
+}
+{ 
+    "_id" : ObjectId("59f38b8e39286d4f008b4567"), 
+    "image" : "battles/chitmauntin.png", 
+    "name_rus" : "Столкновение при Карфагене, Миссури.", 
+    "name_en" : "Collision at Carthage, Missouri.", 
+    "date" : NumberLong(-3423686400000)
+}
+{ 
+    "_id" : ObjectId("59f38bcb39286d50008b4567"), 
+    "image" : "battles/richmont.png", 
+    "name_rus" : "Столкновение при Рич Маунтин, Виргиния", 
+    "name_en" : "Collision at Rich Mountain, Virginia", 
+    "date" : NumberLong(-3423168000000)
+}
+{ 
+    "_id" : ObjectId("59f38d66c539cc4f008b4567"), 
+    "image" : "battles/manassas.png", 
+    "name_rus" : "Первое сражение при Булл-Ране, Виргиния", 
+    "name_en" : "The first battle at Bull Run, Virginia", 
+    "date" : NumberLong(-3422304000000)
+}
+{ 
+    "_id" : ObjectId("59f38e17ead83c4f008b4567"), 
+    "image" : "officers/mcclellan.png", 
+    "name_rus" : "Джордж Мак-Клелан принимает командование Потомакской армией.", 
+    "name_en" : "George McClellan assumes the command of the Potomac Army.", 
+    "date" : NumberLong(-3421785600000)
+}
+{ 
+    "_id" : ObjectId("59f38e77ead83c4e008b4567"), 
+    "image" : "othercard/blokada.png", 
+    "name_rus" : "Сражение в бухте Уилсон, Миссури.", 
+    "name_en" : "Battle of Wilson Bay, Missouri.", 
+    "date" : NumberLong(-3420576000000)
+}
+{ 
+    "_id" : ObjectId("59f4d62a54a3304f008b4567"), 
+    "image" : "othercard/imigra.png", 
+    "name_rus" : "Сражение в проливе Гаттераса, Северная Каролина.", 
+    "name_en" : "Battle of the Hatteras Strait, North Carolina.", 
+    "date" : NumberLong(-3419107200000)
+}
+{ 
+    "_id" : ObjectId("59f4dac97895fe4f008b4567"), 
+    "image" : "polk/2 kav Missuri.png", 
+    "name_rus" : "Осада и штурм Лексингтона, Миссури.", 
+    "name_en" : "Siege and assault of Lexington, Missouri.", 
+    "date" : NumberLong(-3417724800000)
+}
+{ 
+    "_id" : ObjectId("59f4db327895fe4e008b4567"), 
+    "image" : "polk/2 kav Missuri.png", 
+    "name_rus" : "2 день. Осада и штурм Лексингтона, Миссури.", 
+    "name_en" : "2 day. Siege and assault of Lexington, Missouri.", 
+    "date" : NumberLong(-3417638400000)
+}
+{ 
+    "_id" : ObjectId("59f4d67454a3304e008b4567"), 
+    "image" : "othercard/imigra.png", 
+    "name_rus" : "2 день.Сражение в проливе Гаттераса, Северная Каролина.", 
+    "name_en" : "2 day. Battle of the Hatteras Strait, North Carolina.", 
+    "date" : NumberLong(-3419020800000)
+}
+{ 
+    "_id" : ObjectId("59f4d69b54a33050008b4568"), 
+    "image" : "othercard/imigra.png", 
+    "name_rus" : "3 день. Сражение в проливе Гаттераса, Северная Каролина.", 
+    "name_en" : "3 day. Battle of the Hatteras Strait, North Carolina.", 
+    "date" : NumberLong(-3418934400000)
+}
+{ 
+    "_id" : ObjectId("59f4dc1c7895fe4f008b4568"), 
+    "image" : "polk/2 kav Missuri.png", 
+    "name_rus" : "4 день. Осада и штурм Лексингтона, Миссури.", 
+    "name_en" : "4 day. Siege and assault of Lexington, Missouri.", 
+    "date" : NumberLong(-3417465600000)
+}
+{ 
+    "_id" : ObjectId("59f4dcfe7895fe50008b4567"), 
+    "image" : "polk/2 kav Missuri.png", 
+    "name_rus" : "3 день. Осада и штурм Лексингтона, Миссури.", 
+    "name_en" : "3 day. Siege and assault of Lexington, Missouri.", 
+    "date" : NumberLong(-3417552000000)
+}
+{ 
+    "_id" : ObjectId("59f6d12ba814ae50008b4567"), 
+    "image" : "polk/2 kav Missuri.png", 
+    "name_rus" : "5 день. Осада и штурм Лексингтона, Миссури..", 
+    "name_en" : "5 day. Siege and assault of Lexington, Missouri..", 
+    "date" : NumberLong(-3417379200000)
+}
+{ 
+    "_id" : ObjectId("59f6d12ba814ae50008b4568"), 
+    "image" : "polk/2 kav Missuri.png", 
+    "name_rus" : "6 день. Осада и штурм Лексингтона, Миссури..", 
+    "name_en" : "6 day. Siege and assault of Lexington, Missouri..", 
+    "date" : NumberLong(-3417292800000)
+}
+{ 
+    "_id" : ObjectId("59f6d12ba814ae50008b4569"), 
+    "image" : "polk/2 kav Missuri.png", 
+    "name_rus" : "7 день. Осада и штурм Лексингтона, Миссури..", 
+    "name_en" : "7 day. Siege and assault of Lexington, Missouri..", 
+    "date" : NumberLong(-3417206400000)
+}
+{ 
+    "_id" : ObjectId("59f6d12ba814ae50008b456a"), 
+    "image" : "polk/2 kav Missuri.png", 
+    "name_rus" : "8 день. Осада и штурм Лексингтона, Миссури..", 
+    "name_en" : "8 day. Siege and assault of Lexington, Missouri..", 
+    "date" : NumberLong(-3417120000000)
+}
+{ 
+    "_id" : ObjectId("59f6d12ba814ae50008b456b"), 
+    "image" : "polk/2 kav Missuri.png", 
+    "name_rus" : "9 день. Осада и штурм Лексингтона, Миссури..", 
+    "name_en" : "9 day. Siege and assault of Lexington, Missouri..", 
+    "date" : NumberLong(-3417033600000)
+}
+{ 
+    "_id" : ObjectId("59f6d12ba814ae50008b456c"), 
+    "image" : "polk/1 virgin.png", 
+    "name_rus" : "Сражение при Болс Блафф, Виргиния.", 
+    "name_en" : "Battle of Bolse Bluff, Virginia.", 
+    "date" : NumberLong(-3414355200000)
+}
+{ 
+    "_id" : ObjectId("59f6d12ba814ae50008b456d"), 
+    "image" : "officers/polk.png", 
+    "name_rus" : "Сражение при Бельмонте, Миссури.", 
+    "name_en" : "Battle of Belmonte, Missouri.", 
+    "date" : NumberLong(-3412886400000)
+}
+{ 
+    "_id" : ObjectId("59f6d12ba814ae50008b456e"), 
+    "image" : "othercard/imigra.png", 
+    "name_rus" : "Сражение в заливе Порт Ройал, Южная Каролина.", 
+    "name_en" : "The Battle of Port Royal, South Carolina.", 
+    "date" : NumberLong(-3412886400000)
+}
+{ 
+    "_id" : ObjectId("59f6d12ba814ae50008b456f"), 
+    "image" : "othercard/goodolya.png", 
+    "name_rus" : "Столкновение при Чусто-Таласа, Индейская территория.", 
+    "name_en" : "Collision at Chusto-Talas, Indian Territory.", 
+    "date" : NumberLong(-3410121600000)
+}
+{ 
+    "_id" : ObjectId("59f6d12ba814ae50008b4570"), 
+    "image" : "othercard/goodolya.png", 
+    "name_rus" : "Столкновение при Чустенала, Индейская территория.", 
+    "name_en" : "Clash at Chustenala, Indian Territory.", 
+    "date" : NumberLong(-3408652800000)
+}
+{ 
+    "_id" : ObjectId("59f6d12ba814ae50008b4571"), 
+    "image" : "polk/USAbaraban.png", 
+    "name_rus" : "Сражение при Мельничном ручье, Кентукки.", 
+    "name_en" : "Battle of the Mill Creek, Kentucky.", 
+    "date" : NumberLong(-3406579200000)
+}
+{ 
+    "_id" : ObjectId("59f6d5254393254f008b4567"), 
+    "image" : "battles/donelson.png", 
+    "name_rus" : "1 день. Кампания против фортов Генри и Донельсон, Теннесси.", 
+    "name_en" : "1 day. Campaign against forts Henry and Donelson, Tennessee.", 
+    "date" : NumberLong(-3405024000000)
+}
+{ 
+    "_id" : ObjectId("59f6d5254393254f008b4568"), 
+    "image" : "battles/donelson.png", 
+    "name_rus" : "2 день. Кампания против фортов Генри и Донельсон, Теннесси.", 
+    "name_en" : "2 day. Campaign against forts Henry and Donelson, Tennessee.", 
+    "date" : NumberLong(-3404937600000)
+}
+{ 
+    "_id" : ObjectId("59f6d5254393254f008b4569"), 
+    "image" : "battles/donelson.png", 
+    "name_rus" : "3 день. Кампания против фортов Генри и Донельсон, Теннесси.", 
+    "name_en" : "3 day. Campaign against forts Henry and Donelson, Tennessee.", 
+    "date" : NumberLong(-3404851200000)
+}
+{ 
+    "_id" : ObjectId("59f6d5254393254f008b456a"), 
+    "image" : "battles/donelson.png", 
+    "name_rus" : "4 день. Кампания против фортов Генри и Донельсон, Теннесси.", 
+    "name_en" : "4 day. Campaign against forts Henry and Donelson, Tennessee.", 
+    "date" : NumberLong(-3404764800000)
+}
+{ 
+    "_id" : ObjectId("59f6d5254393254f008b456b"), 
+    "image" : "battles/donelson.png", 
+    "name_rus" : "5 день. Кампания против фортов Генри и Донельсон, Теннесси.", 
+    "name_en" : "5 day. Campaign against forts Henry and Donelson, Tennessee.", 
+    "date" : NumberLong(-3404678400000)
+}
+{ 
+    "_id" : ObjectId("59f6d5254393254f008b456c"), 
+    "image" : "battles/donelson.png", 
+    "name_rus" : "6 день. Кампания против фортов Генри и Донельсон, Теннесси.", 
+    "name_en" : "6 day. Campaign against forts Henry and Donelson, Tennessee.", 
+    "date" : NumberLong(-3404592000000)
+}
+{ 
+    "_id" : ObjectId("59f6d5254393254f008b456d"), 
+    "image" : "battles/donelson.png", 
+    "name_rus" : "7 день. Кампания против фортов Генри и Донельсон, Теннесси.", 
+    "name_en" : "7 day. Campaign against forts Henry and Donelson, Tennessee.", 
+    "date" : NumberLong(-3404505600000)
+}
+{ 
+    "_id" : ObjectId("59f6d5254393254f008b456e"), 
+    "image" : "battles/donelson.png", 
+    "name_rus" : "8 день. Кампания против фортов Генри и Донельсон, Теннесси.", 
+    "name_en" : "8 day. Campaign against forts Henry and Donelson, Tennessee.", 
+    "date" : NumberLong(-3404419200000)
+}
+{ 
+    "_id" : ObjectId("59f6d5254393254f008b456f"), 
+    "image" : "battles/donelson.png", 
+    "name_rus" : "9 день. Кампания против фортов Генри и Донельсон, Теннесси.", 
+    "name_en" : "9 day. Campaign against forts Henry and Donelson, Tennessee.", 
+    "date" : NumberLong(-3404332800000)
+}
+{ 
+    "_id" : ObjectId("59f6d5254393254f008b4570"), 
+    "image" : "battles/donelson.png", 
+    "name_rus" : "10 день. Кампания против фортов Генри и Донельсон, Теннесси.", 
+    "name_en" : "10 day. Campaign against forts Henry and Donelson, Tennessee.", 
+    "date" : NumberLong(-3404246400000)
+}
+{ 
+    "_id" : ObjectId("59f6d5254393254f008b4571"), 
+    "image" : "battles/donelson.png", 
+    "name_rus" : "11 день. Кампания против фортов Генри и Донельсон, Теннесси.", 
+    "name_en" : "11 day. Campaign against forts Henry and Donelson, Tennessee.", 
+    "date" : NumberLong(-3404160000000)
+}
+{ 
+    "_id" : ObjectId("59f6d81543932550008b4567"), 
+    "image" : "polk/1 peh S.Karol.png", 
+    "name_rus" : "Сражение на острове Роанук, Северная Каролина.", 
+    "name_en" : "Battle of Roanuck, North Carolina.", 
+    "date" : NumberLong(-3404851200000)
+}
+{ 
+    "_id" : ObjectId("59f6d81543932550008b4568"), 
+    "image" : "polk/CSAznamya.png", 
+    "name_rus" : "Столкновение при Валверде, Нью-Мексико.", 
+    "name_en" : "Collision at Valverde, New Mexico.", 
+    "date" : NumberLong(-3403728000000)
+}
+{ 
+    "_id" : ObjectId("59f6d81543932550008b4569"), 
+    "image" : "polk/9 arkanazas.png", 
+    "name_rus" : "1 день. Сражение в Пи Ридж, Арканзас.", 
+    "name_en" : "1 day. The Battle of Pi Ridge, Arkansas.", 
+    "date" : NumberLong(-3402604800000)
+}
+{ 
+    "_id" : ObjectId("59f6d81543932550008b456a"), 
+    "image" : "polk/9 arkanazas.png", 
+    "name_rus" : "2 день. Сражение в Пи Ридж, Арканзас.", 
+    "name_en" : "2 day. The Battle of Pi Ridge, Arkansas.", 
+    "date" : NumberLong(-3402518400000)
+}
+{ 
+    "_id" : ObjectId("59f6d81543932550008b456b"), 
+    "image" : "polk/9 arkanazas.png", 
+    "name_rus" : "3 день. Сражение в Пи Ридж, Арканзас.", 
+    "name_en" : "3 day. The Battle of Pi Ridge, Arkansas.", 
+    "date" : NumberLong(-3402432000000)
+}
+{ 
+    "_id" : ObjectId("59f6d81543932550008b456c"), 
+    "image" : "battles/hampton.png", 
+    "name_rus" : "Битва на Хэмптонском рейде.", 
+    "name_en" : "Battle of the Hampton Roadstead.", 
+    "date" : NumberLong(-3402345600000)
+}
+{ 
+    "_id" : ObjectId("59f6d81543932550008b456d"), 
+    "image" : "officers/stonewall.png", 
+    "name_rus" : "Начало кампании Томаса Джексона в долине Шенандоа, Вирджиния.", 
+    "name_en" : "The beginning of the Thomas Jackson campaign in the Shenandoah Valley, Virginia.", 
+    "date" : NumberLong(-3401136000000)
+}
+{ 
+    "_id" : ObjectId("59f6d81543932550008b456e"), 
+    "image" : "officers/stonewall.png", 
+    "name_rus" : "Конец кампании Томаса Джексона в долине Шенандоа, Вирджиния.", 
+    "name_en" : "End of the Thomas Jackson campaign in the Shenandoah Valley, Virginia.", 
+    "date" : NumberLong(-3394396800000)
+}
+{ 
+    "_id" : ObjectId("59f6d81543932550008b456f"), 
+    "image" : "polk/CSAznamya.png", 
+    "name_rus" : "1 день. Сражение в проходе Глориета, Нью-Мексико.", 
+    "name_en" : "1 day. Battle of Glorieta Pass, New Mexico.", 
+    "date" : NumberLong(-3400876800000)
+}
+{ 
+    "_id" : ObjectId("59f6d81543932550008b4570"), 
+    "image" : "polk/USAznamya.png", 
+    "name_rus" : "2 день. Сражение в проходе Глориета, Нью-Мексико.", 
+    "name_en" : "2 day. Battle of Glorieta Pass, New Mexico.", 
+    "date" : NumberLong(-3400790400000)
+}
+{ 
+    "_id" : ObjectId("59f6d81543932550008b4571"), 
+    "image" : "polk/CSAznamya.png", 
+    "name_rus" : "3 день. Сражение в проходе Глориета, Нью-Мексико.", 
+    "name_en" : "3 day. Battle of Glorieta Pass, New Mexico.", 
+    "date" : NumberLong(-3400704000000)
+}
+{ 
+    "_id" : ObjectId("59f6d8ff4393254d008b4567"), 
+    "image" : "polk/mcclellan.png", 
+    "name_rus" : "Начало кампания потомакской армии по Виргинскому полуострову в направлении Ричмонда.", 
+    "name_en" : "The campaign of the Potomak army on the Virginian Peninsula in the direction of Richmond began.", 
+    "date" : NumberLong(-3400012800000)
+}
+{ 
+    "_id" : ObjectId("59f6d8ff4393254d008b4568"), 
+    "image" : "polk/mcclellan.png", 
+    "name_rus" : "Окончание кампания потомакской армии по Виргинскому полуострову в направлении Ричмонда.", 
+    "name_en" : "The End of the Campaign of the Potomak Army on the Virgin Peninsula in the direction of Richmond.", 
+    "date" : NumberLong(-3397507200000)
+}
+{ 
+    "_id" : ObjectId("59f6dc694393254e008b4567"), 
+    "image" : "battles/shiloh.png", 
+    "name_rus" : "1 день. Сражение при Шайло, Теннесси.", 
+    "name_en" : "1 day. Battle of Shiloh, Tennessee.", 
+    "date" : NumberLong(-3399926400000)
+}
+{ 
+    "_id" : ObjectId("59f6dc694393254e008b4568"), 
+    "image" : "battles/shiloh.png", 
+    "name_rus" : "2 день. Сражение при Шайло, Теннесси.", 
+    "name_en" : "2 day. Battle of Shiloh, Tennessee.", 
+    "date" : NumberLong(-3399840000000)
+}
+{ 
+    "_id" : ObjectId("59f6dc694393254e008b4569"), 
+    "image" : "battles/fortroyal.png", 
+    "name_rus" : "Бомбардировка форта Пулански, Джорджия.", 
+    "name_en" : "Bombardment of Fort Pulanski, Georgia.", 
+    "date" : NumberLong(-3399580800000)
+}
+{ 
+    "_id" : ObjectId("59f6dc694393254e008b456a"), 
+    "image" : "battles/fortroyal.png", 
+    "name_rus" : "Штурм форта Пулански, Джорджия.", 
+    "name_en" : "Storming the fort Pulanski, Georgia.", 
+    "date" : NumberLong(-3399494400000)
+}
+{ 
+    "_id" : ObjectId("59f6dc694393254e008b456b"), 
+    "image" : "othercard/alabama.png", 
+    "name_rus" : "Сецессия Алабамы.", 
+    "name_en" : "Secession of Alabama.", 
+    "date" : NumberLong(-3436387200000)
+}
+{ 
+    "_id" : ObjectId("59f6dc694393254e008b456c"), 
+    "image" : "othercard/arkansas.png", 
+    "name_rus" : "Сецессия Арканзаса.", 
+    "name_en" : "Secession of  Arkansas.", 
+    "date" : NumberLong(-3428870400000)
+}
+{ 
+    "_id" : ObjectId("59f6dc694393254e008b456d"), 
+    "image" : "othercard/Georgiya.png", 
+    "name_rus" : "Сецессия Джорджии.", 
+    "name_en" : "Secession of Georgia.", 
+    "date" : NumberLong(-3436387200000)
+}
+{ 
+    "_id" : ObjectId("59f6dc694393254e008b456e"), 
+    "image" : "othercard/luiziana.png", 
+    "name_rus" : "Сецессия Луизианы.", 
+    "name_en" : "Secession of Louisiana.", 
+    "date" : NumberLong(-3436387200000)
+}
+{ 
+    "_id" : ObjectId("59f6dc694393254e008b456f"), 
+    "image" : "othercard/missisipi.png", 
+    "name_rus" : "Сецессия Мисисипи.", 
+    "name_en" : "Secession of Mississippi.", 
+    "date" : NumberLong(-3436387200000)
+}
+{ 
+    "_id" : ObjectId("59f6dc694393254e008b4570"), 
+    "image" : "othercard/n.karolina.png", 
+    "name_rus" : "Сецессия Северной Каролины.", 
+    "name_en" : "North Carolina Secession.", 
+    "date" : NumberLong(-3427574400000)
+}
+{ 
+    "_id" : ObjectId("59f6dc694393254e008b4571"), 
+    "image" : "othercard/south karol.png", 
+    "name_rus" : "Сецессия Южной Каролины.", 
+    "name_en" : "South Carolina Secession.", 
+    "date" : NumberLong(-3436387200000)
+}
+{ 
+    "_id" : ObjectId("59f6dd0c4393254f008b4572"), 
+    "image" : "othercard/tennessi.png", 
+    "name_rus" : "Сецессия Теннесси .", 
+    "name_en" : "Secession of Tennessee.", 
+    "date" : NumberLong(-3423945600000)
+}
+{ 
+    "_id" : ObjectId("59f6dd0c4393254f008b4573"), 
+    "image" : "othercard/texas.png", 
+    "name_rus" : "Сецессия Техаса.", 
+    "name_en" : "Secession of Texas.", 
+    "date" : NumberLong(-3434486400000)
+}
+{ 
+    "_id" : ObjectId("59f6dd0c4393254f008b4574"), 
+    "image" : "othercard/virginia.png", 
+    "name_rus" : "Сецессия Виргинии.", 
+    "name_en" : "Secession of Virginia.", 
+    "date" : NumberLong(-3428784000000)
+}

@@ -1,0 +1,120 @@
+{ 
+    "v" : NumberInt(1), 
+    "key" : {
+        "_id" : NumberInt(1)
+    }, 
+    "name" : "_id_", 
+    "ns" : "heroku_4fxvwmm2.banner"
+}
+{ 
+    "v" : NumberInt(1), 
+    "key" : {
+        "_id" : NumberInt(1)
+    }, 
+    "name" : "_id_", 
+    "ns" : "heroku_4fxvwmm2.games"
+}
+{ 
+    "v" : NumberInt(1), 
+    "key" : {
+        "_id" : NumberInt(1)
+    }, 
+    "name" : "_id_", 
+    "ns" : "heroku_4fxvwmm2.info"
+}
+{ 
+    "v" : NumberInt(1), 
+    "key" : {
+        "_id" : NumberInt(1)
+    }, 
+    "name" : "_id_", 
+    "ns" : "heroku_4fxvwmm2.objectlabs-system"
+}
+{ 
+    "v" : NumberInt(1), 
+    "key" : {
+        "_id" : NumberInt(1)
+    }, 
+    "name" : "_id_", 
+    "ns" : "heroku_4fxvwmm2.objectlabs-system.admin.collections"
+}
+{ 
+    "v" : NumberInt(1), 
+    "key" : {
+        "_id" : NumberInt(1)
+    }, 
+    "name" : "_id_", 
+    "ns" : "heroku_4fxvwmm2.uniform"
+}
+{ 
+    "v" : NumberInt(1), 
+    "key" : {
+        "_id" : NumberInt(1)
+    }, 
+    "name" : "_id_", 
+    "ns" : "heroku_4fxvwmm2.user"
+}
+{ 
+    "v" : NumberInt(1), 
+    "key" : {
+        "_id" : NumberInt(1)
+    }, 
+    "name" : "_id_", 
+    "ns" : "heroku_4fxvwmm2.avatar"
+}
+{ 
+    "v" : NumberInt(1), 
+    "key" : {
+        "_id" : NumberInt(1)
+    }, 
+    "name" : "_id_", 
+    "ns" : "heroku_4fxvwmm2.cards"
+}
+{ 
+    "v" : NumberInt(1), 
+    "key" : {
+        "_id" : NumberInt(1)
+    }, 
+    "name" : "_id_", 
+    "ns" : "heroku_4fxvwmm2.places"
+}
+{ 
+    "v" : NumberInt(1), 
+    "key" : {
+        "_id" : NumberInt(1)
+    }, 
+    "name" : "_id_", 
+    "ns" : "heroku_4fxvwmm2.raiting"
+}
+{ 
+    "v" : NumberInt(1), 
+    "key" : {
+        "_id" : NumberInt(1)
+    }, 
+    "name" : "_id_", 
+    "ns" : "heroku_4fxvwmm2.ii_cards"
+}
+{ 
+    "v" : NumberInt(1), 
+    "key" : {
+        "_id" : NumberInt(1)
+    }, 
+    "name" : "_id_", 
+    "ns" : "heroku_4fxvwmm2.achiviments"
+}
+{ 
+    "v" : NumberInt(2), 
+    "key" : {
+        "_id" : NumberInt(1)
+    }, 
+    "name" : "_id_", 
+    "ns" : "heroku_4fxvwmm2.history"
+}
+{ 
+    "v" : NumberInt(2), 
+    "key" : {
+        "_id" : NumberInt(1)
+    }, 
+    "name" : "_id_", 
+    "ns" : "heroku_4fxvwmm2.share"
+}
