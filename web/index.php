@@ -14,7 +14,7 @@ $port;
 
 $connection_url = getenv("MONGOLAB_URI");
 
-if ($_SERVER['SERVER_NAME'] == "freedoom-or-union.herokuapp.com") {
+if ($_SERVER['SERVER_NAME'] == "freedom-or-union.herokuapp.com") {
     $url = parse_url($connection_url);
     $host = $url["host"];
     $username = $url["user"];
