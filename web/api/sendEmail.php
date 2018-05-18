@@ -29,8 +29,9 @@ function sendEmail($user, $email, $subject, $body) {
     } catch (phpmailerException $e) {
 
         $url = 'https://api.sendgrid.com/';
-        $user = 'app38455638@heroku.com';
-        $pass = 'i4azjedy9026';
+        $user = 'app96975387@heroku.com';
+        $pass = 'rcrezxiu3483';
+
 
         $params = array(
             'api_user' => $user,
