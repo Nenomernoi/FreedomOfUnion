@@ -19,30 +19,13 @@ if ($keyApp != KEY_APP_DEBUG && $keyApp != KEY_APP_RELEASE && $keyApp != KEY_APP
 }
 
 $int196 = 196;
-$username;
-$password;
-$host;
-$db_name;
-$url;
-$port;
-
-$connection_url = getenv("MONGOLAB_URI");
 
 $dateToday = new DateTime();
 
-if ($_SERVER['SERVER_NAME'] == "freedom-or-union.herokuapp.com") {
-    $url = parse_url($connection_url);
-    $host = $url["host"];
-    $username = $url["user"];
-    $password = $url["pass"];
-    $db_name = preg_replace('/\/(.*)/', '$1', $url['path']);
-} else {
-    $host = 'ds031832.mlab.com';
-    $db_name = 'heroku_f0kmhqcc';
-    $username = 'heroku_f0kmhqcc';
-    $password = '37l24grmhrodif6438ne4p3jik';
-    $port = '31832';
-    $connection_url = "mongodb://heroku_f0kmhqcc:37l24grmhrodif6438ne4p3jik@ds031832.mlab.com:31832/heroku_f0kmhqcc
-";
-}
+$host = 'ds031832.mlab.com';
+$db_name = 'heroku_f0kmhqcc';
+$username = 'heroku_f0kmhqcc';
+$password = '37l24grmhrodif6438ne4p3jik';
+$port = '31832';
+$connection_url = "mongodb://heroku_f0kmhqcc:37l24grmhrodif6438ne4p3jik@ds031832.mlab.com:31832/heroku_f0kmhqcc";
 
