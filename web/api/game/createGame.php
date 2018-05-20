@@ -174,6 +174,7 @@ $query = array(
     "fraction" => $fraction,
     "date_time" => $dateToday->getTimestamp(),
     "atlas" => $atlas,
+     'whoIsBully' => $id_gamer,
     "turns" => array()
 );
 $collectionGame->insert($query);
