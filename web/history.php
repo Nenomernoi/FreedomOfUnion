@@ -278,7 +278,7 @@ $connection_url = "mongodb://heroku_f0kmhqcc:37l24grmhrodif6438ne4p3jik@ds031832
                         <input type="text" name="image" placeholder="image">
                         <input type="text" name="name_rus" placeholder="name_rus">
                         <input type="text" name="name_en" placeholder="name_en">
-                        <input type="date" name="date" placeholder="date"value='1864-01-01' min="1861-01-01" max="1865-12-31" >
+                        <input type="date" name="date" placeholder="date"value='1865-01-01' min="1861-01-01" max="1865-12-31" >
 
 
 
@@ -296,7 +296,7 @@ $connection_url = "mongodb://heroku_f0kmhqcc:37l24grmhrodif6438ne4p3jik@ds031832
                         <input type="text" name="image1" placeholder="image">
                         <input type="text" name="name_rus1" placeholder="name_rus">
                         <input type="text" name="name_en1" placeholder="name_en">
-                        <input type="date" name="date1" placeholder="date"value='1864-01-09' min="1861-01-01" max="1865-12-31" >
+                        <input type="date" name="date1" placeholder="date"value='1865-01-09' min="1861-01-01" max="1865-12-31" >
 
                     </td></tr>
 
@@ -310,7 +310,7 @@ $connection_url = "mongodb://heroku_f0kmhqcc:37l24grmhrodif6438ne4p3jik@ds031832
                         <input type="text" name="image2" placeholder="image">
                         <input type="text" name="name_rus2" placeholder="name_rus">
                         <input type="text" name="name_en2" placeholder="name_en">
-                        <input type="date" name="date2" placeholder="date"value='1864-01-09' min="1861-01-01" max="1865-12-31" >
+                        <input type="date" name="date2" placeholder="date"value='1865-01-09' min="1861-01-01" max="1865-12-31" >
 
                     </td></tr>
 
@@ -325,7 +325,7 @@ $connection_url = "mongodb://heroku_f0kmhqcc:37l24grmhrodif6438ne4p3jik@ds031832
                         <input type="text" name="image3" placeholder="image">
                         <input type="text" name="name_rus3" placeholder="name_rus">
                         <input type="text" name="name_en3" placeholder="name_en">
-                        <input type="date" name="date3" placeholder="date"value='1864-01-09' min="1861-01-01" max="1865-12-31" >
+                        <input type="date" name="date3" placeholder="date"value='1865-01-09' min="1861-01-01" max="1865-12-31" >
 
                     </td></tr>
 
@@ -340,7 +340,7 @@ $connection_url = "mongodb://heroku_f0kmhqcc:37l24grmhrodif6438ne4p3jik@ds031832
                         <input type="text" name="image4" placeholder="image">
                         <input type="text" name="name_rus4" placeholder="name_rus">
                         <input type="text" name="name_en4" placeholder="name_en">
-                        <input type="date" name="date4" placeholder="date"value='1864-01-09' min="1861-01-01" max="1865-12-31" >
+                        <input type="date" name="date4" placeholder="date"value='1865-01-09' min="1861-01-01" max="1865-12-31" >
 
                     </td></tr>
 
@@ -355,7 +355,7 @@ $connection_url = "mongodb://heroku_f0kmhqcc:37l24grmhrodif6438ne4p3jik@ds031832
                         <input type="text" name="image5" placeholder="image">
                         <input type="text" name="name_rus5" placeholder="name_rus">
                         <input type="text" name="name_en5" placeholder="name_en">
-                        <input type="date" name="date5" placeholder="date"value='1864-01-09' min="1861-01-01" max="1865-12-31" >
+                        <input type="date" name="date5" placeholder="date"value='1865-01-09' min="1861-01-01" max="1865-12-31" >
 
                     </td></tr>
 
@@ -370,7 +370,7 @@ $connection_url = "mongodb://heroku_f0kmhqcc:37l24grmhrodif6438ne4p3jik@ds031832
                         <input type="text" name="image6" placeholder="image">
                         <input type="text" name="name_rus6" placeholder="name_rus">
                         <input type="text" name="name_en6" placeholder="name_en">
-                        <input type="date" name="date6" placeholder="date"value='1864-01-09' min="1861-01-01" max="1865-12-31" >
+                        <input type="date" name="date6" placeholder="date"value='1865-01-09' min="1861-01-01" max="1865-12-31" >
 
                     </td></tr>
 
@@ -385,7 +385,7 @@ $connection_url = "mongodb://heroku_f0kmhqcc:37l24grmhrodif6438ne4p3jik@ds031832
                         <input type="text" name="image7" placeholder="image">
                         <input type="text" name="name_rus7" placeholder="name_rus">
                         <input type="text" name="name_en7" placeholder="name_en">
-                        <input type="date" name="date7" placeholder="date"value='1864-01-09' min="1861-01-01" max="1865-12-31" >
+                        <input type="date" name="date7" placeholder="date"value='1865-01-09' min="1861-01-01" max="1865-12-31" >
 
                     </td></tr>
 
@@ -400,7 +400,7 @@ $connection_url = "mongodb://heroku_f0kmhqcc:37l24grmhrodif6438ne4p3jik@ds031832
                         <input type="text" name="image8" placeholder="image">
                         <input type="text" name="name_rus8" placeholder="name_rus">
                         <input type="text" name="name_en8" placeholder="name_en">
-                        <input type="date" name="date8" placeholder="date"value='1864-01-09' min="1861-01-01" max="1865-12-31" >
+                        <input type="date" name="date8" placeholder="date"value='1865-01-09' min="1861-01-01" max="1865-12-31" >
 
                     </td></tr>
 
@@ -415,7 +415,7 @@ $connection_url = "mongodb://heroku_f0kmhqcc:37l24grmhrodif6438ne4p3jik@ds031832
                         <input type="text" name="image9" placeholder="image">
                         <input type="text" name="name_rus9" placeholder="name_rus">
                         <input type="text" name="name_en9" placeholder="name_en">
-                        <input type="date" name="date9" placeholder="date"value='1864-01-09' min="1861-01-01" max="1865-12-31" >
+                        <input type="date" name="date9" placeholder="date"value='1865-01-09' min="1861-01-01" max="1865-12-31" >
 
                     </td></tr>
 
@@ -430,7 +430,7 @@ $connection_url = "mongodb://heroku_f0kmhqcc:37l24grmhrodif6438ne4p3jik@ds031832
                         <input type="text" name="image0" placeholder="image">
                         <input type="text" name="name_rus0" placeholder="name_rus">
                         <input type="text" name="name_en0" placeholder="name_en">
-                        <input type="date" name="date0" placeholder="date"value='1864-01-09' min="1861-01-01" max="1865-12-31" >
+                        <input type="date" name="date0" placeholder="date"value='1865-01-09' min="1861-01-01" max="1865-12-31" >
 
                     </td></tr>
 
