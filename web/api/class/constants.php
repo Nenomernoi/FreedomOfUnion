@@ -23,7 +23,7 @@ define('MAX_TOWER', 100);
 define('DEFAULT_TOWER',20);
 define('DEFAULT_ROV', 15);
 ////потом отключить
-define('DEFAULT_RES', 30);
+define('DEFAULT_RES', 6);
 define('DEFAULT_MINE', 3);
 
 define('EMPTY_CARD', 196);
