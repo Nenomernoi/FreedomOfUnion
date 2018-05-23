@@ -66,29 +66,12 @@
         require('api/tables/html_table.class.php');
 
 
-        $username;
-        $password;
-        $host;
-        $db_name;
-        $url;
-        $port;
-
-        $connection_url = getenv("MONGOLAB_URI");
-
-        if ($_SERVER['SERVER_NAME'] == "freedoom-or-union-9804.herokuapp.com") {
-            $url = parse_url($connection_url);
-            $host = $url["host"];
-            $username = $url["user"];
-            $password = $url["pass"];
-            $db_name = preg_replace('/\/(.*)/', '$1', $url['path']);
-        } else {
-            $host = 'ds049288.mongolab.com';
-            $db_name = 'heroku_4fxvwmm2';
-            $username = 'heroku_4fxvwmm2';
-            $password = 'rc59onuvmpm6toh7ti2ht3rfhb';
-            $port = '49288';
-            $connection_url = "mongodb://heroku_4fxvwmm2:rc59onuvmpm6toh7ti2ht3rfhb@ds049288.mongolab.com:49288/heroku_4fxvwmm2";
-        }
+$host = 'ds031832.mlab.com';
+$db_name = 'heroku_f0kmhqcc';
+$username = 'heroku_f0kmhqcc';
+$password = '37l24grmhrodif6438ne4p3jik';
+$port = '31832';
+$connection_url = "mongodb://heroku_f0kmhqcc:37l24grmhrodif6438ne4p3jik@ds031832.mlab.com:31832/heroku_f0kmhqcc";
 
         $m = new MongoClient($connection_url);
         $link = $m->selectDB($db_name);
