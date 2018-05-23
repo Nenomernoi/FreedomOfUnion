@@ -39,7 +39,7 @@ if (isset($post->player_bot)) {
 }
 
 $idGame = $post->id_game;
-$card = $post->card;
+$cards = $post->cards;
 $user_uid = $post->uuid;
 
 /////////////////////////////// INIT GAMERS AND GAME///////////////////////////////////////////
@@ -176,10 +176,12 @@ foreach ($cursor as $row) {
 $isChildTurn = (strcmp($child->id, $idGamer) == 0 && $isBot == -1) || $isBot == BOT;
 
 //////////////////////////////////////////////////
-if ($isChildTurn) {
-    $child->remOneBonus($card, $link, $parent);
-} else {
-    $parent->remOneBonus($card, $link, $child);
+foreach ($cards as $card) {
+    if ($isChildTurn) {
+        $child->remOneBonus($card, $link, $parent);
+    } else {
+        $parent->remOneBonus($card, $link, $child);
+    }
 }
 
 /////////////////////////////////////////////////////////
@@ -253,21 +255,21 @@ foreach ($cursor as $row) {
 //////////////////////////////INIT ATLAS AND REPLACE CARD ON NEW/ ///////////////////////////
 
 $date = new DateTime();
-$time = $date->getTimestamp();
+foreach ($cards as $card) {
 
-$turn = array(
-    "time" => $time,
-    "card" => (int) $card,
-    "card_new" => 0,
-    "escape" => 2,
-    "progress" => $progress,
-    "bot" => (int) $isBot,
-    "id_gamer" => $idGamer,
-    "id_game" => $idGame
-);
-
-array_push($turns, $turn);
-
+    $time = $date->getTimestamp();
+    $turn = array(
+        "time" => $time,
+        "card" => (int) $card,
+        "card_new" => 0,
+        "escape" => 2,
+        "progress" => $progress,
+        "bot" => (int) $isBot,
+        "id_gamer" => $idGamer,
+        "id_game" => $idGame
+    );
+    array_push($turns, $turn);
+}
 /////////////////////////////SAVE DB  ////////////////////
 
 $query = array('_id' => new MongoId($idGame));
