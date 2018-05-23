@@ -42,8 +42,6 @@ $idGame = $post->id_game;
 $cards = $post->cards;
 $user_uid = $post->uuid;
 
- $response["text"] = $cards;
-
 /////////////////////////////// INIT GAMERS AND GAME///////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 $m = new MongoClient($connection_url);
@@ -179,8 +177,6 @@ $isChildTurn = (strcmp($child->id, $idGamer) == 0 && $isBot == -1) || $isBot == 
 
 //////////////////////////////////////////////////
 foreach ($cards as $card) {
-   
-     $response["cards"] = "foreach";
     
     if ($isChildTurn) {
         $child->remOneBonus($card, $link, $parent);
@@ -276,9 +272,6 @@ foreach ($cards as $card) {
     array_push($turns, $turn);
     
 }
-
-
-     $response["turns"] = $turns;
      
 /////////////////////////////SAVE DB  ////////////////////
 
