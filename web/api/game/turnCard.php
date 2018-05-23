@@ -38,6 +38,8 @@ $isBot = isset($post->player_bot) ? $post->player_bot : NO_BOT;
 
 $turn = array();
 
+$cardEscape = isset($post->card_escape)? $post->card_escape : array();
+
 ////////////// INIT NEW CARD AND TIME////////////////////////
 
 $cardNew = mt_rand($isBot != BOT ? MIN_CARD : MAX_CARD_DEFENCE, $isBot != BOT ? MAX_CARD : MAX_CARD_ATACK);
@@ -403,16 +405,16 @@ if ($escape == TURN) {
 
         if ($cardTurn->money_en == MINUS_ONE_BONUS) {
             if ($isChildTurn) {
-                $child->moneyRemEnemyOneBonus($card, $link, $parent);
+                $child->moneyRemEnemyOneBonus($card, $link, $parent, $cardEscape);
             } else {
-                $parent->moneyRemEnemyOneBonus($card, $link, $child);
+                $parent->moneyRemEnemyOneBonus($card, $link, $child, $cardEscape);
             }
         }
         if ($cardTurn->money_en == MINUS_TWICE_BONUS) {
             if ($isChildTurn) {
-                $child->moneyRemTwoBonus($card, $link, $parent);
+                $child->moneyRemTwoBonus($card, $link, $parent, $cardEscape);
             } else {
-                $parent->moneyRemTwoBonus($card, $link, $child);
+                $parent->moneyRemTwoBonus($card, $link, $child, $cardEscape);
             }
         }
         if ($cardTurn->money_en == MAX_BONUS_ME) {
@@ -425,16 +427,16 @@ if ($escape == TURN) {
 
         if ($cardTurn->zavod_en == MINUS_ONE_BONUS) {
             if ($isChildTurn) {
-                $child->techoRemEnemyOneBonus($card, $link, $parent);
+                $child->techoRemEnemyOneBonus($card, $link, $parent, $cardEscape);
             } else {
-                $parent->techoRemEnemyOneBonus($card, $link, $child);
+                $parent->techoRemEnemyOneBonus($card, $link, $child, $cardEscape);
             }
         }
         if ($cardTurn->zavod_en == MINUS_TWICE_BONUS) {
             if ($isChildTurn) {
-                $child->techoRemTwoBonus($card, $link, $parent);
+                $child->techoRemTwoBonus($card, $link, $parent, $cardEscape);
             } else {
-                $parent->techoRemTwoBonus($card, $link, $child);
+                $parent->techoRemTwoBonus($card, $link, $child, $cardEscape);
             }
         }
         if ($cardTurn->zavod_en == MAX_BONUS_ME) {
@@ -447,16 +449,16 @@ if ($escape == TURN) {
 
         if ($cardTurn->units_en == MINUS_ONE_BONUS) {
             if ($isChildTurn) {
-                $child->unitsRemEnemyOneBonus($card, $link, $parent);
+                $child->unitsRemEnemyOneBonus($card, $link, $parent, $cardEscape);
             } else {
-                $parent->unitsRemEnemyOneBonus($card, $link, $child);
+                $parent->unitsRemEnemyOneBonus($card, $link, $child, $cardEscape);
             }
         }
         if ($cardTurn->units_en == MINUS_TWICE_BONUS) {
             if ($isChildTurn) {
-                $child->unitsRemTwoBonus($card, $link, $parent);
+                $child->unitsRemTwoBonus($card, $link, $parent, $cardEscape);
             } else {
-                $parent->unitsRemTwoBonus($card, $link, $child);
+                $parent->unitsRemTwoBonus($card, $link, $child, $cardEscape);
             }
         }
 

@@ -405,16 +405,16 @@ class User_param {
         }
     }
 
-    public function moneyRemEnemyOneBonus($card, $link, &$userEnemy) {
-        $max = $this->remOneEnemyBonus($userEnemy->bonus_money_1, $userEnemy->bonus_money_2, $userEnemy->bonus_money_3, $link, $userEnemy);
+    public function moneyRemEnemyOneBonus($card, $link, &$userEnemy, &$cardEscape) {
+        $max = $this->remOneEnemyBonus($userEnemy->bonus_money_1, $userEnemy->bonus_money_2, $userEnemy->bonus_money_3, $link, $userEnemy, $cardEscape);
     }
 
-    public function moneyRemTwoBonus($card, $link, &$userEnemy) {
-        $this->remTwoBonus($userEnemy->bonus_money_1, $userEnemy->bonus_money_2, $userEnemy->bonus_money_3, $link, $userEnemy);
+    public function moneyRemTwoBonus($card, $link, &$userEnemy, &$cardEscape) {
+        $this->remTwoBonus($userEnemy->bonus_money_1, $userEnemy->bonus_money_2, $userEnemy->bonus_money_3, $link, $userEnemy, $cardEscape);
     }
 
     public function moneyMaxEnemyUser($card, $link, &$userEnemy) {
-        $max = $this->remOneEnemyBonus($userEnemy->bonus_money_1, $userEnemy->bonus_money_2, $userEnemy->bonus_money_3, $link, $userEnemy);
+        $max = $this->remOneEnemyBonus($userEnemy->bonus_money_1, $userEnemy->bonus_money_2, $userEnemy->bonus_money_3, $link, $userEnemy, array());
         if ($max == EMPTY_CARD || $max != 0 && $max != $this->bonus_money_1 && $max != $this->bonus_money_2 && $max != $this->bonus_money_3) {
             $this->setBonus($this->bonus_money_1, $this->bonus_money_2, $this->bonus_money_3, $max, $link, $userEnemy);
         }
@@ -428,16 +428,16 @@ class User_param {
         }
     }
 
-    public function techoRemEnemyOneBonus($card, $link, &$userEnemy) {
-        $max = $this->remOneEnemyBonus($userEnemy->bonus_techo_1, $userEnemy->bonus_techo_2, $userEnemy->bonus_techo_3, $link, $userEnemy);
+    public function techoRemEnemyOneBonus($card, $link, &$userEnemy, &$cardEscape) {
+        $max = $this->remOneEnemyBonus($userEnemy->bonus_techo_1, $userEnemy->bonus_techo_2, $userEnemy->bonus_techo_3, $link, $userEnemy, $cardEscape);
     }
 
-    public function techoRemTwoBonus($card, $link, &$userEnemy) {
-        $this->remTwoBonus($userEnemy->bonus_techo_1, $userEnemy->bonus_techo_2, $userEnemy->bonus_techo_3, $link, $userEnemy);
+    public function techoRemTwoBonus($card, $link, &$userEnemy, &$cardEscape) {
+        $this->remTwoBonus($userEnemy->bonus_techo_1, $userEnemy->bonus_techo_2, $userEnemy->bonus_techo_3, $link, $userEnemy, $cardEscape);
     }
 
     public function techoMaxEnemyUser($card, $link, &$userEnemy) {
-        $max = $this->remOneEnemyBonus($userEnemy->bonus_techo_1, $userEnemy->bonus_techo_2, $userEnemy->bonus_techo_3, $link, $userEnemy);
+        $max = $this->remOneEnemyBonus($userEnemy->bonus_techo_1, $userEnemy->bonus_techo_2, $userEnemy->bonus_techo_3, $link, $userEnemy, array());
         if ($max == EMPTY_CARD || $max != 0 && $max != $this->bonus_techo_1 && $max != $this->bonus_techo_2 && $max != $this->bonus_techo_3) {
             $this->setBonus($this->bonus_techo_1, $this->bonus_techo_2, $this->bonus_techo_3, $max, $link, $userEnemy);
         }
@@ -451,17 +451,17 @@ class User_param {
         }
     }
 
-    public function unitsRemEnemyOneBonus($card, $link, &$userEnemy) {
-        $max = $this->remOneEnemyBonus($userEnemy->bonus_units_1, $userEnemy->bonus_units_2, $userEnemy->bonus_units_3, $link, $userEnemy);
+    public function unitsRemEnemyOneBonus($card, $link, &$userEnemy, &$cardEscape) {
+        $max = $this->remOneEnemyBonus($userEnemy->bonus_units_1, $userEnemy->bonus_units_2, $userEnemy->bonus_units_3, $link, $userEnemy, $cardEscape);
     }
 
-    public function unitsRemTwoBonus($card, $link, &$userEnemy) {
-        $this->remTwoBonus($userEnemy->bonus_units_1, $userEnemy->bonus_units_2, $userEnemy->bonus_units_3, $link, $userEnemy);
+    public function unitsRemTwoBonus($card, $link, &$userEnemy, &$cardEscape) {
+        $this->remTwoBonus($userEnemy->bonus_units_1, $userEnemy->bonus_units_2, $userEnemy->bonus_units_3, $link, $userEnemy, $cardEscape);
     }
 
     public function unitsMaxEnemyUser($card, $link, &$userEnemy) {
 
-        $max = $this->remOneEnemyBonus($userEnemy->bonus_units_1, $userEnemy->bonus_units_2, $userEnemy->bonus_units_3, $link, $userEnemy);
+        $max = $this->remOneEnemyBonus($userEnemy->bonus_units_1, $userEnemy->bonus_units_2, $userEnemy->bonus_units_3, $link, $userEnemy, array());
 
         if ($max == EMPTY_CARD || $max != 0 && $max != $this->bonus_units_1 && $max != $userEnemy->bonus_units_2 && $max != $userEnemy->bonus_units_3) {
             $this->setBonus($this->bonus_units_1, $this->bonus_units_2, $this->bonus_units_3, $max, $link, $userEnemy);
@@ -483,7 +483,22 @@ class User_param {
 
     ////////////////////// DEFAULT REMOVE MAX ENEMY BONUS /////////////////////
 
-    public function &remOneEnemyBonus(&$bonus_1, &$bonus_2, &$bonus_3, $link, &$cardEnemy) {
+    public function &remOneEnemyBonus(&$bonus_1, &$bonus_2, &$bonus_3, $link, &$cardEnemy, &$cardEscape) {
+
+
+        $cardSQLBuf = new Card();
+        $max = 0;
+
+        if (!empty($cardEscape)) {
+
+            foreach ($cardEscape as $id) {
+                $this->getCard($cardSQLBuf, $id, $link);
+                $this->remEnemyBonusRes($cardEnemy, $cardSQLBuf);
+            }
+
+            return $max;
+        }
+
 
         if ($bonus_1 == EMPTY_CARD) {
             $bonus_1 = 0;
@@ -495,8 +510,6 @@ class User_param {
             $bonus_3 = 0;
         }
 
-        $cardSQLBuf = new Card();
-        $max = 0;
 
         if ($bonus_1 >= $bonus_2) {
 
@@ -538,7 +551,21 @@ class User_param {
 
     ////////////////////// DEFAULT REMOVE TWO MAX BONUS /////////////////////// 
 
-    public function remTwoBonus(&$bonus_1, &$bonus_2, &$bonus_3, $link, &$cardEnemy) {
+    public function remTwoBonus(&$bonus_1, &$bonus_2, &$bonus_3, $link, &$cardEnemy, &$cardEscape) {
+
+        $cardSQLBuf = new Card();
+        $cards = array();
+
+        if (!empty($cardEscape)) {
+
+            foreach ($cardEscape as $id) {
+                $this->getCard($cardSQLBuf, $id, $link);
+                $this->remEnemyBonusRes($cardEnemy, $cardSQLBuf);
+            }
+            return;
+        }
+
+
         if ($bonus_1 == EMPTY_CARD) {
             $bonus_1 = 0;
         }
@@ -549,15 +576,13 @@ class User_param {
             $bonus_3 = 0;
         }
 
-        $cardSQLBuf = new Card();
 
-        $cards = array();
         array_push($cards, $bonus_1);
         array_push($cards, $bonus_2);
         array_push($cards, $bonus_3);
 
         rsort($cards);
-        
+
         $max1 = $cards[0];
         $max2 = $cards[1];
 
