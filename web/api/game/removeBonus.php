@@ -172,6 +172,8 @@ foreach ($cursor as $row) {
     $child->fraction = $row['fraction_child'];
 }
 
+$turnCount = sizeof($turns);
+
 ////// TURN CHILD?
 $isChildTurn = (strcmp($child->id, $idGamer) == 0 && $isBot == -1) || $isBot == BOT;
 
@@ -261,6 +263,7 @@ foreach ($cards as $card) {
     $time = $date->getTimestamp();
     $turn = array(
         "time" => $time,
+        "turn_count"=>$turnCount +1,
         "card" => (int) $card,
         "card_new" => 0,
         "escape" => 2,

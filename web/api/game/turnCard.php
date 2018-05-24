@@ -239,6 +239,8 @@ foreach ($cursor as $row) {
     );
 }
 
+$turnCount = sizeof($turns);
+
 //////////////////////////////////////////////////////////////////////
 
 $fractions = array();
@@ -978,6 +980,7 @@ if (!$isAgain) {
             /////////////////////////////SAVE TURN FIREBASE ////////////////////
             $turn = array(
                 "time" => $time,
+                "turn_count"=>$turnCount +1,
                 "card" => (int) $card,
                 "card_new" => $cardNew,
                 "escape" => (int) $escape,
@@ -1375,6 +1378,7 @@ $params = array(
 /////////////////////////////SAVE TURN FIREBASE ////////////////////
 $turn = array(
     "time" => $time,
+     "turn_count"=>$turnCount +1,
     "card" => (int) $card,
     "card_new" => $cardNew,
     "escape" => (int) $escape,
