@@ -179,7 +179,7 @@ $isChildTurn = (strcmp($child->id, $idGamer) == 0 && $isBot == -1) || $isBot == 
 
 //////////////////////////////////////////////////
 foreach ($cards as $card) {
-    
+
     if ($isChildTurn) {
         $child->remOneBonus($card, $link, $parent);
     } else {
@@ -263,7 +263,7 @@ foreach ($cards as $card) {
     $time = $date->getTimestamp();
     $turn = array(
         "time" => $time,
-        "turn_count"=>$turnCount +1,
+        "turn_count" => $turnCount + 1,
         "card" => (int) $card,
         "card_new" => 0,
         "escape" => 2,
@@ -273,9 +273,8 @@ foreach ($cards as $card) {
         "id_game" => $idGame
     );
     array_push($turns, $turn);
-    
 }
-     
+
 /////////////////////////////SAVE DB  ////////////////////
 
 $query = array('_id' => new MongoId($idGame));
@@ -301,6 +300,7 @@ if (isset($registrationIds) && $isBot == NO_BOT) {
     $dataTurn[DATA][ACHIVIMENTS_PATH] = $upd->getLastAch($link, $idEnemy);
     $dataTurn[DATA][TURNS_PATH] = $dataTurns;
     $dataTurn[DATA][PROGRESS] = $progress;
+    $dataTurn[DATA][TURN_COUNT] = $turnCount + 1;
     $dataTurn[SUCCESS] = CODE_COMPLITE;
 
     $firebase = new Firebase();
@@ -326,6 +326,7 @@ if (isset($registrationIds) && $isBot == NO_BOT) {
 $response[DATA][ACHIVIMENTS_PATH] = NULL;
 $response[DATA][PROGRESS] = $progress;
 $response[DATA][TIME] = $time;
+$response[DATA][TURN_COUNT] = $turnCount + 1;
 $response[SUCCESS] = CODE_COMPLITE;
 $response[MESSAGE] = $lang ? CODE_COMPLITE_EN : CODE_COMPLITE_RU;
 $m->close();

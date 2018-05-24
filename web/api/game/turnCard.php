@@ -248,7 +248,9 @@ $fractions["parent"] = $parent->fraction;
 $fractions["parent_id"] = $parent->id;
 $fractions["child"] = $child->fraction;
 $fractions["child_id"] = $child->id;
-$response[DATA]["fraction"] = $fractions;
+
+$response[DATA][FRACTION] = $fractions;
+$response[DATA][TURN_COUNT] = $turnCount + 1;
 
 //////////////////////////////INIT ATLAS  AND REPLACE CARD ON NEW/ ///////////////////////////
 $minCard = 0;
@@ -313,6 +315,7 @@ if ($issetCardToAtlas == FALSE) {
     $response[DATA][ACHIVIMENTS_PATH] = $upd->getLastAch($link, $idGamer);
     $response[DATA][PROGRESS] = $progress;
     $response[DATA][CARD] = $cardNew;
+    $response[DATA][TURN_COUNT] = $turnCount + 1;
     $response[SUCCESS] = CODE_ERROR_NOT_FOUND;
     $response[MESSAGE] = $lang ? CODE_ERROR_SYNC_EN : CODE_ERROR_SYNC_RU;
     $response[EXTRA_MESSAGE] = $lang ? CODE_ERROR_NOT_FOUND_GARD_EN : CODE_ERROR_NOT_FOUND_GARD_RU;
@@ -335,6 +338,7 @@ if ($cursor->count() <= 0) {
     $response[DATA][ACHIVIMENTS_PATH] = $upd->getLastAch($link, $idGamer);
     $response[DATA][PROGRESS] = $progress;
     $response[DATA][CARD] = $cardNew;
+    $response[DATA][TURN_COUNT] = $turnCount + 1;
     $response[SUCCESS] = CODE_ERROR_NOT_FOUND;
     $response[MESSAGE] = $lang ? CODE_ERROR_NOT_FOUND_GARD_EN : CODE_ERROR_NOT_FOUND_GARD_RU;
     $response[LEVEL] = 268;
@@ -370,6 +374,7 @@ if ($escape == TURN) {
         $response[DATA][ACHIVIMENTS_PATH] = $upd->getLastAch($link, $idGamer);
         $response[DATA][PROGRESS] = $progress;
         $response[DATA][CARD] = $cardNew;
+        $response[DATA][TURN_COUNT] = $turnCount + 1;
         $response[SUCCESS] = CODE_ERROR_NOT_ENOUGHT_MONEY;
         $response[MESSAGE] = $lang ? CODE_ERROR_SYNC_EN : CODE_ERROR_SYNC_RU;
         $response[EXTRA_MESSAGE] = $lang ? CODE_ERROR_NOT_ENOUGHT_RESOURSE_EN : CODE_ERROR_NOT_ENOUGHT_RESOURSE_RU;
@@ -1066,11 +1071,12 @@ if (!$isAgain) {
                 }
 
                 $dataTurn = array();
-                $dataTurn[DATA]["fraction"] = $fractions;
+                $dataTurn[DATA][FRACTION] = $fractions;
                 $dataTurn[DATA][ACHIVIMENTS_PATH] = $upd->getLastAch($link, $idEnemy);
                 $dataTurn[DATA][TURNS_PATH] = $dataTurns;
                 $dataTurn[DATA][PROGRESS] = $progress;
                 $dataTurn[DATA][ATLAS] = $atlas;
+                $dataTurn[DATA][TURN_COUNT] = $turnCount + 1;
                 $dataTurn[SUCCESS] = CODE_COMPLITE;
 
                 $firebase = new Firebase();
@@ -1093,9 +1099,10 @@ if (!$isAgain) {
             }
             /////////////////////////////
 
-            $response[DATA]["fraction"] = $fractions;
+            $response[DATA][FRACTION] = $fractions;
 
             $response[DATA][TIME] = $time;
+            $response[DATA][TURN_COUNT] = $turnCount + 1;
             $response[DATA][ATLAS] = $atlas;
             $response[DATA][PROGRESS] = $progress;
             $response[DATA][CARD] = $cardNew;
@@ -1316,6 +1323,7 @@ if (strcmp($parent->id, $child->id) == 0 && $progress != GAME_PLAY) {
 
     //////////////////////////////////////////////////////////////////////
     $response[DATA][PROGRESS] = $progress;
+    $response[DATA][TURN_COUNT] = $turnCount + 1;
     $response[DATA][CARD] = $cardNew;
     $response[SUCCESS] = CODE_COMPLITE;
     $response[MESSAGE] = $lang ? CODE_COMPLITE_EN : CODE_COMPLITE_RU;
@@ -1494,10 +1502,11 @@ if (isset($registrationIds) && $isBot == NO_BOT) {
     }
 
     $dataTurn = array();
-    $dataTurn[DATA]["fraction"] = $fractions;
+    $dataTurn[DATA][FRACTION] = $fractions;
     $dataTurn[DATA][ACHIVIMENTS_PATH] = $upd->getLastAch($link, $idEnemy);
     $dataTurn[DATA][TURNS_PATH] = $dataTurns;
     $dataTurn[DATA][PROGRESS] = $progress;
+    $dataTurn[DATA][TURN_COUNT] = $turnCount + 1;
     $dataTurn[DATA][ATLAS] = $atlas;
     $dataTurn[SUCCESS] = CODE_COMPLITE;
 
@@ -1522,8 +1531,9 @@ if (isset($registrationIds) && $isBot == NO_BOT) {
 
 
 ////////////////////////////////////////////////////
-$response[DATA]["fraction"] = $fractions;
+$response[DATA][FRACTION] = $fractions;
 $response[DATA][TIME] = $time;
+$response[DATA][TURN_COUNT] = $turnCount + 1;
 $response[DATA][ATLAS] = $atlas;
 $response[DATA][PROGRESS] = $progress;
 $response[DATA][CARD] = $cardNew;

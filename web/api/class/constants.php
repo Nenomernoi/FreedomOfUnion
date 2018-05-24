@@ -82,6 +82,8 @@ define('PROGRESS', "progress");
 define('ATLAS', "atlas");
 define('CORRECT', "correct");
 define('TIME', "time");
+define('TURN_COUNT', "turn_count");
+define('FRACTION', "fraction");
 define('PUSH', "push");
 
 define('PACKET_CHESS', "by.nenomernoi.chess");
