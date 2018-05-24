@@ -52,10 +52,12 @@ if ($cursor->count() <= 0) {
     die(json_encode($response, JSON_UNESCAPED_SLASHES));
 }
 
-foreach ($cursor as $row){
+foreach ($cursor as $row) {
     $turns = $row[TURNS_PATH];
     $atlas = $row[ATLAS];
 }
+
+$turnCount = sizeof($turns);
 
 $response[DATA][TURNS_PATH] = array();
 
@@ -65,7 +67,7 @@ foreach ($reversed as $turn) {
 
     if ($turn[TIME] > $time) {
 
-       array_push($response[DATA][TURNS_PATH], $turn);
+        array_push($response[DATA][TURNS_PATH], $turn);
 
         if ($turn[PROGRESS] != GAME_PLAY) {
 
@@ -75,14 +77,13 @@ foreach ($reversed as $turn) {
 
             $response[DATA][ACHIVIMENTS_PATH] = $upd->getLastAch($link, $idUser);
         }
-        
     } else {
         break;
     }
 }
 
- $response[DATA][TURNS_PATH] = array_reverse($response[DATA][TURNS_PATH]);
-
+$response[DATA][TURNS_PATH] = array_reverse($response[DATA][TURNS_PATH]);
+$response[DATA][TURN_COUNT] = $turnCount + 1;
 $response[LEVEL] = 122;
 $response[SUCCESS] = CODE_COMPLITE;
 $response[MESSAGE] = $lang ? CODE_COMPLITE_EN : CODE_COMPLITE_RU;
