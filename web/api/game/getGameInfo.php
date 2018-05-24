@@ -166,6 +166,8 @@ foreach ($cursor as $row) {
     }
 }
 
+$turnCount = sizeof($turns);
+
 if (strcmp($parent["id"], $idGamer) == 0) {
     $parent["fraction"] = $fraction;
 } else {
@@ -212,11 +214,9 @@ foreach ($reversed as $item) {
 }
 
 $response[DATA][TURNS_PATH] = array_reverse($response[DATA][TURNS_PATH]);
-
-$response[DATA]["atlas"] = $atlas;
-
-$response[DATA]["lats_time"] = $lastTime;
-
+$response[DATA][TURN_COUNT] = $turnCount + 1;
+$response[DATA][ATLAS] = $atlas;
+$response[DATA][LAST_TIME] = $lastTime;
 $response[SUCCESS] = CODE_COMPLITE;
 $response[MESSAGE] = $lang ? CODE_COMPLITE_EN : CODE_COMPLITE_RU;
 $m->close();

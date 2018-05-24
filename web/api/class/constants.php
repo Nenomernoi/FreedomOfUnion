@@ -82,6 +82,7 @@ define('PROGRESS', "progress");
 define('ATLAS', "atlas");
 define('CORRECT', "correct");
 define('TIME', "time");
+define('LAST_TIME', "lats_time");
 define('TURN_COUNT', "turn_count");
 define('FRACTION', "fraction");
 define('PUSH', "push");
