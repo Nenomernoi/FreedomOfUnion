@@ -39,6 +39,7 @@ foreach ($cursor as $row) {
     $collectionGame = $link->selectCollection(TABLE_GAMES);
     $query = array('_id' => new MongoId($idGame));
     $cursorGame = $collectionGame->find($query);
+
     foreach ($cursorGame as $rowGame) {
 
         $collectionGame->remove($query);
@@ -51,7 +52,7 @@ foreach ($cursor as $row) {
         $registrationIds = null;
         $idEnemy = null;
         $queryReg = null;
-        
+
         if (strcmp($parent->id, $idGamer) != 0) {
             $queryReg = array('_id' => new MongoId($parent->id));
         }
@@ -113,7 +114,8 @@ foreach ($cursor as $row) {
         $res = $firebase->send($registrationIds, $json);
     }
 }
-
+$query = array('user_uid' => $user_uid);
+$collectionUser->remove($query);
 
 $response[SUCCESS] = CODE_COMPLITE;
 $response[MESSAGE] = $lang ? CODE_COMPLITE_EN : CODE_COMPLITE_RU;
