@@ -33,7 +33,7 @@ if ($cursor->count() <= 0) {
 $id_parent = null;
 
 foreach ($cursor as $row) {
-    $id_parent = $row["id_parent"]->{'$id'};
+    $id_parent = $row["_id"]->{'$id'};
     $idGame = isset($row["id_game"]) ? $row["id_game"]->{'$id'} : null;
 
     $collectionGame = $link->selectCollection(TABLE_GAMES);
