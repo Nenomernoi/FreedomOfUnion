@@ -45,9 +45,6 @@ if ($cursor->count() <= 0) {
     die(json_encode($response, JSON_UNESCAPED_SLASHES));
 }
 
-
-
-
 /////////////////////////////////////////////////////////////////////////
 
 $collectionGame = $link->selectCollection(TABLE_GAMES);
@@ -117,6 +114,7 @@ if ($idGame != null) {
             $response[MESSAGE] = $lang ? CODE_ERROR_YOU_IN_GAME_EN : CODE_ERROR_YOU_IN_GAME_RU;
             $m->close();
             die(json_encode($response, JSON_UNESCAPED_SLASHES));
+            
         } else {
 
             $query = array('user_uid' => $user_uid);
