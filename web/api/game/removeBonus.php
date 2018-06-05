@@ -121,6 +121,7 @@ foreach ($cursor as $row) {
 
 
     $tenserTurns["state"] = $row;
+    $tenserTurns["state"]["turns"] = null;
 
     $turns = $row["turns"];
 
