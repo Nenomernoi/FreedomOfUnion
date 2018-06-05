@@ -64,6 +64,7 @@ define('TABLE_UNIFORM', "uniform");
 define('TABLE_INFO', "info");
 define('TABLE_CARDS', "cards");
 define('TABLE_BANNER', "banner");
+define('TABLE_TURNS', "turns");
 define('TABLE_AVATAR', "avatar");
 define('TABLE_PLACES', "places");
 define('TABLE_PAYMENT', "payment");
