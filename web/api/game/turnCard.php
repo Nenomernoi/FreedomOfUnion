@@ -38,7 +38,7 @@ $isBot = isset($post->player_bot) ? $post->player_bot : NO_BOT;
 
 $turn = array();
 
-$cardEscape = isset($post->card_escape)? $post->card_escape : array();
+$cardEscape = isset($post->card_escape) ? $post->card_escape : array();
 
 ////////////// INIT NEW CARD AND TIME////////////////////////
 
@@ -122,6 +122,15 @@ if ($cursor->count() <= 0) {
 
 //////////////////////////////////////////
 
+
+$tenserTurns = array();
+$tenserTurns["game"] = $idGame;
+$tenserTurns["gamer"] = $idGamer;
+$tenserTurns["mode"] = $escape;
+$tenserTurns["card"] = $card;
+
+//////////////////////////////////////////
+
 $isWhoBully = $idGamer;
 
 $game = null;
@@ -156,6 +165,8 @@ foreach ($cursor as $row) {
         $m->close();
         die(json_encode($response, JSON_UNESCAPED_SLASHES));
     }
+
+    $tenserTurns["state"] = $row;
 
     $turns = $row["turns"];
 
@@ -239,6 +250,14 @@ foreach ($cursor as $row) {
     );
 }
 
+//////////////////////////////////////////////////////////////////////////////
+
+if ($isBot != BOT) {
+    $collectionTensor = $link->selectCollection(TABLE_TURNS);
+    $collectionTensor->insert($tenserTurns);
+}
+//////////////////////////////////////////////////////////////////////////////
+
 $turnCount = sizeof($turns);
 
 //////////////////////////////////////////////////////////////////////
@@ -257,8 +276,7 @@ $minCard = 0;
 $maxCard = 5;
 
 ////// TURN CHILD?
-$isChildTurn = (strcmp($child->id, $idGamer) == 0 && $isBot == NO_BOT 
-        && strcmp($parent->id, $idGamer) != 0 ) || $isBot == BOT;
+$isChildTurn = (strcmp($child->id, $idGamer) == 0 && $isBot == NO_BOT && strcmp($parent->id, $idGamer) != 0 ) || $isBot == BOT;
 
 if ($isChildTurn) {
     $minCard = 5;
@@ -266,7 +284,6 @@ if ($isChildTurn) {
 }
 
 //$response[DATA]["TEXT"] = "minCard->".$minCard." maxCard->".$maxCard."  ".$isChildTurn;
-
 //is check on double card in atlas 
 
 $queryCard = array('_id' => new MongoInt32($cardNew));
@@ -512,7 +529,7 @@ if ($escape == TURN) {
                 $parent->state += $parent->state == 1 ? 0 : -1;
             }
         }
-         if ($cardTurn->units_en == EQUAL_MAX_OR_MIN_TWICE) {
+        if ($cardTurn->units_en == EQUAL_MAX_OR_MIN_TWICE) {
             if (!$isChildTurn) {
                 $child->state += $child->state == 1 ? 0 : -2;
             } else {
@@ -752,18 +769,17 @@ if ($escape == TURN) {
                     break;
 
                 ////OTHER CARDS
-            /*
-                default :
-                    for ($i = $minCard; $i < $maxCard; ++$i) {
-                        if ($atlas[$i] == $cardNew) {
-                            continue;
-                        }
-                        $atlas[$i] = $cardsArray[mt_rand(0, $maxCards)];
-                    }
-                    break;
-            */
-                    
-                        }
+                /*
+                  default :
+                  for ($i = $minCard; $i < $maxCard; ++$i) {
+                  if ($atlas[$i] == $cardNew) {
+                  continue;
+                  }
+                  $atlas[$i] = $cardsArray[mt_rand(0, $maxCards)];
+                  }
+                  break;
+                 */
+            }
         }
 
 
@@ -979,13 +995,12 @@ if (!$isAgain) {
         }
 
         if ($cardBack->esc == 9 && $escape_back == 0 && strcmp($idBack, $idGamer) == 0) {
-            
-       //        $response[DATA]["969"] = array();
 
+            //        $response[DATA]["969"] = array();
             /////////////////////////////SAVE TURN FIREBASE ////////////////////
             $turn = array(
                 "time" => $time,
-                "turn_count"=>$turnCount +1,
+                "turn_count" => $turnCount + 1,
                 "card" => (int) $card,
                 "card_new" => $cardNew,
                 "escape" => (int) $escape,
@@ -1386,7 +1401,7 @@ $params = array(
 /////////////////////////////SAVE TURN FIREBASE ////////////////////
 $turn = array(
     "time" => $time,
-     "turn_count"=>$turnCount +1,
+    "turn_count" => $turnCount + 1,
     "card" => (int) $card,
     "card_new" => $cardNew,
     "escape" => (int) $escape,

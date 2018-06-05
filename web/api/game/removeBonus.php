@@ -88,6 +88,12 @@ $child = new User_param();
 
 $turns = array();
 
+$tenserTurns = array();
+$tenserTurns["game"] = $idGame;
+$tenserTurns["gamer"] = $idGamer;
+$tenserTurns["mode"] = 2;
+$tenserTurns["card"] = $cards;
+
 foreach ($cursor as $row) {
 
     $progress = $row[PROGRESS];
@@ -111,6 +117,10 @@ foreach ($cursor as $row) {
         $m->close();
         die(json_encode($response, JSON_UNESCAPED_SLASHES));
     }
+
+
+
+    $tenserTurns["state"] = $row;
 
     $turns = $row["turns"];
 
@@ -171,6 +181,13 @@ foreach ($cursor as $row) {
 
     $child->fraction = $row['fraction_child'];
 }
+
+//////////////////////////////////////////////////////////////////////////////
+
+$collectionTensor = $link->selectCollection(TABLE_TURNS);
+$collectionTensor->insert($tenserTurns);
+
+//////////////////////////////////////////////////////////////////////////////
 
 $turnCount = sizeof($turns);
 
