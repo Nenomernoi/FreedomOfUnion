@@ -118,10 +118,8 @@ foreach ($cursor as $row) {
         die(json_encode($response, JSON_UNESCAPED_SLASHES));
     }
 
-
-
-    $tenserTurns["state"]["turns"] = $row["turns"];
-    $tenserTurns["state"]["params"] = $row["params"];
+    $tenserTurns["atlas"] = $row["atlas"];
+    $tenserTurns["params"] = $row["params"];
 
     $turns = $row["turns"];
 
