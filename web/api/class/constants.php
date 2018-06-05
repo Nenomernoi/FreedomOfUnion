@@ -96,8 +96,9 @@ define('PACKET_ID_CALC', 1);
 define('EN', "en");
 define('RU', "ru");
 
-define('PATH_IMAGE', PATH_BASE."/api/load/images/");
 define('PATH_BASE', "https://freedom-or-union.herokuapp.com/");
+define('PATH_IMAGE', PATH_BASE."/api/load/images/");
+
 
 define('CODE_COMPLITE_EN', "Successfully");
 define('CODE_COMPLITE_RU', "Успешно");
