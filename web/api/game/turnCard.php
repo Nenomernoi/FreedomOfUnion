@@ -166,8 +166,8 @@ foreach ($cursor as $row) {
         die(json_encode($response, JSON_UNESCAPED_SLASHES));
     }
 
-    $tenserTurns["state"] = $row;
-    $tenserTurns["state"]["turns"] = null;
+    $tenserTurns["state"]["turns"] = $row["turns"];
+    $tenserTurns["state"]["params"] = $row["params"];
 
     $turns = $row["turns"];
 
