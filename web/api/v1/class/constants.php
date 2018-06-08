@@ -3,13 +3,13 @@
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
-define('DATA_BASE_AVATAR_VERSION', 1528486292);
-define('DATA_BASE_INFORMATION_VERSION', 1528486292);
-define('DATA_BASE_UNIFORM_VERSION', 1528486292);
-define('DATA_BASE_ACHIVIMENTS_VERSION', 1528486292);
-define('DATA_BASE_CARDS_VERSION', 1528486292);
-define('DATA_BASE_BANNER_VERSION', 1528486292);
-define('DATA_BASE_HISTORY_VERSION', 1528486292);
+define('DATA_BASE_AVATAR_VERSION', 1528486293);
+define('DATA_BASE_INFORMATION_VERSION', 1528486293);
+define('DATA_BASE_UNIFORM_VERSION', 1528486293);
+define('DATA_BASE_ACHIVIMENTS_VERSION', 1528486293);
+define('DATA_BASE_CARDS_VERSION', 1528486293);
+define('DATA_BASE_BANNER_VERSION', 1528486293);
+define('DATA_BASE_HISTORY_VERSION', 1528486293);
 
 define('VERSION', "version");
 
@@ -97,7 +97,7 @@ define('EN', "en");
 define('RU', "ru");
 
 define('PATH_BASE', "https://freedom-or-union.herokuapp.com/");
-define('PATH_IMAGE', PATH_BASE."/api/load/images/");
+define('PATH_IMAGE', PATH_BASE."/api/v1/load/images/");
 
 
 define('CODE_COMPLITE_EN', "Successfully");
