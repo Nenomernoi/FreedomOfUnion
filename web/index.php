@@ -2,7 +2,7 @@
 <?php
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
-require('api/tables/html_table.class.php');
+require('api/v1/tables/html_table.class.php');
 
 $int196 = 196;
 
