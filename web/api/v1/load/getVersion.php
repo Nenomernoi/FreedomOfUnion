@@ -11,7 +11,7 @@ $keyApp = $_SERVER['HTTP_APPKEY'];
 $lang = $_SERVER["HTTP_LANG"] != RU;
 
 
-if ($keyApp != KEY_APP_DEBUG && $keyApp != KEY_APP_RELEASE && $keyApp != KEY_APP_DEBUG_WORK) {
+if ($keyApp != KEY_APP_DEBUG && $keyApp != KEY_APP_RELEASE && $keyApp != KEY_APP_DEBUG_WORK   && $keyApp != KEY_APP_RELEASE_NO_ADS) {
     $response[SUCCESS] = CODE_ERROR_SECURITY;
     $response[MESSAGE] = CODE_ERROR_SECURITY_EN;
     die(json_encode($response));
