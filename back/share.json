@@ -1,12 +1,48 @@
 { 
-    "_id" : ObjectId("5a4f3152c67a7a50008b4567"), 
+    "_id" : ObjectId("5aa021e3263b3a4d008b4567"), 
     "uuid" : "59ba7f07baff6a4f008b4568", 
     "device" : "564eda907007c977", 
-    "date_time" : NumberLong(1515139410)
+    "appId" : 0.0
 }
 { 
-    "_id" : ObjectId("5a4f82407a0dfc4d008b4567"), 
+    "_id" : ObjectId("5aa021f1263b3a4e008b4567"), 
     "uuid" : "59ba7f07baff6a4f008b4568", 
-    "device" : "124214215", 
-    "date_time" : NumberLong(1515160128)
+    "device" : "564eda907007c977", 
+    "appId" : 1.0
+}
+{ 
+    "_id" : ObjectId("5aa109e789e39b4d008b4567"), 
+    "uuid" : "59ba7f07baff6a4f008b4568", 
+    "device" : "564eda907007c977", 
+    "appId" : -1.0
+}
+{ 
+    "_id" : ObjectId("5b0417355c00e74f008b4567"), 
+    "uuid" : "5aa431dd3002494e008b4567", 
+    "device" : "564eda907007c977", 
+    "appId" : NumberLong(1)
+}
+{ 
+    "_id" : ObjectId("5b04173e5c00e750008b4567"), 
+    "uuid" : "5aa431dd3002494e008b4567", 
+    "device" : "564eda907007c977", 
+    "appId" : NumberLong(0)
+}
+{ 
+    "_id" : ObjectId("5bf6fd29d0f4a94f008b4567"), 
+    "uuid" : "5b1ae0787f827a4f008b4567", 
+    "device" : "564eda907007c977", 
+    "appId" : NumberLong(0)
+}
+{ 
+    "_id" : ObjectId("5bf6fd33d0f4a94d008b4567"), 
+    "uuid" : "5b1ae0787f827a4f008b4567", 
+    "device" : "564eda907007c977", 
+    "appId" : NumberLong(-1)
+}
+{ 
+    "_id" : ObjectId("5bf6fd37d0f4a94f008b4568"), 
+    "uuid" : "5b1ae0787f827a4f008b4567", 
+    "device" : "564eda907007c977", 
+    "appId" : NumberLong(1)
 }

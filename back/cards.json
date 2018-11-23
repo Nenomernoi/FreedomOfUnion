@@ -1992,7 +1992,7 @@
     "image" : "fiveforks.png", 
     "name_rus" : "Файв-Фокс", 
     "main_rus" : "6 урон ; + 1 вал", 
-    "name_eng" : "Five-Fox", 
+    "name_eng" : "Five Forks", 
     "main_eng" : "6 damage; + 1 wall", 
     "at_def_pl_rov" : NumberInt(1), 
     "back_image" : NumberInt(7)

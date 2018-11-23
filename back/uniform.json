@@ -404,24 +404,38 @@
     "cost" : NumberInt(500)
 }
 { 
-    "_id" : NumberInt(29), 
-    "fraction_id" : NumberInt(29), 
-    "fraction" : NumberInt(1), 
-    "name_rus" : "Мундир Полковник", 
-    "name_eng" : "Uniform Col.", 
-    "type" : NumberInt(2), 
+    "_id" : NumberInt(42), 
+    "fraction_id" : NumberInt(42), 
+    "name_rus" : "Карабин Бернсайда", 
+    "name_eng" : "Burnside сarbine", 
+    "type" : NumberInt(3), 
     "zavod" : NumberInt(0), 
     "units" : NumberInt(0), 
-    "money" : NumberInt(3), 
+    "money" : NumberInt(0), 
     "tower" : NumberInt(0), 
     "row" : NumberInt(0), 
-    "row_enemy" : NumberInt(0), 
-    "image" : "south_kol_uniform.png", 
-    "cost" : NumberInt(800)
+    "row_enemy" : NumberInt(-1), 
+    "image" : "burnsidecarbine.png", 
+    "cost" : NumberInt(330)
 }
 { 
-    "_id" : NumberInt(30), 
-    "fraction_id" : NumberInt(30), 
+    "_id" : NumberInt(43), 
+    "fraction_id" : NumberInt(43), 
+    "name_rus" : "Карабин Холла", 
+    "name_eng" : "Hall carabiner", 
+    "type" : NumberInt(3), 
+    "zavod" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "tower" : NumberInt(2), 
+    "row" : NumberInt(0), 
+    "row_enemy" : NumberInt(0), 
+    "image" : "karabHoll.png", 
+    "cost" : NumberInt(400)
+}
+{ 
+    "_id" : NumberInt(29), 
+    "fraction_id" : NumberInt(29), 
     "fraction" : NumberInt(1), 
     "name_rus" : "Мундир Генерал", 
     "name_eng" : "Uniform General", 
@@ -436,7 +450,7 @@
     "cost" : NumberInt(1000)
 }
 { 
-    "_id" : NumberInt(31), 
+    "_id" : NumberInt(30), 
     "fraction_id" : NumberInt(22), 
     "fraction" : NumberInt(2), 
     "name_rus" : "Мундир Капрал", 
@@ -452,7 +466,7 @@
     "cost" : NumberInt(20)
 }
 { 
-    "_id" : NumberInt(32), 
+    "_id" : NumberInt(31), 
     "fraction_id" : NumberInt(23), 
     "name_rus" : "Мундир Сержант", 
     "fraction" : NumberInt(2), 
@@ -469,22 +483,6 @@
 }
 { 
     "_id" : NumberInt(34), 
-    "fraction_id" : NumberInt(25), 
-    "fraction" : NumberInt(2), 
-    "name_rus" : "Мундир Ротный сержант", 
-    "name_eng" : "Uniform Com. commander sergeant", 
-    "type" : NumberInt(2), 
-    "zavod" : NumberInt(0), 
-    "units" : NumberInt(0), 
-    "money" : NumberInt(2), 
-    "tower" : NumberInt(0), 
-    "row" : NumberInt(0), 
-    "row_enemy" : NumberInt(0), 
-    "image" : "north_com_sgt_uniform.png", 
-    "cost" : NumberInt(200)
-}
-{ 
-    "_id" : NumberInt(35), 
     "fraction_id" : NumberInt(26), 
     "fraction" : NumberInt(2), 
     "name_rus" : "Мундир Квартирмейстер", 
@@ -500,7 +498,7 @@
     "cost" : NumberInt(300)
 }
 { 
-    "_id" : NumberInt(36), 
+    "_id" : NumberInt(35), 
     "fraction_id" : NumberInt(27), 
     "fraction" : NumberInt(2), 
     "name_rus" : "Мундир Старший сержант", 
@@ -516,36 +514,50 @@
     "cost" : NumberInt(500)
 }
 { 
-    "_id" : NumberInt(38), 
-    "fraction_id" : NumberInt(29), 
+    "_id" : NumberInt(36), 
+    "fraction_id" : NumberInt(28), 
     "fraction" : NumberInt(2), 
-    "name_rus" : "Мундир Полковник", 
-    "name_eng" : "Uniform Col.", 
+    "name_rus" : "Мундир Подполковник", 
+    "name_eng" : "Uniform Lt.", 
     "type" : NumberInt(2), 
     "zavod" : NumberInt(0), 
-    "units" : NumberInt(0), 
-    "money" : NumberInt(3), 
+    "units" : NumberInt(3), 
+    "money" : NumberInt(0), 
     "tower" : NumberInt(0), 
     "row" : NumberInt(0), 
     "row_enemy" : NumberInt(0), 
-    "image" : "north_kol_uniform.png", 
-    "cost" : NumberInt(800)
+    "image" : "north_lt_kol_uniform.png", 
+    "cost" : NumberInt(600)
+}
+{ 
+    "_id" : NumberInt(38), 
+    "fraction_id" : NumberInt(38), 
+    "name_rus" : "Нож Боуи", 
+    "name_eng" : "Bowie knife", 
+    "type" : NumberInt(3), 
+    "zavod" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "tower" : NumberInt(0), 
+    "row" : NumberInt(1), 
+    "row_enemy" : NumberInt(0), 
+    "image" : "knifeboui.png", 
+    "cost" : NumberInt(15)
 }
 { 
     "_id" : NumberInt(39), 
-    "fraction_id" : NumberInt(30), 
-    "fraction" : NumberInt(2), 
-    "name_rus" : "Мундир Генерал", 
-    "name_eng" : "Uniform General", 
-    "type" : NumberInt(2), 
-    "zavod" : NumberInt(5), 
-    "units" : NumberInt(5), 
-    "money" : NumberInt(5), 
+    "fraction_id" : NumberInt(39), 
+    "name_rus" : "Драгунская сабля", 
+    "name_eng" : "Dragoon saber", 
+    "type" : NumberInt(3), 
+    "zavod" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
     "tower" : NumberInt(0), 
-    "row" : NumberInt(0), 
+    "row" : NumberInt(2), 
     "row_enemy" : NumberInt(0), 
-    "image" : "north_gen_uniform.png", 
-    "cost" : NumberInt(1000)
+    "image" : "sablya.png", 
+    "cost" : NumberInt(60)
 }
 { 
     "_id" : NumberInt(24), 
@@ -581,6 +593,143 @@
 }
 { 
     "_id" : NumberInt(33), 
+    "fraction_id" : NumberInt(25), 
+    "fraction" : NumberInt(2), 
+    "name_rus" : "Мундир Ротный сержант", 
+    "name_eng" : "Uniform Com. commander sergeant", 
+    "type" : NumberInt(2), 
+    "zavod" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(2), 
+    "tower" : NumberInt(0), 
+    "row" : NumberInt(0), 
+    "row_enemy" : NumberInt(0), 
+    "image" : "north_com_sgt_uniform.png", 
+    "cost" : NumberInt(200)
+}
+{ 
+    "_id" : NumberInt(37), 
+    "fraction_id" : NumberInt(29), 
+    "fraction" : NumberInt(2), 
+    "name_rus" : "Мундир Генерал", 
+    "name_eng" : "Uniform General", 
+    "type" : NumberInt(2), 
+    "zavod" : NumberInt(5), 
+    "units" : NumberInt(5), 
+    "money" : NumberInt(5), 
+    "tower" : NumberInt(0), 
+    "row" : NumberInt(0), 
+    "row_enemy" : NumberInt(0), 
+    "image" : "north_gen_uniform.png", 
+    "cost" : NumberInt(1000)
+}
+{ 
+    "_id" : NumberInt(40), 
+    "fraction_id" : NumberInt(40), 
+    "name_rus" : "Капсульный мушкет", 
+    "name_eng" : "Capsule musket", 
+    "type" : NumberInt(3), 
+    "zavod" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "tower" : NumberInt(0), 
+    "row" : NumberInt(3), 
+    "row_enemy" : NumberInt(0), 
+    "image" : "miushglad.png", 
+    "cost" : NumberInt(110)
+}
+{ 
+    "_id" : NumberInt(41), 
+    "fraction_id" : NumberInt(41), 
+    "name_rus" : "Нарезной мушкет", 
+    "name_eng" : "Rifled musket", 
+    "type" : NumberInt(3), 
+    "zavod" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "tower" : NumberInt(1), 
+    "row" : NumberInt(0), 
+    "row_enemy" : NumberInt(0), 
+    "image" : "miushnarez.png", 
+    "cost" : NumberInt(210)
+}
+{ 
+    "_id" : NumberInt(44), 
+    "fraction_id" : NumberInt(44), 
+    "name_rus" : "Винтовка Спенсера", 
+    "name_eng" : "Spencer rifle", 
+    "type" : NumberInt(3), 
+    "zavod" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "tower" : NumberInt(0), 
+    "row" : NumberInt(4), 
+    "row_enemy" : NumberInt(0), 
+    "image" : "spenser.png", 
+    "cost" : NumberInt(520)
+}
+{ 
+    "_id" : NumberInt(45), 
+    "fraction_id" : NumberInt(45), 
+    "name_rus" : "Карабин Шарпса", 
+    "name_eng" : "Sharps rifle", 
+    "type" : NumberInt(3), 
+    "zavod" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "tower" : NumberInt(0), 
+    "row" : NumberInt(0), 
+    "row_enemy" : NumberInt(-2), 
+    "image" : "karabsharps.png", 
+    "cost" : NumberInt(660)
+}
+{ 
+    "_id" : NumberInt(46), 
+    "fraction_id" : NumberInt(46), 
+    "name_rus" : "Винтовка М1841", 
+    "name_eng" : "M1841 rifle", 
+    "type" : NumberInt(3), 
+    "zavod" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "tower" : NumberInt(3), 
+    "row" : NumberInt(0), 
+    "row_enemy" : NumberInt(0), 
+    "image" : "m1841.png", 
+    "cost" : NumberInt(750)
+}
+{ 
+    "_id" : NumberInt(47), 
+    "fraction_id" : NumberInt(47), 
+    "name_rus" : "Спрингфилд 1842", 
+    "name_eng" : "Springfield 1842", 
+    "type" : NumberInt(3), 
+    "zavod" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "tower" : NumberInt(0), 
+    "row" : NumberInt(5), 
+    "row_enemy" : NumberInt(0), 
+    "image" : "springfield.png", 
+    "cost" : NumberInt(840)
+}
+{ 
+    "_id" : NumberInt(48), 
+    "fraction_id" : NumberInt(48), 
+    "name_rus" : "Винтовка Генри", 
+    "name_eng" : "Henry rifle", 
+    "type" : NumberInt(3), 
+    "zavod" : NumberInt(0), 
+    "units" : NumberInt(0), 
+    "money" : NumberInt(0), 
+    "tower" : NumberInt(0), 
+    "row" : NumberInt(0), 
+    "row_enemy" : NumberInt(-3), 
+    "image" : "genri.png", 
+    "cost" : NumberInt(1000)
+}
+{ 
+    "_id" : NumberInt(32), 
     "fraction_id" : NumberInt(24), 
     "name_rus" : "Мундир 1 сержант", 
     "name_eng" : "Uniform 1 sergeant", 
@@ -594,20 +743,4 @@
     "row_enemy" : NumberInt(0), 
     "image" : "north_one_sgt_uniform.png", 
     "cost" : NumberInt(70)
-}
-{ 
-    "_id" : NumberInt(37), 
-    "fraction_id" : NumberInt(28), 
-    "fraction" : NumberInt(2), 
-    "name_rus" : "Мундир Подполковник", 
-    "name_eng" : "Uniform Lt.", 
-    "type" : NumberInt(2), 
-    "zavod" : NumberInt(0), 
-    "units" : NumberInt(3), 
-    "money" : NumberInt(0), 
-    "tower" : NumberInt(0), 
-    "row" : NumberInt(0), 
-    "row_enemy" : NumberInt(0), 
-    "image" : "north_lt_kol_uniform.png", 
-    "cost" : NumberInt(600)
 }

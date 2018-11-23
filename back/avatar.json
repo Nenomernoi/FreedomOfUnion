@@ -259,6 +259,11 @@
     "nameEn" : "Joseph Hooker"
 }
 { 
+    "_id" : ObjectId("57864aab8efd50109cc89c7c"), 
+    "type" : NumberInt(2), 
+    "url" : "battles/wilderness.png"
+}
+{ 
     "_id" : ObjectId("5786457c8efd50109cc89c32"), 
     "type" : NumberInt(1), 
     "url" : "officers/mcclellan.png", 
@@ -348,11 +353,6 @@
     "url" : "officers/linkoln.png", 
     "nameRu" : "Авраам Линкольн", 
     "nameEn" : "Abraham Lincoln"
-}
-{ 
-    "_id" : ObjectId("57864aab8efd50109cc89c7c"), 
-    "type" : NumberInt(2), 
-    "url" : "battles/wilderness.png"
 }
 { 
     "_id" : ObjectId("57864aad8efd50109cc89c7e"), 
