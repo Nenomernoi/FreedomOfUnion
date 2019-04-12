@@ -58,8 +58,8 @@ foreach ($cursor as $row) {
     $tbl->addCell('<b>' . $row["game_lose_win"] . '</b>');
     $tbl->addCell('<b>' . $row["game_lose"] . '</b>');
     $tbl->addCell('<b>' . $row["total"] . '</b>');
-    $tbl->addCell('<b>' . $row["_id"]->{'$id'} . '</b>');
-    $tbl->addCell('<b>' . $row["user_uid"] . '</b>');
+   // $tbl->addCell('<b>' . $row["_id"]->{'$id'} . '</b>');
+   // $tbl->addCell('<b>' . $row["user_uid"] . '</b>');
 }
 
 $m->close();
