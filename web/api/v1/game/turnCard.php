@@ -166,7 +166,7 @@ foreach ($cursor as $row) {
         die(json_encode($response, JSON_UNESCAPED_SLASHES));
     }
 
-     $tenserTurns["id_parent"] = $row["id_parent"]->{'$id'};
+    $tenserTurns["id_parent"] = $row["id_parent"]->{'$id'};
     $tenserTurns["atlas"] = $row["atlas"];
     $tenserTurns["params"] = $row["params"];
 
