@@ -24,6 +24,9 @@ $tenserTurns["mode"] = $post->escape;
 $tenserTurns["params"] = $post->params;
 
 
+$m = new MongoClient($connection_url);
+$link = $m->selectDB($db_name);
+
 $collectionTensor = $link->selectCollection(TABLE_TURNS);
 $collectionTensor->insert($tenserTurns);
 

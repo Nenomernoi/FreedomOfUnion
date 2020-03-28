@@ -61,7 +61,7 @@ if ($cursor->count() <= 0) {
     die(json_encode($response, JSON_UNESCAPED_SLASHES));
 }
 
-$idGamer;
+$idGamer = NULL;
 
 foreach ($cursor as $row) {
     $idGamer = $row["_id"]->{'$id'};
@@ -274,10 +274,13 @@ foreach ($cursor as $row) {
 
 //////////////////////////////INIT ATLAS AND REPLACE CARD ON NEW/ ///////////////////////////
 
+
+
 $date = new DateTime();
+$time = $date->getTimestamp();
+
 foreach ($cards as $card) {
 
-    $time = $date->getTimestamp();
     $turn = array(
         "time" => $time,
         "turn_count" => $turnCount + 1,
