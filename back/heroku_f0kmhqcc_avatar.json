@@ -1,0 +1,433 @@
+[
+  {
+    "_id": {"$oid": "57863d138efd50109cc89c08"},
+    "nameEn": "Albert Johnston",
+    "nameRu": "Альберт Джонстон",
+    "type": 1,
+    "url": "officers/albertjohn.png"
+  },
+  {
+    "_id": {"$oid": "578644638efd50109cc89c0a"},
+    "nameEn": "Edward Alexander",
+    "nameRu": "Эдвард Александер",
+    "type": 1,
+    "url": "officers/alexander.png"
+  },
+  {
+    "_id": {"$oid": "578644a48efd50109cc89c0e"},
+    "nameEn": "Pierre Beauregard",
+    "nameRu": "Пьер Борегар",
+    "type": 1,
+    "url": "officers/bearegar.png"
+  },
+  {
+    "_id": {"$oid": "5786452e8efd50109cc89c1a"},
+    "nameEn": "John Hood",
+    "nameRu": "Джон Худ",
+    "type": 1,
+    "url": "officers/hood.png"
+  },
+  {
+    "_id": {"$oid": "5786453c8efd50109cc89c20"},
+    "nameEn": "Robert Lee",
+    "nameRu": "Роберт Ли",
+    "type": 1,
+    "url": "officers/li.png"
+  },
+  {
+    "_id": {"$oid": "5786456b8efd50109cc89c2a"},
+    "nameEn": "John Pope",
+    "nameRu": "Джон Поуп",
+    "type": 1,
+    "url": "officers/pope.png"
+  },
+  {
+    "_id": {"$oid": "578645af8efd50109cc89c4c"},
+    "type": 2,
+    "url": "battles/fiveforks.png"
+  },
+  {
+    "_id": {"$oid": "578645b28efd50109cc89c4e"},
+    "type": 2,
+    "url": "battles/manassas.png"
+  },
+  {
+    "_id": {"$oid": "578645b58efd50109cc89c50"},
+    "type": 2,
+    "url": "battles/saylerscreek.png"
+  },
+  {
+    "_id": {"$oid": "578645ba8efd50109cc89c52"},
+    "type": 2,
+    "url": "battles/antietam.png"
+  },
+  {
+    "_id": {"$oid": "578645be8efd50109cc89c54"},
+    "type": 2,
+    "url": "battles/manassastwo.png"
+  },
+  {
+    "_id": {"$oid": "578645c18efd50109cc89c56"},
+    "type": 2,
+    "url": "battles/sevenday.png"
+  },
+  {
+    "_id": {"$oid": "578645c58efd50109cc89c58"},
+    "type": 2,
+    "url": "battles/atlanta.png"
+  },
+  {
+    "_id": {"$oid": "578644fe8efd50109cc89c10"},
+    "nameEn": "Braxton Bragg",
+    "nameRu": "Брэкстон Брэгг",
+    "type": 1,
+    "url": "officers/braxton.png"
+  },
+  {
+    "_id": {"$oid": "5786451a8efd50109cc89c13"},
+    "nameEn": "Samuel Cooper",
+    "nameRu": "Сэмюэл Купер",
+    "type": 1,
+    "url": "officers/cooper.png"
+  },
+  {
+    "_id": {"$oid": "578645218efd50109cc89c14"},
+    "nameEn": "Richard S. Ewell",
+    "nameRu": "Ричард Юэлл",
+    "type": 1,
+    "url": "officers/ewell.png"
+  },
+  {
+    "_id": {"$oid": "578645258efd50109cc89c16"},
+    "nameEn": "Nathaniel Forrest",
+    "nameRu": "Натаниэль Форрест",
+    "type": 1,
+    "url": "officers/forrest.png"
+  },
+  {
+    "_id": {"$oid": "5786452b8efd50109cc89c18"},
+    "nameEn": "Ambrose Hill",
+    "nameRu": "Эмброуз Хилл",
+    "type": 1,
+    "url": "officers/hill.png"
+  },
+  {
+    "_id": {"$oid": "578645348efd50109cc89c1c"},
+    "nameEn": "Joseph Johnston",
+    "nameRu": "Джозеф Джонстон",
+    "type": 1,
+    "url": "officers/johnston.png"
+  },
+  {
+    "_id": {"$oid": "578645388efd50109cc89c1e"},
+    "nameEn": "Jubal Early",
+    "nameRu": "Джубал Эрли",
+    "type": 1,
+    "url": "officers/jubal.png"
+  },
+  {
+    "_id": {"$oid": "578645418efd50109cc89c22"},
+    "nameEn": "John Mosby",
+    "nameRu": "Джон Мосби",
+    "type": 1,
+    "url": "officers/mosby.png"
+  },
+  {
+    "_id": {"$oid": "578645458efd50109cc89c24"},
+    "nameEn": "Jason Longstreet",
+    "nameRu": "Джейсон Лонгстрит",
+    "type": 1,
+    "url": "officers/longstreet.png"
+  },
+  {
+    "_id": {"$oid": "578645498efd50109cc89c26"},
+    "nameEn": "Leonidas Polk",
+    "nameRu": "Леонидас Полк",
+    "type": 1,
+    "url": "officers/polk.png"
+  },
+  {
+    "_id": {"$oid": "578648d88efd50109cc89c5a"},
+    "type": 2,
+    "url": "battles/fredericksburg.png"
+  },
+  {
+    "_id": {"$oid": "578648dd8efd50109cc89c5c"},
+    "type": 2,
+    "url": "battles/mcdowell.png"
+  },
+  {
+    "_id": {"$oid": "578648e08efd50109cc89c5e"},
+    "type": 2,
+    "url": "battles/sevenpines.png"
+  },
+  {
+    "_id": {"$oid": "578648e58efd50109cc89c60"},
+    "type": 2,
+    "url": "battles/brandy.png"
+  },
+  {
+    "_id": {"$oid": "578648e78efd50109cc89c62"},
+    "type": 2,
+    "url": "battles/gettysburg.png"
+  },
+  {
+    "_id": {"$oid": "578648ea8efd50109cc89c64"},
+    "type": 2,
+    "url": "battles/shiloh.png"
+  },
+  {
+    "_id": {"$oid": "578648ed8efd50109cc89c66"},
+    "type": 2,
+    "url": "battles/chantilly.png"
+  },
+  {
+    "_id": {"$oid": "578648ef8efd50109cc89c68"},
+    "type": 2,
+    "url": "battles/haibridje.png"
+  },
+  {
+    "_id": {"$oid": "578648f28efd50109cc89c6a"},
+    "type": 2,
+    "url": "battles/petersburgtree.png"
+  },
+  {
+    "_id": {"$oid": "578648f58efd50109cc89c6c"},
+    "type": 2,
+    "url": "battles/southmountain.png"
+  },
+  {
+    "_id": {"$oid": "578648f78efd50109cc89c6e"},
+    "type": 2,
+    "url": "battles/chitmauntin.png"
+  },
+  {
+    "_id": {"$oid": "578648f98efd50109cc89c70"},
+    "type": 2,
+    "url": "battles/hampton.png"
+  },
+  {
+    "_id": {"$oid": "578648fc8efd50109cc89c72"},
+    "type": 2,
+    "url": "battles/petersburgtwo.png"
+  },
+  {
+    "_id": {"$oid": "578648ff8efd50109cc89c74"},
+    "type": 2,
+    "url": "battles/spottsylvania.png"
+  },
+  {
+    "_id": {"$oid": "578649028efd50109cc89c76"},
+    "type": 2,
+    "url": "battles/coldharbor.png"
+  },
+  {
+    "_id": {"$oid": "57864a978efd50109cc89c78"},
+    "type": 2,
+    "url": "battles/harpersferry.png"
+  },
+  {
+    "_id": {"$oid": "57864aa88efd50109cc89c7a"},
+    "type": 2,
+    "url": "battles/pickettscharge.png"
+  },
+  {
+    "_id": {"$oid": "578645648efd50109cc89c28"},
+    "nameEn": "Thomas Jackson",
+    "nameRu": "Томас Джексон",
+    "type": 1,
+    "url": "officers/stonewall.png"
+  },
+  {
+    "_id": {"$oid": "5786456f8efd50109cc89c2c"},
+    "nameEn": "John Reynolds",
+    "nameRu": "Джон Рейнольдс",
+    "type": 1,
+    "url": "officers/renyolds.png"
+  },
+  {
+    "_id": {"$oid": "578645738efd50109cc89c2e"},
+    "nameEn": "William Franklin",
+    "nameRu": "Уильям Франклин",
+    "type": 1,
+    "url": "officers/franklin.png"
+  },
+  {
+    "_id": {"$oid": "578645788efd50109cc89c30"},
+    "nameEn": "Joseph Hooker",
+    "nameRu": "Джозеф Хукер",
+    "type": 1,
+    "url": "officers/hooker.png"
+  },
+  {
+    "_id": {"$oid": "57864aab8efd50109cc89c7c"},
+    "type": 2,
+    "url": "battles/wilderness.png"
+  },
+  {
+    "_id": {"$oid": "5786457c8efd50109cc89c32"},
+    "nameEn": "George B. McClellan",
+    "nameRu": "Джордж Макклелан",
+    "type": 1,
+    "url": "officers/mcclellan.png"
+  },
+  {
+    "_id": {"$oid": "578645808efd50109cc89c34"},
+    "nameEn": "John Sedgwick",
+    "nameRu": "Джон Седжвик",
+    "type": 1,
+    "url": "officers/sedgwick.png"
+  },
+  {
+    "_id": {"$oid": "578645848efd50109cc89c36"},
+    "nameEn": "Ambrose Burnside",
+    "nameRu": "Эмброуз Бернсайд",
+    "type": 1,
+    "url": "officers/bernsaid.png"
+  },
+  {
+    "_id": {"$oid": "578645888efd50109cc89c38"},
+    "nameEn": "John Gibbon",
+    "nameRu": "Джон Гиббон",
+    "type": 1,
+    "url": "officers/gibbon.png"
+  },
+  {
+    "_id": {"$oid": "5786458c8efd50109cc89c3a"},
+    "nameEn": "Gordon Meade",
+    "nameRu": "Гордон Мид",
+    "type": 1,
+    "url": "officers/meade.png"
+  },
+  {
+    "_id": {"$oid": "5786458f8efd50109cc89c3c"},
+    "nameEn": "William Sherman",
+    "nameRu": "Уильям Шерман",
+    "type": 1,
+    "url": "officers/sherman.png"
+  },
+  {
+    "_id": {"$oid": "578645938efd50109cc89c3e"},
+    "nameEn": "Ulysses S. Grant",
+    "nameRu": "Улисс Грант",
+    "type": 1,
+    "url": "officers/grant.png"
+  },
+  {
+    "_id": {"$oid": "578645978efd50109cc89c40"},
+    "nameEn": "Joshua Chamberlain",
+    "nameRu": "Джошуа Чемберлен",
+    "type": 1,
+    "url": "officers/chamberlain.png"
+  },
+  {
+    "_id": {"$oid": "5786459b8efd50109cc89c42"},
+    "nameEn": "Henry Halleck",
+    "nameRu": "Генри Халлек",
+    "type": 1,
+    "url": "officers/halleck.png"
+  },
+  {
+    "_id": {"$oid": "578645a18efd50109cc89c44"},
+    "nameEn": "Judson Kilpatrick",
+    "nameRu": "Джадсон Килпатрик",
+    "type": 1,
+    "url": "officers/killpatrik.png"
+  },
+  {
+    "_id": {"$oid": "578645a58efd50109cc89c46"},
+    "nameEn": "Howard Oliver",
+    "nameRu": "Ховард Оливер",
+    "type": 1,
+    "url": "officers/oliver.png"
+  },
+  {
+    "_id": {"$oid": "578645a88efd50109cc89c48"},
+    "nameEn": "Scott Hancock",
+    "nameRu": "Скот Хэнкок",
+    "type": 1,
+    "url": "officers/hancock.png"
+  },
+  {
+    "_id": {"$oid": "578645ab8efd50109cc89c4a"},
+    "nameEn": "Abraham Lincoln",
+    "nameRu": "Авраам Линкольн",
+    "type": 1,
+    "url": "officers/linkoln.png"
+  },
+  {
+    "_id": {"$oid": "57864aad8efd50109cc89c7e"},
+    "type": 2,
+    "url": "battles/hindman.png"
+  },
+  {
+    "_id": {"$oid": "57864aaf8efd50109cc89c80"},
+    "type": 2,
+    "url": "battles/reidstuart.png"
+  },
+  {
+    "_id": {"$oid": "57864ab28efd50109cc89c82"},
+    "type": 2,
+    "url": "battles/williamsburg.png"
+  },
+  {
+    "_id": {"$oid": "57864ab58efd50109cc89c84"},
+    "type": 2,
+    "url": "battles/crosskeys.png"
+  },
+  {
+    "_id": {"$oid": "57864ab78efd50109cc89c86"},
+    "type": 2,
+    "url": "battles/kenesaw.png"
+  },
+  {
+    "_id": {"$oid": "57864aba8efd50109cc89c88"},
+    "type": 2,
+    "url": "battles/resaca.png"
+  },
+  {
+    "_id": {"$oid": "57864abc8efd50109cc89c8a"},
+    "type": 2,
+    "url": "battles/winchesterone.png"
+  },
+  {
+    "_id": {"$oid": "57864ac08efd50109cc89c8c"},
+    "type": 2,
+    "url": "battles/donelson.png"
+  },
+  {
+    "_id": {"$oid": "57864ac38efd50109cc89c8e"},
+    "type": 2,
+    "url": "battles/kerstaun.png"
+  },
+  {
+    "_id": {"$oid": "57864ac68efd50109cc89c90"},
+    "type": 2,
+    "url": "battles/richmont.png"
+  },
+  {
+    "_id": {"$oid": "57864ac88efd50109cc89c92"},
+    "type": 2,
+    "url": "battles/winchestertwo.png"
+  },
+  {
+    "_id": {"$oid": "57864acb8efd50109cc89c94"},
+    "type": 2,
+    "url": "battles/elanding.png"
+  },
+  {
+    "_id": {"$oid": "57864acd8efd50109cc89c96"},
+    "type": 2,
+    "url": "battles/kilcavalry.png"
+  },
+  {
+    "_id": {"$oid": "57864ad08efd50109cc89c98"},
+    "type": 2,
+    "url": "battles/samter.png"
+  },
+  {
+    "_id": {"$oid": "57864ad38efd50109cc89c9a"},
+    "type": 2,
+    "url": "battles/yorktown.png"
+  }
+]

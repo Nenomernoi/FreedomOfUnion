@@ -6,12 +6,12 @@ require('api/v1/tables/html_table.class.php');
 
 $int196 = 196;
 
-$host = 'ds031832.mlab.com';
-$db_name = 'heroku_f0kmhqcc';
-$username = 'heroku_f0kmhqcc';
-$password = '37l24grmhrodif6438ne4p3jik';
-$port = '31832';
-$connection_url = "mongodb://heroku_f0kmhqcc:37l24grmhrodif6438ne4p3jik@ds031832.mlab.com:31832/heroku_f0kmhqcc";
+$host = 'bjfgndqk66vjawc-mongodb.services.clever-cloud.com';
+$db_name = 'bjfgndqk66vjawc';
+$username = 'u6mrbfvmew2h0q0kgpau';
+$password = 'GLp8YC7R2X9L8cLXzzHh';
+$port = '27017';
+$connection_url = "mongodb://u6mrbfvmew2h0q0kgpau:GLp8YC7R2X9L8cLXzzHh@bjfgndqk66vjawc-mongodb.services.clever-cloud.com:27017/bjfgndqk66vjawc";
 
 $m = new MongoClient($connection_url);
 $link = $m->selectDB($db_name);

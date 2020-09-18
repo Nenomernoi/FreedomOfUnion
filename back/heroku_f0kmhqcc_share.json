@@ -1,0 +1,62 @@
+[
+  {
+    "_id": {"$oid": "5aa021e3263b3a4d008b4567"},
+    "appId": 0,
+    "device": "564eda907007c977",
+    "uuid": "59ba7f07baff6a4f008b4568"
+  },
+  {
+    "_id": {"$oid": "5aa021f1263b3a4e008b4567"},
+    "appId": 1,
+    "device": "564eda907007c977",
+    "uuid": "59ba7f07baff6a4f008b4568"
+  },
+  {
+    "_id": {"$oid": "5aa109e789e39b4d008b4567"},
+    "appId": -1,
+    "device": "564eda907007c977",
+    "uuid": "59ba7f07baff6a4f008b4568"
+  },
+  {
+    "_id": {"$oid": "5b0417355c00e74f008b4567"},
+    "appId": 1,
+    "device": "564eda907007c977",
+    "uuid": "5aa431dd3002494e008b4567"
+  },
+  {
+    "_id": {"$oid": "5b04173e5c00e750008b4567"},
+    "appId": 0,
+    "device": "564eda907007c977",
+    "uuid": "5aa431dd3002494e008b4567"
+  },
+  {
+    "_id": {"$oid": "5bf6fd29d0f4a94f008b4567"},
+    "appId": 0,
+    "device": "564eda907007c977",
+    "uuid": "5b1ae0787f827a4f008b4567"
+  },
+  {
+    "_id": {"$oid": "5bf6fd33d0f4a94d008b4567"},
+    "appId": -1,
+    "device": "564eda907007c977",
+    "uuid": "5b1ae0787f827a4f008b4567"
+  },
+  {
+    "_id": {"$oid": "5bf6fd37d0f4a94f008b4568"},
+    "appId": 1,
+    "device": "564eda907007c977",
+    "uuid": "5b1ae0787f827a4f008b4567"
+  },
+  {
+    "_id": {"$oid": "5d1758fd2658066b008b4579"},
+    "appId": 0,
+    "device": "69315fbbe1292b13",
+    "uuid": "5d1755452658066b008b4567"
+  },
+  {
+    "_id": {"$oid": "5d1759082658066d008b457a"},
+    "appId": -1,
+    "device": "69315fbbe1292b13",
+    "uuid": "5d1755452658066b008b4567"
+  }
+]

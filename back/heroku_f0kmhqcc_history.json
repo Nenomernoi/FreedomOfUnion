@@ -1,0 +1,1157 @@
+[
+  {
+    "_id": {"$oid": "59f385c2d309037b7789ee0f"},
+    "date": -3434313600000,
+    "image": "officers/linkoln.png",
+    "name_en": "Abraham Lincoln took office as President of the United States",
+    "name_rus": "Авраам Линкольн вступил в должность президента США"
+  },
+  {
+    "_id": {"$oid": "59f385c2d309037b7789ee10"},
+    "date": -3430944000000,
+    "image": "battles/samter.png",
+    "name_en": "The bombing of Fort Sumter, South Carolina. The beginning of hostilities.",
+    "name_rus": "Бомбардировка форта Самтер, Южная Каролина. Начало боевых действий."
+  },
+  {
+    "_id": {"$oid": "59f385c2d309037b7789ee11"},
+    "date": -3430857600000,
+    "image": "battles/samter.png",
+    "name_en": "The surrender of Fort Sumter, South Carolina.",
+    "name_rus": "Капитуляция форта Самтер, Южная Каролина."
+  },
+  {
+    "_id": {"$oid": "59f385c2d309037b7789ee12"},
+    "date": -3430684800000,
+    "image": "othercard/contract.png",
+    "name_en": "President Lincoln announces the recruitment of 75,000 volunteers",
+    "name_rus": "Президент Линкольн объявляет о наборе 75 тысяч добровольцев."
+  },
+  {
+    "_id": {"$oid": "59f385c2d309037b7789ee13"},
+    "date": -3430512000000,
+    "image": "other/virginia.png",
+    "name_en": "Virginia leaves the Union.",
+    "name_rus": "Виргиния выходит из Союза."
+  },
+  {
+    "_id": {"$oid": "59f385c2d309037b7789ee14"},
+    "date": -3430339200000,
+    "image": "battles/harpersferry.png",
+    "name_en": "The Confederates occupy Harper's Ferry, Virginia.",
+    "name_rus": "Конфедераты оккупируют Харперс Ферри, Виргиния."
+  },
+  {
+    "_id": {"$oid": "59f38ac939286d4e008b4567"},
+    "date": -3425846400000,
+    "image": "othercard/virginia.png",
+    "name_en": "Collision at Big Battle, Virginia",
+    "name_rus": "Столкновение при Биг Бэттл, Виргиния."
+  },
+  {
+    "_id": {"$oid": "59f38b8e39286d4f008b4567"},
+    "date": -3423686400000,
+    "image": "battles/chitmauntin.png",
+    "name_en": "Collision at Carthage, Missouri.",
+    "name_rus": "Столкновение при Карфагене, Миссури."
+  },
+  {
+    "_id": {"$oid": "59f38bcb39286d50008b4567"},
+    "date": -3423168000000,
+    "image": "battles/richmont.png",
+    "name_en": "Collision at Rich Mountain, Virginia",
+    "name_rus": "Столкновение при Рич Маунтин, Виргиния"
+  },
+  {
+    "_id": {"$oid": "59f38d66c539cc4f008b4567"},
+    "date": -3422304000000,
+    "image": "battles/manassas.png",
+    "name_en": "The first battle at Bull Run, Virginia",
+    "name_rus": "Первое сражение при Булл-Ране, Виргиния"
+  },
+  {
+    "_id": {"$oid": "59f38e17ead83c4f008b4567"},
+    "date": -3421785600000,
+    "image": "officers/mcclellan.png",
+    "name_en": "George McClellan assumes the command of the Potomac Army.",
+    "name_rus": "Джордж Мак-Клелан принимает командование Потомакской армией."
+  },
+  {
+    "_id": {"$oid": "59f38e77ead83c4e008b4567"},
+    "date": -3420576000000,
+    "image": "othercard/blokada.png",
+    "name_en": "Battle of Wilson Bay, Missouri.",
+    "name_rus": "Сражение в бухте Уилсон, Миссури."
+  },
+  {
+    "_id": {"$oid": "59f4d62a54a3304f008b4567"},
+    "date": -3419107200000,
+    "image": "othercard/imigra.png",
+    "name_en": "Battle of the Hatteras Strait, North Carolina.",
+    "name_rus": "Сражение в проливе Гаттераса, Северная Каролина."
+  },
+  {
+    "_id": {"$oid": "59f4dac97895fe4f008b4567"},
+    "date": -3417724800000,
+    "image": "polk/2 kav Missuri.png",
+    "name_en": "Siege and assault of Lexington, Missouri.",
+    "name_rus": "Осада и штурм Лексингтона, Миссури."
+  },
+  {
+    "_id": {"$oid": "59f4db327895fe4e008b4567"},
+    "date": -3417638400000,
+    "image": "polk/2 kav Missuri.png",
+    "name_en": "2 day. Siege and assault of Lexington, Missouri.",
+    "name_rus": "2 день. Осада и штурм Лексингтона, Миссури."
+  },
+  {
+    "_id": {"$oid": "59f4d67454a3304e008b4567"},
+    "date": -3419020800000,
+    "image": "othercard/imigra.png",
+    "name_en": "2 day. Battle of the Hatteras Strait, North Carolina.",
+    "name_rus": "2 день.Сражение в проливе Гаттераса, Северная Каролина."
+  },
+  {
+    "_id": {"$oid": "59f4d69b54a33050008b4568"},
+    "date": -3418934400000,
+    "image": "othercard/imigra.png",
+    "name_en": "3 day. Battle of the Hatteras Strait, North Carolina.",
+    "name_rus": "3 день. Сражение в проливе Гаттераса, Северная Каролина."
+  },
+  {
+    "_id": {"$oid": "59f4dc1c7895fe4f008b4568"},
+    "date": -3417465600000,
+    "image": "polk/2 kav Missuri.png",
+    "name_en": "4 day. Siege and assault of Lexington, Missouri.",
+    "name_rus": "4 день. Осада и штурм Лексингтона, Миссури."
+  },
+  {
+    "_id": {"$oid": "59f4dcfe7895fe50008b4567"},
+    "date": -3417552000000,
+    "image": "polk/2 kav Missuri.png",
+    "name_en": "3 day. Siege and assault of Lexington, Missouri.",
+    "name_rus": "3 день. Осада и штурм Лексингтона, Миссури."
+  },
+  {
+    "_id": {"$oid": "59f6d12ba814ae50008b4567"},
+    "date": -3417379200000,
+    "image": "polk/2 kav Missuri.png",
+    "name_en": "5 day. Siege and assault of Lexington, Missouri..",
+    "name_rus": "5 день. Осада и штурм Лексингтона, Миссури.."
+  },
+  {
+    "_id": {"$oid": "59f6d12ba814ae50008b4568"},
+    "date": -3417292800000,
+    "image": "polk/2 kav Missuri.png",
+    "name_en": "6 day. Siege and assault of Lexington, Missouri..",
+    "name_rus": "6 день. Осада и штурм Лексингтона, Миссури.."
+  },
+  {
+    "_id": {"$oid": "59f6d12ba814ae50008b4569"},
+    "date": -3417206400000,
+    "image": "polk/2 kav Missuri.png",
+    "name_en": "7 day. Siege and assault of Lexington, Missouri..",
+    "name_rus": "7 день. Осада и штурм Лексингтона, Миссури.."
+  },
+  {
+    "_id": {"$oid": "59f6d12ba814ae50008b456a"},
+    "date": -3417120000000,
+    "image": "polk/2 kav Missuri.png",
+    "name_en": "8 day. Siege and assault of Lexington, Missouri..",
+    "name_rus": "8 день. Осада и штурм Лексингтона, Миссури.."
+  },
+  {
+    "_id": {"$oid": "59f6d12ba814ae50008b456b"},
+    "date": -3417033600000,
+    "image": "polk/2 kav Missuri.png",
+    "name_en": "9 day. Siege and assault of Lexington, Missouri..",
+    "name_rus": "9 день. Осада и штурм Лексингтона, Миссури.."
+  },
+  {
+    "_id": {"$oid": "59f6d12ba814ae50008b456c"},
+    "date": -3414355200000,
+    "image": "polk/1 virgin.png",
+    "name_en": "Battle of Bolse Bluff, Virginia.",
+    "name_rus": "Сражение при Болс Блафф, Виргиния."
+  },
+  {
+    "_id": {"$oid": "59f6d12ba814ae50008b456d"},
+    "date": -3412886400000,
+    "image": "officers/polk.png",
+    "name_en": "Battle of Belmonte, Missouri.",
+    "name_rus": "Сражение при Бельмонте, Миссури."
+  },
+  {
+    "_id": {"$oid": "59f6d12ba814ae50008b456e"},
+    "date": -3412886400000,
+    "image": "othercard/imigra.png",
+    "name_en": "The Battle of Port Royal, South Carolina.",
+    "name_rus": "Сражение в заливе Порт Ройал, Южная Каролина."
+  },
+  {
+    "_id": {"$oid": "59f6d12ba814ae50008b456f"},
+    "date": -3410121600000,
+    "image": "othercard/goodolya.png",
+    "name_en": "Collision at Chusto-Talas, Indian Territory.",
+    "name_rus": "Столкновение при Чусто-Таласа, Индейская территория."
+  },
+  {
+    "_id": {"$oid": "59f6d12ba814ae50008b4570"},
+    "date": -3408652800000,
+    "image": "othercard/goodolya.png",
+    "name_en": "Clash at Chustenala, Indian Territory.",
+    "name_rus": "Столкновение при Чустенала, Индейская территория."
+  },
+  {
+    "_id": {"$oid": "59f6d12ba814ae50008b4571"},
+    "date": -3406579200000,
+    "image": "polk/USAbaraban.png",
+    "name_en": "Battle of the Mill Creek, Kentucky.",
+    "name_rus": "Сражение при Мельничном ручье, Кентукки."
+  },
+  {
+    "_id": {"$oid": "59f6d5254393254f008b4567"},
+    "date": -3405024000000,
+    "image": "battles/donelson.png",
+    "name_en": "1 day. Campaign against forts Henry and Donelson, Tennessee.",
+    "name_rus": "1 день. Кампания против фортов Генри и Донельсон, Теннесси."
+  },
+  {
+    "_id": {"$oid": "59f6d5254393254f008b4568"},
+    "date": -3404937600000,
+    "image": "battles/donelson.png",
+    "name_en": "2 day. Campaign against forts Henry and Donelson, Tennessee.",
+    "name_rus": "2 день. Кампания против фортов Генри и Донельсон, Теннесси."
+  },
+  {
+    "_id": {"$oid": "59f6d5254393254f008b4569"},
+    "date": -3404851200000,
+    "image": "battles/donelson.png",
+    "name_en": "3 day. Campaign against forts Henry and Donelson, Tennessee.",
+    "name_rus": "3 день. Кампания против фортов Генри и Донельсон, Теннесси."
+  },
+  {
+    "_id": {"$oid": "59f6d5254393254f008b456a"},
+    "date": -3404764800000,
+    "image": "battles/donelson.png",
+    "name_en": "4 day. Campaign against forts Henry and Donelson, Tennessee.",
+    "name_rus": "4 день. Кампания против фортов Генри и Донельсон, Теннесси."
+  },
+  {
+    "_id": {"$oid": "59f6d5254393254f008b456b"},
+    "date": -3404678400000,
+    "image": "battles/donelson.png",
+    "name_en": "5 day. Campaign against forts Henry and Donelson, Tennessee.",
+    "name_rus": "5 день. Кампания против фортов Генри и Донельсон, Теннесси."
+  },
+  {
+    "_id": {"$oid": "59f6d5254393254f008b456c"},
+    "date": -3404592000000,
+    "image": "battles/donelson.png",
+    "name_en": "6 day. Campaign against forts Henry and Donelson, Tennessee.",
+    "name_rus": "6 день. Кампания против фортов Генри и Донельсон, Теннесси."
+  },
+  {
+    "_id": {"$oid": "59f6d5254393254f008b456d"},
+    "date": -3404505600000,
+    "image": "battles/donelson.png",
+    "name_en": "7 day. Campaign against forts Henry and Donelson, Tennessee.",
+    "name_rus": "7 день. Кампания против фортов Генри и Донельсон, Теннесси."
+  },
+  {
+    "_id": {"$oid": "59f6d5254393254f008b456e"},
+    "date": -3404419200000,
+    "image": "battles/donelson.png",
+    "name_en": "8 day. Campaign against forts Henry and Donelson, Tennessee.",
+    "name_rus": "8 день. Кампания против фортов Генри и Донельсон, Теннесси."
+  },
+  {
+    "_id": {"$oid": "59f6d5254393254f008b456f"},
+    "date": -3404332800000,
+    "image": "battles/donelson.png",
+    "name_en": "9 day. Campaign against forts Henry and Donelson, Tennessee.",
+    "name_rus": "9 день. Кампания против фортов Генри и Донельсон, Теннесси."
+  },
+  {
+    "_id": {"$oid": "59f6d5254393254f008b4570"},
+    "date": -3404246400000,
+    "image": "battles/donelson.png",
+    "name_en": "10 day. Campaign against forts Henry and Donelson, Tennessee.",
+    "name_rus": "10 день. Кампания против фортов Генри и Донельсон, Теннесси."
+  },
+  {
+    "_id": {"$oid": "59f6d5254393254f008b4571"},
+    "date": -3404160000000,
+    "image": "battles/donelson.png",
+    "name_en": "11 day. Campaign against forts Henry and Donelson, Tennessee.",
+    "name_rus": "11 день. Кампания против фортов Генри и Донельсон, Теннесси."
+  },
+  {
+    "_id": {"$oid": "59f6d81543932550008b4567"},
+    "date": -3404851200000,
+    "image": "polk/1 peh S.Karol.png",
+    "name_en": "Battle of Roanuck, North Carolina.",
+    "name_rus": "Сражение на острове Роанук, Северная Каролина."
+  },
+  {
+    "_id": {"$oid": "59f6d81543932550008b4568"},
+    "date": -3403728000000,
+    "image": "polk/CSAznamya.png",
+    "name_en": "Collision at Valverde, New Mexico.",
+    "name_rus": "Столкновение при Валверде, Нью-Мексико."
+  },
+  {
+    "_id": {"$oid": "59f6d81543932550008b4569"},
+    "date": -3402604800000,
+    "image": "polk/9 arkanazas.png",
+    "name_en": "1 day. The Battle of Pi Ridge, Arkansas.",
+    "name_rus": "1 день. Сражение в Пи Ридж, Арканзас."
+  },
+  {
+    "_id": {"$oid": "59f6d81543932550008b456a"},
+    "date": -3402518400000,
+    "image": "polk/9 arkanazas.png",
+    "name_en": "2 day. The Battle of Pi Ridge, Arkansas.",
+    "name_rus": "2 день. Сражение в Пи Ридж, Арканзас."
+  },
+  {
+    "_id": {"$oid": "59f6d81543932550008b456b"},
+    "date": -3402432000000,
+    "image": "polk/9 arkanazas.png",
+    "name_en": "3 day. The Battle of Pi Ridge, Arkansas.",
+    "name_rus": "3 день. Сражение в Пи Ридж, Арканзас."
+  },
+  {
+    "_id": {"$oid": "59f6d81543932550008b456c"},
+    "date": -3402345600000,
+    "image": "battles/hampton.png",
+    "name_en": "Battle of the Hampton Roadstead.",
+    "name_rus": "Битва на Хэмптонском рейде."
+  },
+  {
+    "_id": {"$oid": "59f6d81543932550008b456d"},
+    "date": -3401136000000,
+    "image": "officers/stonewall.png",
+    "name_en": "The beginning of the Thomas Jackson campaign in the Shenandoah Valley, Virginia.",
+    "name_rus": "Начало кампании Томаса Джексона в долине Шенандоа, Вирджиния."
+  },
+  {
+    "_id": {"$oid": "59f6d81543932550008b456e"},
+    "date": -3394396800000,
+    "image": "officers/stonewall.png",
+    "name_en": "End of the Thomas Jackson campaign in the Shenandoah Valley, Virginia.",
+    "name_rus": "Конец кампании Томаса Джексона в долине Шенандоа, Вирджиния."
+  },
+  {
+    "_id": {"$oid": "59f6d81543932550008b456f"},
+    "date": -3400876800000,
+    "image": "polk/CSAznamya.png",
+    "name_en": "1 day. Battle of Glorieta Pass, New Mexico.",
+    "name_rus": "1 день. Сражение в проходе Глориета, Нью-Мексико."
+  },
+  {
+    "_id": {"$oid": "59f6d81543932550008b4570"},
+    "date": -3400790400000,
+    "image": "polk/USAznamya.png",
+    "name_en": "2 day. Battle of Glorieta Pass, New Mexico.",
+    "name_rus": "2 день. Сражение в проходе Глориета, Нью-Мексико."
+  },
+  {
+    "_id": {"$oid": "59f6d81543932550008b4571"},
+    "date": -3400704000000,
+    "image": "polk/CSAznamya.png",
+    "name_en": "3 day. Battle of Glorieta Pass, New Mexico.",
+    "name_rus": "3 день. Сражение в проходе Глориета, Нью-Мексико."
+  },
+  {
+    "_id": {"$oid": "59f6d8ff4393254d008b4567"},
+    "date": -3400012800000,
+    "image": "polk/mcclellan.png",
+    "name_en": "The campaign of the Potomak army on the Virginian Peninsula in the direction of Richmond began.",
+    "name_rus": "Начало кампания потомакской армии по Виргинскому полуострову в направлении Ричмонда."
+  },
+  {
+    "_id": {"$oid": "59f6d8ff4393254d008b4568"},
+    "date": -3397507200000,
+    "image": "polk/mcclellan.png",
+    "name_en": "The End of the Campaign of the Potomak Army on the Virgin Peninsula in the direction of Richmond.",
+    "name_rus": "Окончание кампания потомакской армии по Виргинскому полуострову в направлении Ричмонда."
+  },
+  {
+    "_id": {"$oid": "59f6dc694393254e008b4567"},
+    "date": -3399926400000,
+    "image": "battles/shiloh.png",
+    "name_en": "1 day. Battle of Shiloh, Tennessee.",
+    "name_rus": "1 день. Сражение при Шайло, Теннесси."
+  },
+  {
+    "_id": {"$oid": "59f6dc694393254e008b4568"},
+    "date": -3399840000000,
+    "image": "battles/shiloh.png",
+    "name_en": "2 day. Battle of Shiloh, Tennessee.",
+    "name_rus": "2 день. Сражение при Шайло, Теннесси."
+  },
+  {
+    "_id": {"$oid": "59f6dc694393254e008b4569"},
+    "date": -3399580800000,
+    "image": "battles/fortroyal.png",
+    "name_en": "Bombardment of Fort Pulanski, Georgia.",
+    "name_rus": "Бомбардировка форта Пулански, Джорджия."
+  },
+  {
+    "_id": {"$oid": "59f6dc694393254e008b456a"},
+    "date": -3399494400000,
+    "image": "battles/fortroyal.png",
+    "name_en": "Storming the fort Pulanski, Georgia.",
+    "name_rus": "Штурм форта Пулански, Джорджия."
+  },
+  {
+    "_id": {"$oid": "59f6dc694393254e008b456b"},
+    "date": -3436387200000,
+    "image": "othercard/alabama.png",
+    "name_en": "Secession of Alabama.",
+    "name_rus": "Сецессия Алабамы."
+  },
+  {
+    "_id": {"$oid": "59f6dc694393254e008b456c"},
+    "date": -3428870400000,
+    "image": "othercard/arkansas.png",
+    "name_en": "Secession of  Arkansas.",
+    "name_rus": "Сецессия Арканзаса."
+  },
+  {
+    "_id": {"$oid": "59f6dc694393254e008b456d"},
+    "date": -3436387200000,
+    "image": "othercard/Georgiya.png",
+    "name_en": "Secession of Georgia.",
+    "name_rus": "Сецессия Джорджии."
+  },
+  {
+    "_id": {"$oid": "59f6dc694393254e008b456e"},
+    "date": -3436387200000,
+    "image": "othercard/luiziana.png",
+    "name_en": "Secession of Louisiana.",
+    "name_rus": "Сецессия Луизианы."
+  },
+  {
+    "_id": {"$oid": "59f6dc694393254e008b456f"},
+    "date": -3436387200000,
+    "image": "othercard/missisipi.png",
+    "name_en": "Secession of Mississippi.",
+    "name_rus": "Сецессия Мисисипи."
+  },
+  {
+    "_id": {"$oid": "59f6dc694393254e008b4570"},
+    "date": -3427574400000,
+    "image": "othercard/n.karolina.png",
+    "name_en": "North Carolina Secession.",
+    "name_rus": "Сецессия Северной Каролины."
+  },
+  {
+    "_id": {"$oid": "59f6dc694393254e008b4571"},
+    "date": -3436387200000,
+    "image": "othercard/south karol.png",
+    "name_en": "South Carolina Secession.",
+    "name_rus": "Сецессия Южной Каролины."
+  },
+  {
+    "_id": {"$oid": "59f6dd0c4393254f008b4572"},
+    "date": -3423945600000,
+    "image": "othercard/tennessi.png",
+    "name_en": "Secession of Tennessee.",
+    "name_rus": "Сецессия Теннесси ."
+  },
+  {
+    "_id": {"$oid": "59f6dd0c4393254f008b4573"},
+    "date": -3434486400000,
+    "image": "othercard/texas.png",
+    "name_en": "Secession of Texas.",
+    "name_rus": "Сецессия Техаса."
+  },
+  {
+    "_id": {"$oid": "59f6dd0c4393254f008b4574"},
+    "date": -3428784000000,
+    "image": "othercard/virginia.png",
+    "name_en": "Secession of Virginia.",
+    "name_rus": "Сецессия Виргинии."
+  },
+  {
+    "_id": {"$oid": "5af1a0fe8fdf644e008b4567"},
+    "date": -3397939200000,
+    "image": "officers/halleck.png",
+    "name_en": "The beginning of the siege of Corinth, Mississippi.",
+    "name_rus": "Начало осады Коринфа, Миссисиппи."
+  },
+  {
+    "_id": {"$oid": "5af1a0fe8fdf644e008b4568"},
+    "date": -3395260800000,
+    "image": "officers/halleck.png",
+    "name_en": "The end of the siege of Corinth, Mississippi.",
+    "name_rus": "Окончание осады Коринфа, Миссисиппи."
+  },
+  {
+    "_id": {"$oid": "5af1a22e8fdf644f008b4567"},
+    "date": -3395174400000,
+    "image": "battles/sevenpines.png",
+    "name_en": "The Battle of Seven Pines (1st day)",
+    "name_rus": "Сражение в Cеми Соснах, Виргиния (1-й день)"
+  },
+  {
+    "_id": {"$oid": "5af1a22e8fdf644f008b4568"},
+    "date": -3395088000000,
+    "image": "battles/sevenpines.png",
+    "name_en": "The Battle of Seven Pines (2nd day)",
+    "name_rus": "Сражение в Cеми Соснах, Виргиния (2-й день)"
+  },
+  {
+    "_id": {"$oid": "5af1a2888fdf6450008b4568"},
+    "date": -3395088000000,
+    "image": "officers/li.png",
+    "name_en": "Robert Lee assumes the command of the North-Arhive Army.",
+    "name_rus": "Роберт Ли принимает командование Северовиргинской армией."
+  },
+  {
+    "_id": {"$oid": "5af1a4d215132d4d008b4567"},
+    "date": -3393014400000,
+    "image": "battles/sevenday.png",
+    "name_en": "\"Seven-day battle\" on the outskirts of Richmond, Virginia (1st day).",
+    "name_rus": "Семидневная битва в предместьях Ричмонда, Виргиния (1-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a4d215132d4d008b4568"},
+    "date": -3392928000000,
+    "image": "battles/sevenday.png",
+    "name_en": "\"The Seven-Day Battle\" on the outskirts of Richmond, Virginia (2nd day).",
+    "name_rus": "Семидневная битва в предместьях Ричмонда, Виргиния (2-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a4d215132d4d008b4569"},
+    "date": -3392841600000,
+    "image": "battles/sevenday.png",
+    "name_en": "\"The Seven-Day Battle\" on the outskirts of Richmond, Virginia (3rd day).",
+    "name_rus": "Семидневная битва в предместьях Ричмонда, Виргиния (3-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a4d215132d4d008b456a"},
+    "date": -3392755200000,
+    "image": "battles/sevenday.png",
+    "name_en": "\"Seven-day battle\" on the outskirts of Richmond, Virginia (4th day).",
+    "name_rus": "Семидневная битва в предместьях Ричмонда, Виргиния  (4-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a4d215132d4d008b456b"},
+    "date": -3392668800000,
+    "image": "battles/sevenday.png",
+    "name_en": "\"Seven-day battle\" on the outskirts of Richmond, Virginia (5th day).",
+    "name_rus": "Семидневная битва в предместьях Ричмонда, Виргиния  (5-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a4d215132d4d008b456c"},
+    "date": -3392582400000,
+    "image": "battles/sevenday.png",
+    "name_en": "\"Seven-day battle\" on the outskirts of Richmond, Virginia (6th day).",
+    "name_rus": "Семидневная битва в предместьях Ричмонда, Виргиния  (6-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a4d215132d4d008b456d"},
+    "date": -3392496000000,
+    "image": "battles/sevenday.png",
+    "name_en": "\"Seven-day battle\" on the outskirts of Richmond, Virginia (7th day).",
+    "name_rus": "Семидневная битва в предместьях Ричмонда, Виргиния  (7-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a4d215132d4d008b456e"},
+    "date": -3389126400000,
+    "image": "battles/kenesaw.png",
+    "name_en": "Battle of the Cedar Mountains, Virginia.",
+    "name_rus": "Сражение в Кедровых горах, Виргиния."
+  },
+  {
+    "_id": {"$oid": "5af1a4d215132d4d008b456f"},
+    "date": -3387484800000,
+    "image": "battles/manassastwo.png",
+    "name_en": "The second battle at Manassas (Bull Ran), Virginia (1st day).",
+    "name_rus": "Второе сражение при Манассасе (Булл-Ране), Виргиния (1-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a4d215132d4d008b4570"},
+    "date": -3387398400000,
+    "image": "battles/manassastwo.png",
+    "name_en": "The second battle at Manassas (Bull Ran), Virginia (2nd day).",
+    "name_rus": "Второе сражение при Манассасе (Булл-Ране), Виргиния (2-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a4d215132d4d008b4571"},
+    "date": -3387312000000,
+    "image": "battles/manassastwo.png",
+    "name_en": "The Second Battle of Manassas (Bull Ran), Virginia (3rd day).",
+    "name_rus": "Второе сражение при Манассасе (Булл-Ране), Виргиния (3-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a5af15132d4e008b4567"},
+    "date": -3386188800000,
+    "image": "battles/harpersferry.png",
+    "name_en": "Siege and storm Harpers Ferry, Virginia (1st day).",
+    "name_rus": "Осада и штурм Харперс Ферри, Виргиния (1-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a5af15132d4e008b4568"},
+    "date": -3386102400000,
+    "image": "battles/harpersferry.png",
+    "name_en": "Siege and storm Harpers Ferry, Virginia (2nd day).",
+    "name_rus": "Осада и штурм Харперс Ферри, Виргиния (2-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a5af15132d4e008b4569"},
+    "date": -3386016000000,
+    "image": "battles/harpersferry.png",
+    "name_en": "Siege and storm Harpers Ferry, Virginia (3rd day).",
+    "name_rus": "Осада и штурм Харперс Ферри, Виргиния (3-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a5af15132d4e008b456a"},
+    "date": -3385929600000,
+    "image": "battles/harpersferry.png",
+    "name_en": "Siege and storm Harpers Ferry, Virginia (4th day).",
+    "name_rus": "Осада и штурм Харперс Ферри, Виргиния (4-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a76e15132d4f008b4567"},
+    "date": -3386016000000,
+    "image": "battles/antietam.png",
+    "name_en": "Battle of Antietam (1st day).",
+    "name_rus": "Энтитемское сражение (1-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a76e15132d4f008b4568"},
+    "date": -3385929600000,
+    "image": "battles/antietam.png",
+    "name_en": "Battle of Antietam (2nd day).",
+    "name_rus": "Энтитемское сражение (2-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a76e15132d4f008b4569"},
+    "date": -3385843200000,
+    "image": "battles/antietam.png",
+    "name_en": "Battle of Antietam (3rd day).",
+    "name_rus": "Энтитемское сражение (3-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a76e15132d4f008b456a"},
+    "date": -3385756800000,
+    "image": "battles/antietam.png",
+    "name_en": "Battle of Antietam (4th day).",
+    "name_rus": "Энтитемское сражение (4-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a7f715132d50008b4567"},
+    "date": -3383251200000,
+    "image": "officers/grant.png",
+    "name_en": "The First Vicksburg campaign of Grant, Mississippi.",
+    "name_rus": "Начало Первой Виксбергская кампания Гранта, Миссисиппи."
+  },
+  {
+    "_id": {"$oid": "5af1a7f715132d50008b4568"},
+    "date": -3377635200000,
+    "image": "officers/grant.png",
+    "name_en": "End of the First Vicksburg campaign of Grant, Mississippi.",
+    "name_rus": "Окончание Первой Виксбергская кампания Гранта, Миссисиппи."
+  },
+  {
+    "_id": {"$oid": "5af1a87d15132d4d008b4572"},
+    "date": -3381350400000,
+    "image": "officers/bernsaid.png",
+    "name_en": "Ambrose Burnside replaces McClellan as commander of the Potomac Army.",
+    "name_rus": "Эмброуз Бернсайд сменяет Мак-Клеллана на посту командующего Потомакской армией."
+  },
+  {
+    "_id": {"$oid": "5af1a87d15132d4d008b4573"},
+    "date": -3378412800000,
+    "image": "battles/fredericksburg.png",
+    "name_en": "The Battle of Frederiksberge, Virginia (1st day).",
+    "name_rus": "Сражение при Фредериксбeрге, Виргиния (1-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a87d15132d4d008b4574"},
+    "date": -3378326400000,
+    "image": "battles/fredericksburg.png",
+    "name_en": "The Battle of Frederiksberge, Virginia (2nd day).",
+    "name_rus": "Сражение при Фредериксбeрге, Виргиния (2-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a87d15132d4d008b4575"},
+    "date": -3378240000000,
+    "image": "battles/fredericksburg.png",
+    "name_en": "The Battle of Frederiksberge, Virginia (3rd day).",
+    "name_rus": "Сражение при Фредериксбeрге, Виргиния (3-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a94c15132d4e008b456b"},
+    "date": -3377030400000,
+    "image": "battles/chitmauntin.png",
+    "name_en": "Battle of the Chickasaw cliff, Mississippi (1st day).",
+    "name_rus": "Сражение у утёса Чикасоу, Миссисиппи (1-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a94c15132d4e008b456c"},
+    "date": -3376684800000,
+    "image": "battles/nortanno.png",
+    "name_en": "The Battle of Stones River, Tennessee (1st day)",
+    "name_rus": "Сражение на Стоунс Ривер, Теннесси (1-й день)"
+  },
+  {
+    "_id": {"$oid": "5af1a94c15132d4e008b456d"},
+    "date": -3376944000000,
+    "image": "battles/chitmauntin.png",
+    "name_en": "Battle of the Chickasaw cliff, Mississippi (2nd day).",
+    "name_rus": "Сражение у утёса Чикасоу, Миссисиппи (2-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a94c15132d4e008b456e"},
+    "date": -3376857600000,
+    "image": "battles/chitmauntin.png",
+    "name_en": "Battle of the Chickasaw cliff, Mississippi (3rd day).",
+    "name_rus": "Сражение у утёса Чикасоу, Миссисиппи  (3-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a9f315132d4f008b456b"},
+    "date": -3376598400000,
+    "image": "battles/nortanno.png",
+    "name_en": "The Battle of Stones River, Tennessee (2nd day).",
+    "name_rus": "Сражение на Стоунс Ривер, Теннесси (2-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a9f315132d4f008b456c"},
+    "date": -3376512000000,
+    "image": "battles/nortanno.png",
+    "name_en": "The Battle of Stones River, Tennessee (3rd day).",
+    "name_rus": "Сражение на Стоунс Ривер, Теннесси (3-й день)."
+  },
+  {
+    "_id": {"$oid": "5af1a9f315132d4f008b456d"},
+    "date": -3376598400000,
+    "image": "othercard/otmrab.png",
+    "name_en": "Proclamation of the liberation of slaves.",
+    "name_rus": "Прокламация освобождения рабов."
+  },
+  {
+    "_id": {"$oid": "5af1aab34a2abf50008b4568"},
+    "date": -3376512000000,
+    "image": "battles/nortanno.png",
+    "name_en": "The Battle of Stones River, Tennessee (3rd day).",
+    "name_rus": "Сражение на Стоунс Ривер, Теннесси (3-й день)."
+  },
+  {
+    "_id": {"$oid": "5b056b3078d7234e008b4567"},
+    "date": -3375907200000,
+    "image": "battles/gettysburg.png",
+    "name_en": "Battle of Arkansas Post, Arkansas (1st day).",
+    "name_rus": "Сражение при Арканзас Пост, Арканзас (1-й день)."
+  },
+  {
+    "_id": {"$oid": "5b056b3078d7234e008b4568"},
+    "date": -3375820800000,
+    "image": "battles/gettysburg.png",
+    "name_en": "Battle of Arkansas Post, Arkansas (2nd day).",
+    "name_rus": "Сражение при Арканзас Пост, Арканзас (2-й день)."
+  },
+  {
+    "_id": {"$oid": "5b056b3078d7234e008b4569"},
+    "date": -3375734400000,
+    "image": "battles/gettysburg.png",
+    "name_en": "Battle of Arkansas Post, Arkansas (3rd day).",
+    "name_rus": "Сражение при Арканзас Пост, Арканзас (3-й день)."
+  },
+  {
+    "_id": {"$oid": "5b056b3078d7234e008b456a"},
+    "date": -3375043200000,
+    "image": "officers/bernsaid.png",
+    "name_en": "\"The mud marsh\" of Burnside (1st day).",
+    "name_rus": "«Грязевой Марш» Бернсайда (1-й день)."
+  },
+  {
+    "_id": {"$oid": "5b056b3078d7234e008b456b"},
+    "date": -3374956800000,
+    "image": "officers/bernsaid.png",
+    "name_en": "\"The mud marsh\" of Burnside (2nd day).",
+    "name_rus": "«Грязевой Марш» Бернсайда (2-й день)."
+  },
+  {
+    "_id": {"$oid": "5b056b3078d7234e008b456c"},
+    "date": -3374870400000,
+    "image": "officers/bernsaid.png",
+    "name_en": "\"The mud marsh\" of Burnside (3rd day).",
+    "name_rus": "«Грязевой Марш» Бернсайда (3-й день)."
+  },
+  {
+    "_id": {"$oid": "5b056b3078d7234e008b456d"},
+    "date": -3374784000000,
+    "image": "officers/bernsaid.png",
+    "name_en": "\"The mud marsh\" of Burnside (4th day).",
+    "name_rus": "«Грязевой Марш» Бернсайда (4-й день)."
+  },
+  {
+    "_id": {"$oid": "5b056b3078d7234e008b456e"},
+    "date": -3374697600000,
+    "image": "officers/bernsaid.png",
+    "name_en": "\"The mud marsh\" of Burnside (5th day).",
+    "name_rus": "«Грязевой Марш» Бернсайда (5-й день)."
+  },
+  {
+    "_id": {"$oid": "5b056b3078d7234e008b456f"},
+    "date": -3374438400000,
+    "image": "officers/hooker.png",
+    "name_en": "Joseph Hooker replaces Burnside as commander of the Potomac Army.",
+    "name_rus": "Джозеф Хукер сменяет Бернсайда на посту командующего Потомакской армией."
+  },
+  {
+    "_id": {"$oid": "5b056b3078d7234e008b4570"},
+    "date": -3369081600000,
+    "image": "officers/grant.png",
+    "name_en": "The second Vicksburg campaign of Grant, Mississippi (Beginning).",
+    "name_rus": "Вторая Виксбергская кампания Гранта, Миссисиппи (Начало)."
+  },
+  {
+    "_id": {"$oid": "5b056b3078d7234e008b4571"},
+    "date": -3360700800000,
+    "image": "officers/grant.png",
+    "name_en": "The second Vicksburg campaign of Grant, Mississippi (Ending).",
+    "name_rus": "Вторая Виксбергская кампания Гранта, Миссисиппи (Окончание)."
+  },
+  {
+    "_id": {"$oid": "5b056d9878d7234f008b4567"},
+    "date": -3365452800000,
+    "image": "officers/stonewall.png",
+    "name_en": "Death of the Stone Wall of Jackson.",
+    "name_rus": "Смерть Каменной стены Джексона."
+  },
+  {
+    "_id": {"$oid": "5b056d9878d7234f008b4568"},
+    "date": -3362860800000,
+    "image": "battles/brandy.png",
+    "name_en": "Fight at Brandy Station, Virginia.",
+    "name_rus": "Бой на станции Бренди, Виргиния."
+  },
+  {
+    "_id": {"$oid": "5b056d9878d7234f008b4569"},
+    "date": -3360960000000,
+    "image": "battles/gettysburg.png",
+    "name_en": "Gettysburg Battle (1st day).",
+    "name_rus": "Геттисбергское сражение (1-й день)."
+  },
+  {
+    "_id": {"$oid": "5b056d9878d7234f008b456a"},
+    "date": -3360873600000,
+    "image": "battles/gettysburg.png",
+    "name_en": "Gettysburg Battle (2nd day).",
+    "name_rus": "Геттисбергское сражение (2-й день)."
+  },
+  {
+    "_id": {"$oid": "5b056d9878d7234f008b456b"},
+    "date": -3360787200000,
+    "image": "battles/gettysburg.png",
+    "name_en": "Gettysburg Battle (3rd day).",
+    "name_rus": "Геттисбергское сражение (3-й день)."
+  },
+  {
+    "_id": {"$oid": "5b056d9878d7234f008b456c"},
+    "date": -3360182400000,
+    "image": "battles/donelson.png",
+    "name_en": "Siege of Fort Jackson, Mississippi (Beginning).",
+    "name_rus": "Осада форта Джексон, Миссисиппи (Начало)."
+  },
+  {
+    "_id": {"$oid": "5b056d9878d7234f008b456d"},
+    "date": -3359664000000,
+    "image": "battles/donelson.png",
+    "name_en": "Siege of Fort Jackson, Mississippi (Ending).",
+    "name_rus": "Осада форта Джексон, Миссисиппи (Окончание)."
+  },
+  {
+    "_id": {"$oid": "5b056d9878d7234f008b456e"},
+    "date": -3359923200000,
+    "image": "othercard/draftriots.png",
+    "name_en": "Beginning of unrest in the city of New York.",
+    "name_rus": "Начало беспорядков в городе Нью-Йорке."
+  },
+  {
+    "_id": {"$oid": "5b056d9878d7234f008b456f"},
+    "date": -3359664000000,
+    "image": "othercard/draftriots.png",
+    "name_en": "The suppression of unrest in the city of New York.",
+    "name_rus": "Подавление беспорядков в городе Нью-Йорке."
+  },
+  {
+    "_id": {"$oid": "5b056d9878d7234f008b4570"},
+    "date": -3349900800000,
+    "image": "battles/kenesaw.png",
+    "name_en": "Battle of Drup Mountain, West Virginia.",
+    "name_rus": "Сражение при Друп Маунтин, Западная Виргиния."
+  },
+  {
+    "_id": {"$oid": "5b056d9878d7234f008b4571"},
+    "date": -3349814400000,
+    "image": "battles/reidstuart.png",
+    "name_en": "Collision at Rappahanock station, Virginia.",
+    "name_rus": "Столкновение на станции Раппаханок, Виргиния."
+  },
+  {
+    "_id": {"$oid": "5b056e0478d72350008b4567"},
+    "date": -3348777600000,
+    "image": "officers/linkoln.png",
+    "name_en": "Lincoln reads the Gettysburg message.",
+    "name_rus": "Линкольн зачитывает Геттисбергское послание."
+  },
+  {
+    "_id": {"$oid": "5b05700e5ba3fa4d008b4567"},
+    "date": -3334262400000,
+    "image": "battles/wilderness.png",
+    "name_en": "Battle of the Wilderness.",
+    "name_rus": "Сражение в Глуши, Виргиния."
+  },
+  {
+    "_id": {"$oid": "5b05700e5ba3fa4d008b4568"},
+    "date": -3334176000000,
+    "image": "battles/wilderness.png",
+    "name_en": "Battle of the Wilderness.",
+    "name_rus": "Сражение в Глуши, Виргиния."
+  },
+  {
+    "_id": {"$oid": "5b05700e5ba3fa4d008b4569"},
+    "date": -3334089600000,
+    "image": "officers/sherman.png",
+    "name_en": "The beginning of the Sherman campaign in Georgia.",
+    "name_rus": "Начало кампания Шермана в Джорджии."
+  },
+  {
+    "_id": {"$oid": "5b05700e5ba3fa4d008b456a"},
+    "date": -3323894400000,
+    "image": "officers/sherman.png",
+    "name_en": "End of the Sherman campaign in Georgia.",
+    "name_rus": "Окончание кампания Шермана в Джорджии."
+  },
+  {
+    "_id": {"$oid": "5b05700e5ba3fa4d008b456b"},
+    "date": -3334003200000,
+    "image": "battles/wilderness.png",
+    "name_en": "The beginning of fighting in the vicinity of Spotsylvania, Virginia.",
+    "name_rus": "Начало боев в окрестностях Спотсилвейни, Виргиния."
+  },
+  {
+    "_id": {"$oid": "5b05700e5ba3fa4d008b456c"},
+    "date": -3332880000000,
+    "image": "battles/wilderness.png",
+    "name_en": "End of fighting in the vicinity of Spotsylvania, Virginia.",
+    "name_rus": "Окончание боев в окрестностях Спотсилвейни, Виргиния."
+  },
+  {
+    "_id": {"$oid": "5b05700e5ba3fa4d008b456d"},
+    "date": -3332707200000,
+    "image": "battles/nortanno.png",
+    "name_en": "The beginning of the Battle on the North River Anna, Virginia.",
+    "name_rus": "Начало cражения на реке Норт Анна, Виргиния."
+  },
+  {
+    "_id": {"$oid": "5b05700e5ba3fa4d008b456e"},
+    "date": -3332448000000,
+    "image": "battles/nortanno.png",
+    "name_en": "The end of the Battle on the North River Anna, Virginia.",
+    "name_rus": "Окончание cражения на реке Норт Анна, Виргиния."
+  },
+  {
+    "_id": {"$oid": "5b0570885ba3fa4e008b4567"},
+    "date": -3332016000000,
+    "image": "battles/coldharbor.png",
+    "name_en": "Beginning of the Battle of Cold Harbor, Virginia.",
+    "name_rus": " Начало сражения при Колд Харбор, Виргиния."
+  },
+  {
+    "_id": {"$oid": "5b0570885ba3fa4e008b4568"},
+    "date": -3330979200000,
+    "image": "battles/coldharbor.png",
+    "name_en": "End of the Battle of Cold Harbor, Virginia.",
+    "name_rus": "Окончание сражения при Колд Харбор, Виргиния."
+  },
+  {
+    "_id": {"$oid": "5b0572805ba3fa4f008b4567"},
+    "date": -3330720000000,
+    "image": "battles/petersburgtree.png",
+    "name_en": "The beginning of the battle at Petersberg, Virginia.",
+    "name_rus": "Начало сражения при Петерсберге, Виргиния."
+  },
+  {
+    "_id": {"$oid": "5b0572805ba3fa4f008b4568"},
+    "date": -3330460800000,
+    "image": "battles/petersburgtree.png",
+    "name_en": "End of the Battle of Petersberg, Virginia.",
+    "name_rus": "Окончание сражения при Петерсберге, Виргиния."
+  },
+  {
+    "_id": {"$oid": "5b0572805ba3fa4f008b4569"},
+    "date": -3330460800000,
+    "image": "battles/petersburgtwo.png",
+    "name_en": "The beginning of the siege of Petersberg, Virginia..",
+    "name_rus": "Начало осады Петерсберга, Виргиния.."
+  },
+  {
+    "_id": {"$oid": "5b0572805ba3fa4f008b456a"},
+    "date": -3313526400000,
+    "image": "battles/petersburgtwo.png",
+    "name_en": "The end of the siege of Petersberg, Virginia..",
+    "name_rus": "Окончание осады Петерсберга, Виргиния.."
+  },
+  {
+    "_id": {"$oid": "5b0572805ba3fa4f008b456b"},
+    "date": -3326745600000,
+    "image": "battles/crater.png",
+    "name_en": "(Battle of the Crater.",
+    "name_rus": "Бой у Воронки."
+  },
+  {
+    "_id": {"$oid": "5b0572805ba3fa4f008b456c"},
+    "date": -3326313600000,
+    "image": "othercard/imigra.png",
+    "name_en": "Battle of the Bay of Mobile, Alabama.",
+    "name_rus": "Сражение в заливе Мобил, Алабама."
+  },
+  {
+    "_id": {"$oid": "5b0572805ba3fa4f008b456d"},
+    "date": -3318105600000,
+    "image": "officers/linkoln.png",
+    "name_en": "Lincoln was reelected president of the United States.",
+    "name_rus": "Линкольн переизбран президентом США."
+  },
+  {
+    "_id": {"$oid": "5b0572805ba3fa4f008b456e"},
+    "date": -3317500800000,
+    "image": "officers/sherman.png",
+    "name_en": "The beginning of the march to the sea of Sherman, Georgia.",
+    "name_rus": "Начало марша к морю Шермана, Джорджия."
+  },
+  {
+    "_id": {"$oid": "5b0572805ba3fa4f008b456f"},
+    "date": -3314390400000,
+    "image": "officers/sherman.png",
+    "name_en": "End of march to the sea of Sherman, Georgia.",
+    "name_rus": "Окончание марша к морю Шермана, Джорджия."
+  },
+  {
+    "_id": {"$oid": "5b0572805ba3fa4f008b4570"},
+    "date": -3316291200000,
+    "image": "officers/hood.png",
+    "name_en": "The beginning of the Hood campaign in Tennessee.",
+    "name_rus": "Начало кампании Худа в Теннесси."
+  },
+  {
+    "_id": {"$oid": "5b0572805ba3fa4f008b4571"},
+    "date": -3313872000000,
+    "image": "officers/hood.png",
+    "name_en": "End of the Hood campaign in Tennessee.",
+    "name_rus": "Окончание кампании Худа в Теннесси."
+  },
+  {
+    "_id": {"$oid": "5b08231f6789b84f008b4567"},
+    "date": -3313440000000,
+    "image": "battles/petersburgtree.png",
+    "name_en": "The beginning of the siege of Petersberg.",
+    "name_rus": " Начало осады Питерсберга."
+  },
+  {
+    "_id": {"$oid": "5b08231f6789b84f008b4568"},
+    "date": -3305577600000,
+    "image": "battles/petersburgtree.png",
+    "name_en": "The end of the siege of Petersberg.",
+    "name_rus": " Окончание осады Питерсберга."
+  },
+  {
+    "_id": {"$oid": "5b08231f6789b84f008b4569"},
+    "date": -3312403200000,
+    "image": "battles/williamsburg.png",
+    "name_en": "Siege of Fort Fisher, North Carolina.",
+    "name_rus": "Осада форта Фишер, Северная Каролина."
+  },
+  {
+    "_id": {"$oid": "5b08231f6789b84f008b456a"},
+    "date": -3312316800000,
+    "image": "battles/williamsburg.png",
+    "name_en": "Storming of Fort Fisher, North Carolina.",
+    "name_rus": "Штурм форта Фишер, Северная Каролина."
+  },
+  {
+    "_id": {"$oid": "5b08231f6789b84f008b456b"},
+    "date": -3312316800000,
+    "image": "officers/sherman.png",
+    "name_en": "The beginning of the Karoline campaign of Sherman.",
+    "name_rus": "Начало Каролинской кампании Шермана."
+  },
+  {
+    "_id": {"$oid": "5b08231f6789b84f008b456c"},
+    "date": -3303504000000,
+    "image": "officers/sherman.png",
+    "name_en": "The end of the Karoline campaign of Sherman.",
+    "name_rus": "Окончание Каролинской кампании Шермана."
+  },
+  {
+    "_id": {"$oid": "5b08231f6789b84f008b456d"},
+    "date": -3308947200000,
+    "image": "battles/elanding.png",
+    "name_en": "Storming Wilmington, North Carolina.",
+    "name_rus": "Штурм Уилмингтона, Северная Каролина."
+  },
+  {
+    "_id": {"$oid": "5b08231f6789b84f008b456e"},
+    "date": -3306268800000,
+    "image": "othercard/imigra.png",
+    "name_en": "Beginning of the campaign in the Bay of Mobile, Alabama.",
+    "name_rus": "Начало кампании в заливе Мобил, Алабама."
+  },
+  {
+    "_id": {"$oid": "5b08231f6789b84f008b456f"},
+    "date": -3304713600000,
+    "image": "othercard/imigra.png",
+    "name_en": "The end of the campaign in the Bay of Mobile, Alabama.",
+    "name_rus": "Окончание кампании в заливе Мобил, Алабама."
+  },
+  {
+    "_id": {"$oid": "5b08231f6789b84f008b4570"},
+    "date": -3305577600000,
+    "image": "battles/pickettscharge.png",
+    "name_en": "Confederates leave Richmond and Petersburg.",
+    "name_rus": "Конфедераты покидают Ричмонд и Питерсберг."
+  },
+  {
+    "_id": {"$oid": "5b08231f6789b84f008b4571"},
+    "date": -3305491200000,
+    "image": "battles/winchestertwo.png",
+    "name_en": "Union troops occupy Richmond.",
+    "name_rus": "Войска Союза оккупируют Ричмонд."
+  },
+  {
+    "_id": {"$oid": "5b0823b86789b850008b4567"},
+    "date": -3304972800000,
+    "image": "battles/saylerscreek.png",
+    "name_en": "General Robert Lee capitulates before General Ulysses Grant at Appomattox, Virginia.",
+    "name_rus": "Генерал Роберт Ли капитулирует перед генералом Улиссом Грантом в Аппоматтоксе, Виргиния."
+  },
+  {
+    "_id": {"$oid": "5b0823b86789b850008b4568"},
+    "date": -3304713600000,
+    "image": "officers/linkoln.png",
+    "name_en": "Lincoln was killed as a result of the attempt. Ford Theater, Washington DC.",
+    "name_rus": "Линкольн убит в результате покушения. Театр Форда, Вашингтон."
+  },
+  {
+    "_id": {"$oid": "5b0823b86789b850008b4569"},
+    "date": -3302812800000,
+    "image": "battles/saylerscreek.png",
+    "name_en": "Capitulation of the troops of Lieutenant-General Richard Taylor in Citronell, Alabama.",
+    "name_rus": "Капитуляция войск генерал-лейтенанта Ричарда Тейлора в Цитронелль, Алабама."
+  },
+  {
+    "_id": {"$oid": "5b0823b86789b850008b456a"},
+    "date": -3300912000000,
+    "image": "battles/saylerscreek.png",
+    "name_en": "Capitulation of the troops of Lieutenant-General Edward Kirby Smith in New Orleans, Louisiana.",
+    "name_rus": "Капитуляция войск генерал-лейтенанта Эдварда Кирби Смита в Новом Орлеане, Луизиана."
+  }
+]
