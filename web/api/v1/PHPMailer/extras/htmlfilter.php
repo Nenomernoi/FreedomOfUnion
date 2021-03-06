@@ -28,7 +28,7 @@
  */
 
 /**
- * @Author  Jim Jagielski <jim@jaguNET.com / jimjag@gmail.com>
+ * @Author  Jim Jagielski <jim@jaguNET.com/jimjag@gmail.com>
  */
 
 /**
@@ -238,7 +238,7 @@ function tln_getnxtag($body, $offset){
 	switch ($match){
 	case '/':
 		/**
-		 * This is an xhtml-style tag with a closing / at the
+		 * This is an xhtml-style tag with a closing/at the
 		 * end, like so: <img src="blah"/>. Check if it's followed
 		 * by the closing bracket. If not, then this tag is invalid
 		 */
@@ -341,7 +341,7 @@ function tln_getnxtag($body, $offset){
 		switch($match){
 		case '/':
 			/**
-			 * This is an xhtml-style tag with a closing / at the
+			 * This is an xhtml-style tag with a closing/at the
 			 * end, like so: <img src="blah"/>. Check if it's followed
 			 * by the closing bracket. If not, then this tag is invalid
 			 */

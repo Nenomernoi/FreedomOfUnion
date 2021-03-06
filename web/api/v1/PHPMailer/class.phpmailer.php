@@ -2008,7 +2008,7 @@ class PHPMailer {
     // Each line must have length <= 75, including $start and $end
     $length = 75 - strlen($start) - strlen($end);
     // Average multi-byte ratio
-    $ratio = $mb_length / strlen($str);
+    $ratio = $mb_length/strlen($str);
     // Base64 has a 4:3 ratio
     $offset = $avgLength = floor($length * $ratio * .75);
 

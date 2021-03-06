@@ -61,7 +61,7 @@ $value = $firebase->get($path, array('shallow' => 'true'));
 
 $firebase->setToken($token);     // set up Firebase token
 $firebase->setBaseURI($uri);     // set up Firebase base URI (root node)
-$firebase->setTimeOut($seconds); // set up maximum timeout / request
+$firebase->setTimeOut($seconds); // set up maximum timeout/request
 ```
 
 Please refer to the [Firebase REST API documentation](https://www.firebase.com/docs/rest/api/) for further details.

@@ -165,11 +165,11 @@ foreach ($cursor as $row) {
     if ($row["uniform_buy"] != null) {
         if ($id_parent == $row["_id"]->{'$id'}) {
             $unifornParent = $row["uniform_buy"];
-            $mightParent = $row["game_only"] / ($row["game_win"] > 0 ? $row["game_win"] : 1);
+            $mightParent = $row["game_only"]/($row["game_win"] > 0 ? $row["game_win"] : 1);
         }
         if ($id_child == $row["_id"]->{'$id'}) {
             $unifornChild = $row["uniform_buy"];
-            $mightChild = $row["game_only"] / ($row["game_win"] > 0 ? $row["game_win"] : 1);
+            $mightChild = $row["game_only"]/($row["game_win"] > 0 ? $row["game_win"] : 1);
         }
     }
 }
