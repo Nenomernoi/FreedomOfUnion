@@ -7,95 +7,47 @@ namespace Composer\Autoload;
 class ComposerStaticInit458a2d090759b8e7fdb8c4e4af8f1d75
 {
     public static $files = array (
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
+        '3a37ebac017bc098e9a86b35401e7a68' => __DIR__ . '/..' . '/mongodb/mongodb/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
-            'Symfony\\Polyfill\\Mbstring\\' => 26,
-            'Symfony\\Component\\Routing\\' => 26,
-            'Symfony\\Component\\HttpKernel\\' => 29,
-            'Symfony\\Component\\HttpFoundation\\' => 33,
-            'Symfony\\Component\\EventDispatcher\\' => 34,
-            'Symfony\\Component\\Debug\\' => 24,
-            'Silex\\' => 6,
+            'Symfony\\Polyfill\\Php80\\' => 23,
         ),
         'M' => 
         array (
-            'Monolog\\' => 8,
+            'MongoDB\\' => 8,
+        ),
+        'J' => 
+        array (
+            'Jean85\\' => 7,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Symfony\\Polyfill\\Mbstring\\' => 
+        'Symfony\\Polyfill\\Php80\\' => 
         array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
         ),
-        'Symfony\\Component\\Routing\\' => 
+        'MongoDB\\' => 
         array (
-            0 => __DIR__ . '/..' . '/symfony/routing',
+            0 => __DIR__ . '/..' . '/mongodb/mongodb/src',
         ),
-        'Symfony\\Component\\HttpKernel\\' => 
+        'Jean85\\' => 
         array (
-            0 => __DIR__ . '/..' . '/symfony/http-kernel',
-        ),
-        'Symfony\\Component\\HttpFoundation\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/http-foundation',
-        ),
-        'Symfony\\Component\\EventDispatcher\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
-        ),
-        'Symfony\\Component\\Debug\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/debug',
-        ),
-        'Silex\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/silex/silex/src/Silex',
-        ),
-        'Monolog\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
-        ),
-    );
-
-    public static $prefixesPsr0 = array (
-        'U' => 
-        array (
-            'Unirest' => 
-            array (
-                0 => __DIR__ . '/..' . '/mashape/unirest-php/lib',
-            ),
-        ),
-        'S' => 
-        array (
-            'Smtpapi' => 
-            array (
-                0 => __DIR__ . '/..' . '/sendgrid/smtpapi/lib',
-            ),
-            'SendGrid' => 
-            array (
-                0 => __DIR__ . '/..' . '/sendgrid/sendgrid/lib',
-            ),
-        ),
-        'P' => 
-        array (
-            'Psr\\Log\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/psr/log',
-            ),
-            'Pimple' => 
-            array (
-                0 => __DIR__ . '/..' . '/pimple/pimple/lib',
-            ),
+            0 => __DIR__ . '/..' . '/jean85/pretty-package-versions/src',
         ),
     );
 
     public static $classMap = array (
-        'TesseractOCR' => __DIR__ . '/..' . '/thiagoalessio/tesseract_ocr/src/TesseractOCR.php',
+        'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
+        'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
+        'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
+        'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -103,7 +55,6 @@ class ComposerStaticInit458a2d090759b8e7fdb8c4e4af8f1d75
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit458a2d090759b8e7fdb8c4e4af8f1d75::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit458a2d090759b8e7fdb8c4e4af8f1d75::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit458a2d090759b8e7fdb8c4e4af8f1d75::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit458a2d090759b8e7fdb8c4e4af8f1d75::$classMap;
 
         }, null, ClassLoader::class);
