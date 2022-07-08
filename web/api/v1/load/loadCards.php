@@ -5,6 +5,7 @@ include '../connection.php';
 $response = array();
 
 $m = new MongoClient($connection_url);
+$m->setSlaveOkay(false);
 $link = $m->selectDB($db_name);
 
 $collectioncardDeck = $link->selectCollection(TABLE_CARDS);
